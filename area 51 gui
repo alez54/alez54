@@ -1,0 +1,612 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local screenpopups = Instance.new("Folder")
+local labelsfortoppart = Instance.new("Folder")
+local lline = Instance.new("TextLabel")
+local versionname = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local lastupdated = Instance.new("TextLabel")
+local mainframes = Instance.new("Folder")
+local backframe = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local line = Instance.new("Frame")
+local leftpanel = Instance.new("Frame")
+local spawn = Instance.new("TextButton")
+local leaderboard = Instance.new("TextButton")
+local canteen = Instance.new("TextButton")
+local office = Instance.new("TextButton")
+local middle = Instance.new("TextButton")
+local middle_2 = Instance.new("TextButton")
+local rightpanel = Instance.new("Frame")
+local ak = Instance.new("TextButton")
+local an = Instance.new("TextButton")
+local AWP = Instance.new("TextButton")
+local G36C = Instance.new("TextButton")
+local DBShotgun = Instance.new("TextButton")
+local DesertEagle = Instance.new("TextButton")
+local SVD = Instance.new("TextButton")
+local R870 = Instance.new("TextButton")
+local RayGun = Instance.new("TextButton")
+local M16A2 = Instance.new("TextButton")
+local M4A1 = Instance.new("TextButton")
+local P90 = Instance.new("TextButton")
+local loadout = Instance.new("TextButton")
+local loadoutframe = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local loadoutback = Instance.new("TextButton")
+local marksman = Instance.new("TextButton")
+local millitary = Instance.new("TextButton")
+local millitary_2 = Instance.new("TextButton")
+local guard = Instance.new("TextButton")
+local ALL = Instance.new("TextButton")
+local guardtwo = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 0.050
+main.BorderSizePixel = 3
+main.Position = UDim2.new(0.82408762, 0, 0.669576108, 0)
+main.Size = UDim2.new(0, 193, 0, 46)
+main.Active = true
+main.Draggable = true
+
+screenpopups.Name = "screenpopups"
+screenpopups.Parent = main
+
+labelsfortoppart.Name = "labelsfortoppart"
+labelsfortoppart.Parent = main
+
+lline.Name = "lline"
+lline.Parent = labelsfortoppart
+lline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lline.Position = UDim2.new(0.000535181956, 0, 0.512078345, 0)
+lline.Size = UDim2.new(0, 194, 0, 0)
+lline.Font = Enum.Font.SourceSansBold
+lline.Text = ""
+lline.TextColor3 = Color3.fromRGB(0, 0, 0)
+lline.TextSize = 14.000
+
+versionname.Name = "versionname"
+versionname.Parent = labelsfortoppart
+versionname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+versionname.BackgroundTransparency = 10.000
+versionname.BorderSizePixel = 2
+versionname.Position = UDim2.new(0.0057984395, 0, -0.00966146681, 0)
+versionname.Size = UDim2.new(0, 187, 0, 23)
+versionname.Font = Enum.Font.SourceSansBold
+versionname.Text = "area51 GUI V1"
+versionname.TextColor3 = Color3.fromRGB(0, 0, 0)
+versionname.TextScaled = true
+versionname.TextSize = 14.000
+versionname.TextWrapped = true
+
+TextLabel.Parent = labelsfortoppart
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 100.000
+TextLabel.Position = UDim2.new(0, 0, 0.521739125, 0)
+TextLabel.Size = UDim2.new(0, 186, 0, 21)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "made by alex54."
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 17.000
+
+lastupdated.Name = "lastupdated"
+lastupdated.Parent = labelsfortoppart
+lastupdated.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+lastupdated.BorderSizePixel = 0
+lastupdated.Position = UDim2.new(0.0207253881, 0, 0.565217376, 0)
+lastupdated.Size = UDim2.new(0, 186, 0, 17)
+lastupdated.Visible = false
+lastupdated.Font = Enum.Font.SourceSans
+lastupdated.Text = "last updated 7/7/2023"
+lastupdated.TextColor3 = Color3.fromRGB(0, 0, 0)
+lastupdated.TextScaled = true
+lastupdated.TextSize = 14.000
+lastupdated.TextWrapped = true
+
+mainframes.Name = "mainframes"
+mainframes.Parent = main
+
+backframe.Name = "backframe"
+backframe.Parent = mainframes
+backframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backframe.BorderSizePixel = 3
+backframe.Position = UDim2.new(-0.336787552, 0, 1, 0)
+backframe.Size = UDim2.new(0, 316, 0, 211)
+
+TextLabel_2.Parent = backframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 2
+TextLabel_2.Size = UDim2.new(0, 156, 0, 41)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "area teleports "
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 27.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = backframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 2
+TextLabel_3.Position = UDim2.new(0.493670881, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 160, 0, 41)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "gun teleports"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 27.000
+TextLabel_3.TextWrapped = true
+
+line.Name = "line"
+line.Parent = backframe
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line.Position = UDim2.new(0.490999997, 0, 0, 0)
+line.Size = UDim2.new(0, 1, 0, 210)
+
+leftpanel.Name = "leftpanel"
+leftpanel.Parent = mainframes
+leftpanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+leftpanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+leftpanel.BorderSizePixel = 0
+leftpanel.Position = UDim2.new(-0.103626937, 0, 3.04347825, 0)
+leftpanel.Size = UDim2.new(0, 65, 0, 42)
+
+spawn.Name = "spawn"
+spawn.Parent = leftpanel
+spawn.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+spawn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spawn.Position = UDim2.new(-0.538461566, 0, -1, 0)
+spawn.Size = UDim2.new(0, 55, 0, 35)
+spawn.Font = Enum.Font.SourceSansBold
+spawn.Text = "spawn"
+spawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+spawn.TextScaled = true
+spawn.TextSize = 14.000
+spawn.TextWrapped = true
+spawn.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(326.167938, 511.699921, 396.212616, 0.999559164, 5.86234883e-08, -0.0296887774, -5.63632163e-08, 1, 7.69690516e-08, 0.0296887774, -7.52617666e-08, 0.999559164)
+end)
+
+leaderboard.Name = "leaderboard"
+leaderboard.Parent = leftpanel
+leaderboard.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+leaderboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+leaderboard.Position = UDim2.new(0.492307693, 0, -1, 0)
+leaderboard.Size = UDim2.new(0, 55, 0, 35)
+leaderboard.Font = Enum.Font.SourceSansBold
+leaderboard.Text = "leader board"
+leaderboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+leaderboard.TextScaled = true
+leaderboard.TextSize = 14.000
+leaderboard.TextWrapped = true
+leaderboard.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.707733, 511.499908, 370.262756, -0.00128623564, 4.5377007e-08, 0.999999166, 3.54099825e-08, 1, -4.53315003e-08, -0.999999166, 3.53516469e-08, -0.00128623564)
+end)
+
+canteen.Name = "canteen"
+canteen.Parent = leftpanel
+canteen.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+canteen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+canteen.Position = UDim2.new(-0.538461566, 0, 0.0714285746, 0)
+canteen.Size = UDim2.new(0, 56, 0, 35)
+canteen.Font = Enum.Font.SourceSansBold
+canteen.Text = "canteen"
+canteen.TextColor3 = Color3.fromRGB(0, 0, 0)
+canteen.TextScaled = true
+canteen.TextSize = 14.000
+canteen.TextWrapped = true
+canteen.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(197.662781, 333.499908, 613.537048, 0.0405046791, -7.210447e-08, -0.999179363, -2.37115803e-08, 1, -7.31249088e-08, 0.999179363, 2.6654023e-08, 0.0405046791)
+end)
+
+office.Name = "office"
+office.Parent = leftpanel
+office.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+office.BorderColor3 = Color3.fromRGB(0, 0, 0)
+office.Position = UDim2.new(0.492307663, 0, 0.0714285746, 0)
+office.Size = UDim2.new(0, 56, 0, 35)
+office.Font = Enum.Font.SourceSansBold
+office.Text = "offices"
+office.TextColor3 = Color3.fromRGB(0, 0, 0)
+office.TextScaled = true
+office.TextSize = 14.000
+office.TextWrapped = true
+office.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.3119507, 313.500122, 280.24588, 0.00395314535, 8.50573443e-08, 0.999992192, -5.53088908e-09, 1, -8.50361488e-08, -0.999992192, -5.19468557e-09, 0.00395314535)
+end)
+
+middle.Name = "middle"
+middle.Parent = leftpanel
+middle.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+middle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+middle.Position = UDim2.new(-0.538461566, 0, 1.16666663, 0)
+middle.Size = UDim2.new(0, 56, 0, 35)
+middle.Font = Enum.Font.SourceSansBold
+middle.Text = "middle"
+middle.TextColor3 = Color3.fromRGB(0, 0, 0)
+middle.TextScaled = true
+middle.TextSize = 14.000
+middle.TextWrapped = true
+middle.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.3153, 313.499908, 370.624542, -0.0484065413, 3.11228199e-08, -0.998827696, 3.57066625e-08, 1, 2.94288824e-08, 0.998827696, -3.42402551e-08, -0.0484065413)
+end)
+
+middle_2.Name = "middle"
+middle_2.Parent = leftpanel
+middle_2.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+middle_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+middle_2.Position = UDim2.new(0.492307663, 0, 1.16666663, 0)
+middle_2.Size = UDim2.new(0, 56, 0, 35)
+middle_2.Font = Enum.Font.SourceSansBold
+middle_2.Text = "dirt"
+middle_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+middle_2.TextScaled = true
+middle_2.TextSize = 14.000
+middle_2.TextWrapped = true
+middle_2.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(141.103409, 313.499908, 431.112152, -0.999970078, 5.93524661e-08, -0.00773939211, 5.8543062e-08, 1, 1.04808883e-07, 0.00773939211, 1.04352658e-07, -0.999970078)
+end)
+rightpanel.Name = "rightpanel"
+rightpanel.Parent = mainframes
+rightpanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rightpanel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rightpanel.BorderSizePixel = 0
+rightpanel.Position = UDim2.new(0.715025902, 0, 3.04347825, 0)
+rightpanel.Size = UDim2.new(0, 65, 0, 42)
+
+ak.Name = "ak"
+ak.Parent = rightpanel
+ak.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+ak.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ak.Position = UDim2.new(-0.538461566, 0, -1, 0)
+ak.Size = UDim2.new(0, 35, 0, 24)
+ak.Font = Enum.Font.SourceSansBold
+ak.Text = "ak-47"
+ak.TextColor3 = Color3.fromRGB(0, 0, 0)
+ak.TextScaled = true
+ak.TextSize = 14.000
+ak.TextWrapped = true
+ak.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(320.798401, 273.69989, 140.996765, 0.115312614, -8.88432012e-08, 0.993329227, 5.47863372e-08, 1, 8.30798541e-08, -0.993329227, 4.48407178e-08, 0.115312614)
+end)
+an.Name = "an"
+an.Parent = rightpanel
+an.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+an.BorderColor3 = Color3.fromRGB(0, 0, 0)
+an.Position = UDim2.new(0.199999988, 0, -1, 0)
+an.Size = UDim2.new(0, 35, 0, 24)
+an.Font = Enum.Font.SourceSansBold
+an.Text = "an-94"
+an.TextColor3 = Color3.fromRGB(0, 0, 0)
+an.TextScaled = true
+an.TextSize = 14.000
+an.TextWrapped = true
+an.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(156.5, 344.16687, 607.400024, -5.92337865e-14, -2.11241495e-08, -1, -1.06552909e-08, 1, -2.11241495e-08, 1, 1.06552909e-08, -5.94588736e-14)
+end)
+AWP.Name = "AWP"
+AWP.Parent = rightpanel
+AWP.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+AWP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AWP.Position = UDim2.new(1, 0, -1, 0)
+AWP.Size = UDim2.new(0, 35, 0, 24)
+AWP.Font = Enum.Font.SourceSansBold
+AWP.Text = "AWP"
+AWP.TextColor3 = Color3.fromRGB(0, 0, 0)
+AWP.TextScaled = true
+AWP.TextSize = 14.000
+AWP.TextWrapped = true
+AWP.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(70.6999969, 282.033447, 29.7000008, -1, -9.45455696e-08, -6.44693649e-14, -9.45455696e-08, 1, 4.76898165e-08, 5.99605069e-14, 4.76898165e-08, -1)
+end)
+G36C.Name = "G36C"
+G36C.Parent = rightpanel
+G36C.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+G36C.BorderColor3 = Color3.fromRGB(0, 0, 0)
+G36C.Position = UDim2.new(1, 0, -0.166666687, 0)
+G36C.Size = UDim2.new(0, 35, 0, 24)
+G36C.Font = Enum.Font.SourceSansBold
+G36C.Text = "G36C"
+G36C.TextColor3 = Color3.fromRGB(0, 0, 0)
+G36C.TextScaled = true
+G36C.TextSize = 14.000
+G36C.TextWrapped = true
+G36C.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-148.5, 314.166504, 280.399994, -4.02940078e-14, 5.91151839e-08, -1, 2.98173113e-08, 1, 5.91151839e-08, 1, -2.98173113e-08, -4.20566664e-14)
+end)
+DBShotgun.Name = "DBShotgun"
+DBShotgun.Parent = rightpanel
+DBShotgun.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+DBShotgun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DBShotgun.Position = UDim2.new(-0.538461566, 0, -0.166666687, 0)
+DBShotgun.Size = UDim2.new(0, 35, 0, 24)
+DBShotgun.Font = Enum.Font.SourceSansBold
+DBShotgun.Text = "DB Shotgun"
+DBShotgun.TextColor3 = Color3.fromRGB(0, 0, 0)
+DBShotgun.TextScaled = true
+DBShotgun.TextSize = 13.000
+DBShotgun.TextWrapped = true
+DBShotgun.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-104.500031, 314.499756, 460.399994, -2.07500626e-14, 4.7908383e-08, -1, 2.41648284e-08, 1, 4.7908383e-08, 1, -2.41648284e-08, -2.19077601e-14)
+end)
+DesertEagle.Name = "DesertEagle"
+DesertEagle.Parent = rightpanel
+DesertEagle.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+DesertEagle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DesertEagle.Position = UDim2.new(0.199999988, 0, -0.166666687, 0)
+DesertEagle.Size = UDim2.new(0, 35, 0, 24)
+DesertEagle.Font = Enum.Font.SourceSansBold
+DesertEagle.Text = "Desert Eagle"
+DesertEagle.TextColor3 = Color3.fromRGB(0, 0, 0)
+DesertEagle.TextScaled = true
+DesertEagle.TextSize = 14.000
+DesertEagle.TextWrapped = true
+DesertEagle.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.5000038, 294.099945, 263.399963, -4.12632236e-14, 1.00473034e-08, -1, 5.06797226e-09, 1, 1.00473034e-08, 1, -5.06797226e-09, -4.13141438e-14)
+end)
+SVD.Name = "SVD"
+SVD.Parent = rightpanel
+SVD.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+SVD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SVD.Position = UDim2.new(1, 0, 1.42857146, 0)
+SVD.Size = UDim2.new(0, 35, 0, 24)
+SVD.Font = Enum.Font.SourceSansBold
+SVD.Text = "sniper"
+SVD.TextColor3 = Color3.fromRGB(0, 0, 0)
+SVD.TextScaled = true
+SVD.TextSize = 14.000
+SVD.TextWrapped = true
+SVD.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(202.185013, 302.166595, 160.580383, -0.00671639806, 3.18928564e-08, 0.999977469, -3.29493481e-08, 1, -3.21148832e-08, -0.999977469, -3.31643015e-08, -0.00671639806)
+end)
+R870.Name = "R870"
+R870.Parent = rightpanel
+R870.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+R870.BorderColor3 = Color3.fromRGB(0, 0, 0)
+R870.Position = UDim2.new(-0.538461566, 0, 1.42857146, 0)
+R870.Size = UDim2.new(0, 35, 0, 24)
+R870.Font = Enum.Font.SourceSansBold
+R870.Text = "shotgun"
+R870.TextColor3 = Color3.fromRGB(0, 0, 0)
+R870.TextScaled = true
+R870.TextSize = 14.000
+R870.TextWrapped = true
+R870.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(137.834991, 334.49939, 501.663635, 0.995878637, -8.07562799e-08, -0.0906955674, 8.16596852e-08, 1, 6.25011776e-09, 0.0906955674, -1.36305305e-08, 0.995878637)
+end)
+RayGun.Name = "RayGun"
+RayGun.Parent = rightpanel
+RayGun.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+RayGun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RayGun.Position = UDim2.new(0.199999988, 0, 1.42857146, 0)
+RayGun.Size = UDim2.new(0, 35, 0, 24)
+RayGun.Font = Enum.Font.SourceSansBold
+RayGun.Text = "RayGun"
+RayGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+RayGun.TextScaled = true
+RayGun.TextSize = 14.000
+RayGun.TextWrapped = true
+RayGun.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(114.199997, 337.49939, 572.099976, 1, -3.46716895e-08, -3.82922182e-14, 3.46716895e-08, 1, 5.85175997e-09, 3.80893268e-14, -5.85175997e-09, 1)
+end)
+M16A2.Name = "M16A2"
+M16A2.Parent = rightpanel
+M16A2.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+M16A2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+M16A2.Position = UDim2.new(-0.538461566, 0, 0.59523809, 0)
+M16A2.Size = UDim2.new(0, 35, 0, 24)
+M16A2.Font = Enum.Font.SourceSansBold
+M16A2.Text = "M16A2"
+M16A2.TextColor3 = Color3.fromRGB(0, 0, 0)
+M16A2.TextScaled = true
+M16A2.TextSize = 14.000
+M16A2.TextWrapped = true
+M16A2.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3.70000029, 269.699371, 188.099991, 1, -2.94517957e-08, -3.08189245e-14, 2.94517957e-08, 1, 4.9704707e-09, 3.06725369e-14, -4.9704707e-09, 1)
+end)
+M4A1.Name = "M4A1"
+M4A1.Parent = rightpanel
+M4A1.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+M4A1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+M4A1.Position = UDim2.new(0.199999988, 0, 0.59523809, 0)
+M4A1.Size = UDim2.new(0, 35, 0, 24)
+M4A1.Font = Enum.Font.SourceSansBold
+M4A1.Text = "M4A1"
+M4A1.TextColor3 = Color3.fromRGB(0, 0, 0)
+M4A1.TextScaled = true
+M4A1.TextSize = 14.000
+M4A1.TextWrapped = true
+M4A1.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(377.900024, 325.49939, 652.399963, -2.20767686e-14, -8.61311449e-08, 1, -1.45358197e-08, 1, 8.61311449e-08, -1, -1.45358197e-08, -2.33287544e-14)
+end)
+P90.Name = "P90"
+P90.Parent = rightpanel
+P90.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+P90.BorderColor3 = Color3.fromRGB(0, 0, 0)
+P90.Position = UDim2.new(1, 0, 0.59523809, 0)
+P90.Size = UDim2.new(0, 35, 0, 24)
+P90.Font = Enum.Font.SourceSansBold
+P90.Text = "P90"
+P90.TextColor3 = Color3.fromRGB(0, 0, 0)
+P90.TextScaled = true
+P90.TextSize = 14.000
+P90.TextWrapped = true
+P90.Parent.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-156.5, 305.499359, 767.900024, 1.98239489e-14, 4.56609648e-08, -1, -7.70655539e-09, 1, 4.56609648e-08, 1, 7.70655539e-09, 2.01758369e-14)
+end)
+loadout.Name = "loadout"
+loadout.Parent = rightpanel
+loadout.BackgroundColor3 = Color3.fromRGB(192, 211, 186)
+loadout.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loadout.BorderSizePixel = 2
+loadout.Position = UDim2.new(-0.200000003, 0, 2.28571439, 0)
+loadout.Size = UDim2.new(0, 86, 0, 21)
+loadout.Font = Enum.Font.SourceSans
+loadout.Text = "loadouts"
+loadout.TextColor3 = Color3.fromRGB(0, 0, 0)
+loadout.TextScaled = true
+loadout.TextSize = 14.000
+loadout.TextWrapped = true
+
+loadoutframe.Name = "loadoutframe"
+loadoutframe.Parent = rightpanel
+loadoutframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+loadoutframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loadoutframe.BorderSizePixel = 0
+loadoutframe.Position = UDim2.new(-0.72307694, 0, -1.26190472, 0)
+loadoutframe.Size = UDim2.new(0, 160, 0, 145)
+loadoutframe.Visible = false
+
+TextLabel_4.Parent = loadoutframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 2
+TextLabel_4.Position = UDim2.new(-7.91251659e-05, 0, -0.282758623, 0)
+TextLabel_4.Size = UDim2.new(0, 160, 0, 41)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "  Loadouts"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 27.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+loadoutback.Name = "loadoutback"
+loadoutback.Parent = loadoutframe
+loadoutback.BackgroundColor3 = Color3.fromRGB(255, 178, 178)
+loadoutback.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loadoutback.BorderSizePixel = 2
+loadoutback.Position = UDim2.new(0.212499991, 0, 1.02393103, 0)
+loadoutback.Size = UDim2.new(0, 86, 0, 21)
+loadoutback.Font = Enum.Font.SourceSans
+loadoutback.Text = "back"
+loadoutback.TextColor3 = Color3.fromRGB(0, 0, 0)
+loadoutback.TextScaled = true
+loadoutback.TextSize = 14.000
+loadoutback.TextWrapped = true
+
+marksman.Name = "marksman"
+marksman.Parent = loadoutframe
+marksman.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+marksman.BorderColor3 = Color3.fromRGB(0, 0, 0)
+marksman.BorderSizePixel = 2
+marksman.Position = UDim2.new(0.075000003, 0, 0.0413793102, 0)
+marksman.Size = UDim2.new(0, 135, 0, 29)
+marksman.Font = Enum.Font.SourceSansBold
+marksman.Text = "marksman"
+marksman.TextColor3 = Color3.fromRGB(0, 0, 0)
+marksman.TextScaled = true
+marksman.TextSize = 14.000
+marksman.TextWrapped = true
+marksman.Parent.MouseButton1Down:Connect(function()
+
+end)
+millitary.Name = "millitary"
+millitary.Parent = loadoutframe
+millitary.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+millitary.BorderColor3 = Color3.fromRGB(0, 0, 0)
+millitary.BorderSizePixel = 2
+millitary.Position = UDim2.new(0.075000003, 0, 0.241379321, 0)
+millitary.Size = UDim2.new(0, 135, 0, 29)
+millitary.Font = Enum.Font.SourceSansBold
+millitary.Text = "millitary "
+millitary.TextColor3 = Color3.fromRGB(0, 0, 0)
+millitary.TextScaled = true
+millitary.TextSize = 14.000
+millitary.TextWrapped = true
+millitary.Parent.MouseButton1Down:Connect(function()
+
+end)
+millitary_2.Name = "millitary"
+millitary_2.Parent = loadoutframe
+millitary_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+millitary_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+millitary_2.BorderSizePixel = 2
+millitary_2.Position = UDim2.new(0.075000003, 0, 0.45517242, 0)
+millitary_2.Size = UDim2.new(0, 135, 0, 29)
+millitary_2.Font = Enum.Font.SourceSansBold
+millitary_2.Text = "shotgunner"
+millitary_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+millitary_2.TextScaled = true
+millitary_2.TextSize = 14.000
+millitary_2.TextWrapped = true
+millitary_2.Parent.MouseButton1Down:Connect(function()
+
+end)
+guard.Name = "guard"
+guard.Parent = loadoutframe
+guard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+guard.BorderSizePixel = 2
+guard.Position = UDim2.new(0.0375000015, 0, 0.703448296, 0)
+guard.Size = UDim2.new(0, 71, 0, 29)
+guard.Font = Enum.Font.SourceSansBold
+guard.Text = "Guard"
+guard.TextColor3 = Color3.fromRGB(0, 0, 0)
+guard.TextScaled = true
+guard.TextSize = 14.000
+guard.TextWrapped = true
+guard.Parent.MouseButton1Down:Connect(function()
+
+end)
+ALL.Name = "ALL"
+ALL.Parent = loadoutframe
+ALL.BackgroundColor3 = Color3.fromRGB(210, 254, 255)
+ALL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ALL.BorderSizePixel = 2
+ALL.Position = UDim2.new(0.643750012, 0, -0.234482765, 0)
+ALL.Size = UDim2.new(0, 52, 0, 26)
+ALL.Font = Enum.Font.SourceSansBold
+ALL.Text = "All guns"
+ALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+ALL.TextScaled = true
+ALL.TextSize = 14.000
+ALL.TextWrapped = true
+ALL.Parent.MouseButton1Down:Connect(function()
+
+end)
+guardtwo.Name = "guardtwo"
+guardtwo.Parent = loadoutframe
+guardtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guardtwo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+guardtwo.BorderSizePixel = 2
+guardtwo.Position = UDim2.new(0.487500012, 0, 0.703448296, 0)
+guardtwo.Size = UDim2.new(0, 77, 0, 29)
+guardtwo.Font = Enum.Font.SourceSansBold
+guardtwo.Text = "Guard 2"
+guardtwo.TextColor3 = Color3.fromRGB(0, 0, 0)
+guardtwo.TextScaled = true
+guardtwo.TextSize = 14.000
+guardtwo.TextWrapped = true
+guardtwo.Parent.MouseButton1Down:Connect(function()
+
+end)
+-- Scripts:
+
+local function SUATL_fake_script() -- loadout.LocalScript 
+	local script = Instance.new('LocalScript', loadout)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.loadoutframe.Visible = true
+	end)
+	
+end
+coroutine.wrap(SUATL_fake_script)()
+local function KDYS_fake_script() -- loadoutback.LocalScript 
+	local script = Instance.new('LocalScript', loadoutback)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.loadoutframe.Visible = false
+	end)
+	
+end
+coroutine.wrap(KDYS_fake_script)()
