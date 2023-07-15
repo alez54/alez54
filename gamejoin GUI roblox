@@ -1,4 +1,4 @@
-amejo
+
 
 local gametpGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
