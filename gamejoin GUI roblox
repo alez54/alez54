@@ -1,0 +1,1216 @@
+amejo
+
+local gametpGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local eggstrahatchers = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local petsimulator = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local MiningMadness = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local CookBurgers = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local petsimulatorX = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local NaturalDisasterSurvival = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local BankFactorTycoon = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local REXReincarnated = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Islands = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local BloxFruits = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local RoadtoGramby = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Brookhaven = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local D = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local RollingThunder = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local BeeSwarmSimulator = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local GumballFactoryTycoon = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local ScriptingSchool = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local CarCrushers = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local BubblGumSimulatorReborn = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local eggstrahatchers_2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local BoogaBoogaREBOR = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local BreakInStory = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local CataloAvatarCreator = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local RetailTycoonone = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local BabyChuckingSim = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local ThemeParkTycoon = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local RExReborn = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local KilltheKillersinArea = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local WelcometoBloxburg = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local DOORS = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TheBeachCave = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local RetailTycoon = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TowerDefenseSimulator = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local BIGPaintball = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local MMtwo = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local SharkBiteone = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local MyRestaurant = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local TheChosenOne = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local ToySoldierZ = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local MilitaryWarfareTycoon = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local TUNNELER = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local ApocalypseRising = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local ApocalypseRisingtwo = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local PLSDONATE = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local CombatWarriors = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local FreeHatchers = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local TheTeapots = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local CandyTycoon = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local BlocknProps = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local RainbowFriends = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local BedWars = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local BuildABoat = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local Evade = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local TixFactoryTycoon = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local Piggy = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local WorkataPizzaPlace = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local Jailbreak = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local HideandSeekExtreme = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local PrisonLife = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+gametpGui.Name = "gametpGui"
+gametpGui.Parent = game.CoreGui
+gametpGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = gametpGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 4
+main.Position = UDim2.new(0.0605693534, 0, 0.0386533663, 0)
+main.Size = UDim2.new(0, 1431, 0, 740)
+main.Active = true
+main.Draggable = true
+
+eggstrahatchers.Name = "eggstrahatchers"
+eggstrahatchers.Parent = main
+eggstrahatchers.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+eggstrahatchers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+eggstrahatchers.BorderSizePixel = 0
+eggstrahatchers.Position = UDim2.new(0.00698812027, 0, 0.11621622, 0)
+eggstrahatchers.Size = UDim2.new(0, 123, 0, 88)
+eggstrahatchers.Font = Enum.Font.SourceSansBold
+eggstrahatchers.Text = "Eggstra Hatchers!"
+eggstrahatchers.TextColor3 = Color3.fromRGB(0, 0, 0)
+eggstrahatchers.TextScaled = true
+eggstrahatchers.TextSize = 14.000
+eggstrahatchers.TextWrapped = true
+eggstrahatchers.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(13011875197, player)
+end)
+UICorner.Parent = eggstrahatchers
+
+petsimulator.Name = "petsimulator"
+petsimulator.Parent = main
+petsimulator.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+petsimulator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+petsimulator.BorderSizePixel = 0
+petsimulator.Position = UDim2.new(0.109713487, 0, 0.11621622, 0)
+petsimulator.Size = UDim2.new(0, 123, 0, 88)
+petsimulator.Font = Enum.Font.SourceSansBold
+petsimulator.Text = "Pet Simulator "
+petsimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+petsimulator.TextScaled = true
+petsimulator.TextSize = 14.000
+petsimulator.TextWrapped = true
+petsimulator.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(1599679393, player)
+end)
+UICorner_2.Parent = petsimulator
+
+MiningMadness.Name = "Mining Madness"
+MiningMadness.Parent = main
+MiningMadness.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+MiningMadness.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MiningMadness.BorderSizePixel = 0
+MiningMadness.Position = UDim2.new(0.00698812027, 0, 0.266216218, 0)
+MiningMadness.Size = UDim2.new(0, 123, 0, 88)
+MiningMadness.Font = Enum.Font.SourceSansBold
+MiningMadness.Text = "Mining Madness"
+MiningMadness.TextColor3 = Color3.fromRGB(0, 0, 0)
+MiningMadness.TextScaled = true
+MiningMadness.TextSize = 14.000
+MiningMadness.TextWrapped = true
+MiningMadness.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(463625050, player)
+end)
+UICorner_3.Parent = MiningMadness
+
+CookBurgers.Name = "CookBurgers"
+CookBurgers.Parent = main
+CookBurgers.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+CookBurgers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CookBurgers.BorderSizePixel = 0
+CookBurgers.Position = UDim2.new(0.109713487, 0, 0.266216218, 0)
+CookBurgers.Size = UDim2.new(0, 123, 0, 88)
+CookBurgers.Font = Enum.Font.SourceSansBold
+CookBurgers.Text = "Cook Burgers"
+CookBurgers.TextColor3 = Color3.fromRGB(0, 0, 0)
+CookBurgers.TextScaled = true
+CookBurgers.TextSize = 14.000
+CookBurgers.TextWrapped = true
+CookBurgers.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(2971329387, player)
+end)
+UICorner_4.Parent = CookBurgers
+
+petsimulatorX.Name = "petsimulatorX"
+petsimulatorX.Parent = main
+petsimulatorX.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+petsimulatorX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+petsimulatorX.BorderSizePixel = 0
+petsimulatorX.Position = UDim2.new(0.204751924, 0, 0.11621622, 0)
+petsimulatorX.Size = UDim2.new(0, 123, 0, 88)
+petsimulatorX.Font = Enum.Font.SourceSansBold
+petsimulatorX.Text = "pet simulator X"
+petsimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+petsimulatorX.TextScaled = true
+petsimulatorX.TextSize = 14.000
+petsimulatorX.TextWrapped = true
+petsimulatorX.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(6284583030, player)
+end)
+UICorner_5.Parent = petsimulatorX
+
+NaturalDisasterSurvival.Name = "NaturalDisasterSurvival"
+NaturalDisasterSurvival.Parent = main
+NaturalDisasterSurvival.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+NaturalDisasterSurvival.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NaturalDisasterSurvival.BorderSizePixel = 0
+NaturalDisasterSurvival.Position = UDim2.new(0.307477295, 0, 0.11621622, 0)
+NaturalDisasterSurvival.Size = UDim2.new(0, 123, 0, 88)
+NaturalDisasterSurvival.Font = Enum.Font.SourceSansBold
+NaturalDisasterSurvival.Text = "Natural Disaster Survival"
+NaturalDisasterSurvival.TextColor3 = Color3.fromRGB(0, 0, 0)
+NaturalDisasterSurvival.TextScaled = true
+NaturalDisasterSurvival.TextSize = 14.000
+NaturalDisasterSurvival.TextWrapped = true
+NaturalDisasterSurvival.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(189707, player)
+end)
+UICorner_6.Parent = NaturalDisasterSurvival
+
+BankFactorTycoon.Name = "BankFactorTycoon"
+BankFactorTycoon.Parent = main
+BankFactorTycoon.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+BankFactorTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BankFactorTycoon.BorderSizePixel = 0
+BankFactorTycoon.Position = UDim2.new(0.204751924, 0, 0.266216218, 0)
+BankFactorTycoon.Size = UDim2.new(0, 123, 0, 88)
+BankFactorTycoon.Font = Enum.Font.SourceSansBold
+BankFactorTycoon.Text = "Bank Factory Tycoon"
+BankFactorTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+BankFactorTycoon.TextScaled = true
+BankFactorTycoon.TextSize = 14.000
+BankFactorTycoon.TextWrapped = true
+BankFactorTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(401619444, player)
+end)
+UICorner_7.Parent = BankFactorTycoon
+
+REXReincarnated.Name = "REXReincarnated"
+REXReincarnated.Parent = main
+REXReincarnated.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+REXReincarnated.BorderColor3 = Color3.fromRGB(0, 0, 0)
+REXReincarnated.BorderSizePixel = 0
+REXReincarnated.Position = UDim2.new(0.307477295, 0, 0.266216218, 0)
+REXReincarnated.Size = UDim2.new(0, 123, 0, 88)
+REXReincarnated.Font = Enum.Font.SourceSansBold
+REXReincarnated.Text = "REx: Reincarnated"
+REXReincarnated.TextColor3 = Color3.fromRGB(0, 0, 0)
+REXReincarnated.TextScaled = true
+REXReincarnated.TextSize = 14.000
+REXReincarnated.TextWrapped = true
+REXReincarnated.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(8549934015, player)
+end)
+UICorner_8.Parent = REXReincarnated
+
+Islands.Name = "Islands"
+Islands.Parent = main
+Islands.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+Islands.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Islands.BorderSizePixel = 0
+Islands.Position = UDim2.new(0.402515709, 0, 0.11621622, 0)
+Islands.Size = UDim2.new(0, 123, 0, 88)
+Islands.Font = Enum.Font.SourceSansBold
+Islands.Text = "Islands 👩‍🌾"
+Islands.TextColor3 = Color3.fromRGB(0, 0, 0)
+Islands.TextScaled = true
+Islands.TextSize = 14.000
+Islands.TextWrapped = true
+Islands.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4872321990, player)
+end)
+UICorner_9.Parent = Islands
+
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = main
+BloxFruits.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+BloxFruits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.BorderSizePixel = 0
+BloxFruits.Position = UDim2.new(0.505241096, 0, 0.11621622, 0)
+BloxFruits.Size = UDim2.new(0, 123, 0, 88)
+BloxFruits.Font = Enum.Font.SourceSansBold
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.TextScaled = true
+BloxFruits.TextSize = 14.000
+BloxFruits.TextWrapped = true
+BloxFruits.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(2753915549, player)
+end)
+UICorner_10.Parent = BloxFruits
+
+RoadtoGramby.Name = "RoadtoGramby"
+RoadtoGramby.Parent = main
+RoadtoGramby.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+RoadtoGramby.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RoadtoGramby.BorderSizePixel = 0
+RoadtoGramby.Position = UDim2.new(0.402515709, 0, 0.266216218, 0)
+RoadtoGramby.Size = UDim2.new(0, 123, 0, 88)
+RoadtoGramby.Font = Enum.Font.SourceSansBold
+RoadtoGramby.Text = "Road to Gramby's 👵"
+RoadtoGramby.TextColor3 = Color3.fromRGB(0, 0, 0)
+RoadtoGramby.TextScaled = true
+RoadtoGramby.TextSize = 14.000
+RoadtoGramby.TextWrapped = true
+RoadtoGramby.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(5796917097, player)
+end)
+UICorner_11.Parent = RoadtoGramby
+
+Brookhaven.Name = "Brookhaven"
+Brookhaven.Parent = main
+Brookhaven.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+Brookhaven.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Brookhaven.BorderSizePixel = 0
+Brookhaven.Position = UDim2.new(0.505241096, 0, 0.266216218, 0)
+Brookhaven.Size = UDim2.new(0, 123, 0, 88)
+Brookhaven.Font = Enum.Font.SourceSansBold
+Brookhaven.Text = "Brookhaven"
+Brookhaven.TextColor3 = Color3.fromRGB(0, 0, 0)
+Brookhaven.TextScaled = true
+Brookhaven.TextSize = 14.000
+Brookhaven.TextWrapped = true
+Brookhaven.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4924922222, player)
+end)
+UICorner_12.Parent = Brookhaven
+
+D.Name = "D"
+D.Parent = main
+D.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+D.BorderColor3 = Color3.fromRGB(0, 0, 0)
+D.BorderSizePixel = 0
+D.Position = UDim2.new(0.60167712, 0, 0.120270275, 0)
+D.Size = UDim2.new(0, 123, 0, 88)
+D.Font = Enum.Font.SourceSansBold
+D.Text = "D"
+D.TextColor3 = Color3.fromRGB(0, 0, 0)
+D.TextScaled = true
+D.TextSize = 14.000
+D.TextWrapped = true
+D.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(1219604951, player)
+end)
+UICorner_13.Parent = D
+
+RollingThunder.Name = "RollingThunder"
+RollingThunder.Parent = main
+RollingThunder.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+RollingThunder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RollingThunder.BorderSizePixel = 0
+RollingThunder.Position = UDim2.new(0.704402506, 0, 0.120270275, 0)
+RollingThunder.Size = UDim2.new(0, 123, 0, 88)
+RollingThunder.Font = Enum.Font.SourceSansBold
+RollingThunder.Text = "Rolling Thunder"
+RollingThunder.TextColor3 = Color3.fromRGB(0, 0, 0)
+RollingThunder.TextScaled = true
+RollingThunder.TextSize = 14.000
+RollingThunder.TextWrapped = true
+RollingThunder.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(8650964641, player)
+end)
+UICorner_14.Parent = RollingThunder
+
+BeeSwarmSimulator.Name = "BeeSwarmSimulator"
+BeeSwarmSimulator.Parent = main
+BeeSwarmSimulator.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+BeeSwarmSimulator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarmSimulator.BorderSizePixel = 0
+BeeSwarmSimulator.Position = UDim2.new(0.60167712, 0, 0.270270258, 0)
+BeeSwarmSimulator.Size = UDim2.new(0, 123, 0, 88)
+BeeSwarmSimulator.Font = Enum.Font.SourceSansBold
+BeeSwarmSimulator.Text = "Bee Swarm Simulator"
+BeeSwarmSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+BeeSwarmSimulator.TextScaled = true
+BeeSwarmSimulator.TextSize = 14.000
+BeeSwarmSimulator.TextWrapped = true
+BeeSwarmSimulator.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(1537690962, player)
+end)
+UICorner_15.Parent = BeeSwarmSimulator
+
+GumballFactoryTycoon.Name = "GumballFactoryTycoon"
+GumballFactoryTycoon.Parent = main
+GumballFactoryTycoon.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+GumballFactoryTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GumballFactoryTycoon.BorderSizePixel = 0
+GumballFactoryTycoon.Position = UDim2.new(0.704402506, 0, 0.270270258, 0)
+GumballFactoryTycoon.Size = UDim2.new(0, 123, 0, 88)
+GumballFactoryTycoon.Font = Enum.Font.SourceSansBold
+GumballFactoryTycoon.Text = "Gumball Factory Tycoon 🍬"
+GumballFactoryTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+GumballFactoryTycoon.TextScaled = true
+GumballFactoryTycoon.TextSize = 14.000
+GumballFactoryTycoon.TextWrapped = true
+GumballFactoryTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(9976239895, player)
+end)
+UICorner_16.Parent = GumballFactoryTycoon
+
+ScriptingSchool.Name = "ScriptingSchool"
+ScriptingSchool.Parent = main
+ScriptingSchool.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+ScriptingSchool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptingSchool.BorderSizePixel = 0
+ScriptingSchool.Position = UDim2.new(0.00698812027, 0, 0.406756759, 0)
+ScriptingSchool.Size = UDim2.new(0, 123, 0, 88)
+ScriptingSchool.Font = Enum.Font.SourceSansBold
+ScriptingSchool.Text = "Scripting School"
+ScriptingSchool.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptingSchool.TextScaled = true
+ScriptingSchool.TextSize = 14.000
+ScriptingSchool.TextWrapped = true
+ScriptingSchool.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(6557769953, player)
+end)
+UICorner_17.Parent = ScriptingSchool
+
+CarCrushers.Name = "CarCrushers"
+CarCrushers.Parent = main
+CarCrushers.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+CarCrushers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CarCrushers.BorderSizePixel = 0
+CarCrushers.Position = UDim2.new(0.109713487, 0, 0.406756759, 0)
+CarCrushers.Size = UDim2.new(0, 123, 0, 88)
+CarCrushers.Font = Enum.Font.SourceSansBold
+CarCrushers.Text = "Car Crushers 2"
+CarCrushers.TextColor3 = Color3.fromRGB(0, 0, 0)
+CarCrushers.TextScaled = true
+CarCrushers.TextSize = 14.000
+CarCrushers.TextWrapped = true
+CarCrushers.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(654732683, player)
+end)
+UICorner_18.Parent = CarCrushers
+
+BubblGumSimulatorReborn.Name = "BubblGumSimulatorReborn"
+BubblGumSimulatorReborn.Parent = main
+BubblGumSimulatorReborn.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+BubblGumSimulatorReborn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BubblGumSimulatorReborn.BorderSizePixel = 0
+BubblGumSimulatorReborn.Position = UDim2.new(0.00698812027, 0, 0.556756735, 0)
+BubblGumSimulatorReborn.Size = UDim2.new(0, 123, 0, 88)
+BubblGumSimulatorReborn.Font = Enum.Font.SourceSansBold
+BubblGumSimulatorReborn.Text = "Bubble Gum Simulator Reborn"
+BubblGumSimulatorReborn.TextColor3 = Color3.fromRGB(0, 0, 0)
+BubblGumSimulatorReborn.TextScaled = true
+BubblGumSimulatorReborn.TextSize = 14.000
+BubblGumSimulatorReborn.TextWrapped = true
+BubblGumSimulatorReborn.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(13925436212, player)
+end)
+UICorner_19.Parent = BubblGumSimulatorReborn
+
+BoogaBoogaREBOR.Name = "BoogaBoogaREBOR\\n"
+BoogaBoogaREBOR.Parent = main
+BoogaBoogaREBOR.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+BoogaBoogaREBOR.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BoogaBoogaREBOR.BorderSizePixel = 0
+BoogaBoogaREBOR.Position = UDim2.new(0.204751924, 0, 0.406756759, 0)
+BoogaBoogaREBOR.Size = UDim2.new(0, 123, 0, 88)
+BoogaBoogaREBOR.Font = Enum.Font.SourceSansBold
+BoogaBoogaREBOR.Text = "Booga Booga [REBORN]"
+BoogaBoogaREBOR.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoogaBoogaREBOR.TextScaled = true
+BoogaBoogaREBOR.TextSize = 14.000
+BoogaBoogaREBOR.TextWrapped = true
+BoogaBoogaREBOR.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(11729688377, player)
+end)
+UICorner_21.Parent = BoogaBoogaREBOR
+
+BreakInStory.Name = "BreakInStory"
+BreakInStory.Parent = main
+BreakInStory.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+BreakInStory.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BreakInStory.BorderSizePixel = 0
+BreakInStory.Position = UDim2.new(0.307477295, 0, 0.406756759, 0)
+BreakInStory.Size = UDim2.new(0, 123, 0, 88)
+BreakInStory.Font = Enum.Font.SourceSansBold
+BreakInStory.Text = "Break In (Story)"
+BreakInStory.TextColor3 = Color3.fromRGB(0, 0, 0)
+BreakInStory.TextScaled = true
+BreakInStory.TextSize = 14.000
+BreakInStory.TextWrapped = true
+BreakInStory.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(3851622790, player)
+end)
+UICorner_22.Parent = BreakInStory
+
+CataloAvatarCreator.Name = "CataloAvatarCreator"
+CataloAvatarCreator.Parent = main
+CataloAvatarCreator.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+CataloAvatarCreator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CataloAvatarCreator.BorderSizePixel = 0
+CataloAvatarCreator.Position = UDim2.new(0.204751924, 0, 0.556756735, 0)
+CataloAvatarCreator.Size = UDim2.new(0, 123, 0, 88)
+CataloAvatarCreator.Font = Enum.Font.SourceSansBold
+CataloAvatarCreator.Text = "Catalog Avatar Creator"
+CataloAvatarCreator.TextColor3 = Color3.fromRGB(0, 0, 0)
+CataloAvatarCreator.TextScaled = true
+CataloAvatarCreator.TextSize = 14.000
+CataloAvatarCreator.TextWrapped = true
+CataloAvatarCreator.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(7041939546, player)
+end)
+UICorner_23.Parent = CataloAvatarCreator
+
+RetailTycoonone.Name = "RetailTycoonone"
+RetailTycoonone.Parent = main
+RetailTycoonone.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+RetailTycoonone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RetailTycoonone.BorderSizePixel = 0
+RetailTycoonone.Position = UDim2.new(0.307477295, 0, 0.556756735, 0)
+RetailTycoonone.Size = UDim2.new(0, 123, 0, 88)
+RetailTycoonone.Font = Enum.Font.SourceSansBold
+RetailTycoonone.Text = "Retail Tycoon 1"
+RetailTycoonone.TextColor3 = Color3.fromRGB(0, 0, 0)
+RetailTycoonone.TextScaled = true
+RetailTycoonone.TextSize = 14.000
+RetailTycoonone.TextWrapped = true
+RetailTycoonone.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(5865858426, player)
+end)
+UICorner_24.Parent = RetailTycoonone
+
+BabyChuckingSim.Name = "BabyChuckingSim"
+BabyChuckingSim.Parent = main
+BabyChuckingSim.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+BabyChuckingSim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BabyChuckingSim.BorderSizePixel = 0
+BabyChuckingSim.Position = UDim2.new(0.505241096, 0, 0.406756759, 0)
+BabyChuckingSim.Size = UDim2.new(0, 123, 0, 88)
+BabyChuckingSim.Font = Enum.Font.SourceSansBold
+BabyChuckingSim.Text = "Baby Chucking Sim"
+BabyChuckingSim.TextColor3 = Color3.fromRGB(0, 0, 0)
+BabyChuckingSim.TextScaled = true
+BabyChuckingSim.TextSize = 14.000
+BabyChuckingSim.TextWrapped = true
+BabyChuckingSim.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(11774356365, player)
+end)
+UICorner_25.Parent = BabyChuckingSim
+
+ThemeParkTycoon.Name = "ThemeParkTycoon"
+ThemeParkTycoon.Parent = main
+ThemeParkTycoon.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+ThemeParkTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ThemeParkTycoon.BorderSizePixel = 0
+ThemeParkTycoon.Position = UDim2.new(0.402515709, 0, 0.556756735, 0)
+ThemeParkTycoon.Size = UDim2.new(0, 123, 0, 88)
+ThemeParkTycoon.Font = Enum.Font.SourceSansBold
+ThemeParkTycoon.Text = "Theme Park Tycoon 2"
+ThemeParkTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+ThemeParkTycoon.TextScaled = true
+ThemeParkTycoon.TextSize = 14.000
+ThemeParkTycoon.TextWrapped = true
+ThemeParkTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(69184822, player)
+end)
+UICorner_26.Parent = ThemeParkTycoon
+
+RExReborn.Name = "RExReborn"
+RExReborn.Parent = main
+RExReborn.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+RExReborn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RExReborn.BorderSizePixel = 0
+RExReborn.Position = UDim2.new(0.505241096, 0, 0.556756735, 0)
+RExReborn.Size = UDim2.new(0, 123, 0, 88)
+RExReborn.Font = Enum.Font.SourceSansBold
+RExReborn.Text = "REx-Reborn"
+RExReborn.TextColor3 = Color3.fromRGB(0, 0, 0)
+RExReborn.TextScaled = true
+RExReborn.TextSize = 14.000
+RExReborn.TextWrapped = true
+RExReborn.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(6908663660, player)
+end)
+UICorner_27.Parent = RExReborn
+
+KilltheKillersinArea.Name = "KilltheKillersinArea"
+KilltheKillersinArea.Parent = main
+KilltheKillersinArea.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+KilltheKillersinArea.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KilltheKillersinArea.BorderSizePixel = 0
+KilltheKillersinArea.Position = UDim2.new(0.60167712, 0, 0.410810798, 0)
+KilltheKillersinArea.Size = UDim2.new(0, 123, 0, 88)
+KilltheKillersinArea.Font = Enum.Font.SourceSansBold
+KilltheKillersinArea.Text = "Survive and Kill the Killers in Area 51"
+KilltheKillersinArea.TextColor3 = Color3.fromRGB(0, 0, 0)
+KilltheKillersinArea.TextScaled = true
+KilltheKillersinArea.TextSize = 14.000
+KilltheKillersinArea.TextWrapped = true
+KilltheKillersinArea.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(155382109, player)
+end)
+UICorner_28.Parent = KilltheKillersinArea
+
+WelcometoBloxburg.Name = "WelcometoBloxburg"
+WelcometoBloxburg.Parent = main
+WelcometoBloxburg.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+WelcometoBloxburg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WelcometoBloxburg.BorderSizePixel = 0
+WelcometoBloxburg.Position = UDim2.new(0.704402506, 0, 0.410810798, 0)
+WelcometoBloxburg.Size = UDim2.new(0, 123, 0, 88)
+WelcometoBloxburg.Font = Enum.Font.SourceSansBold
+WelcometoBloxburg.Text = "Welcome to Bloxburg"
+WelcometoBloxburg.TextColor3 = Color3.fromRGB(0, 0, 0)
+WelcometoBloxburg.TextScaled = true
+WelcometoBloxburg.TextSize = 14.000
+WelcometoBloxburg.TextWrapped = true
+WelcometoBloxburg.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(185655149, player)
+end)
+UICorner_29.Parent = WelcometoBloxburg
+
+DOORS.Name = "DOORS"
+DOORS.Parent = main
+DOORS.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+DOORS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DOORS.BorderSizePixel = 0
+DOORS.Position = UDim2.new(0.704402506, 0, 0.560810804, 0)
+DOORS.Size = UDim2.new(0, 123, 0, 88)
+DOORS.Font = Enum.Font.SourceSansBold
+DOORS.Text = "DOORS"
+DOORS.TextColor3 = Color3.fromRGB(0, 0, 0)
+DOORS.TextScaled = true
+DOORS.TextSize = 14.000
+DOORS.TextWrapped = true
+DOORS.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(6516141723, player)
+end)
+UICorner_30.Parent = DOORS
+
+TheBeachCave.Name = "TheBeachCave"
+TheBeachCave.Parent = main
+TheBeachCave.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+TheBeachCave.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TheBeachCave.BorderSizePixel = 0
+TheBeachCave.Position = UDim2.new(0.60167712, 0, 0.560810804, 0)
+TheBeachCave.Size = UDim2.new(0, 123, 0, 88)
+TheBeachCave.Font = Enum.Font.SourceSansBold
+TheBeachCave.Text = "The Beach Cave"
+TheBeachCave.TextColor3 = Color3.fromRGB(0, 0, 0)
+TheBeachCave.TextScaled = true
+TheBeachCave.TextSize = 14.000
+TheBeachCave.TextWrapped = true
+TheBeachCave.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(10368225630, player)
+end)
+UICorner_31.Parent = TheBeachCave
+
+RetailTycoon.Name = "RetailTycoon"
+RetailTycoon.Parent = main
+RetailTycoon.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+RetailTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RetailTycoon.BorderSizePixel = 0
+RetailTycoon.Position = UDim2.new(0.402515709, 0, 0.406756759, 0)
+RetailTycoon.Size = UDim2.new(0, 123, 0, 88)
+RetailTycoon.Font = Enum.Font.SourceSansBold
+RetailTycoon.Text = "🛒Retail Tycoon 2"
+RetailTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+RetailTycoon.TextScaled = true
+RetailTycoon.TextSize = 14.000
+RetailTycoon.TextWrapped = true
+RetailTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(5865858426, player)
+end)
+UICorner_32.Parent = RetailTycoon
+
+TowerDefenseSimulator.Name = "TowerDefenseSimulator"
+TowerDefenseSimulator.Parent = main
+TowerDefenseSimulator.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+TowerDefenseSimulator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TowerDefenseSimulator.BorderSizePixel = 0
+TowerDefenseSimulator.Position = UDim2.new(0.00698812027, 0, 0.690540552, 0)
+TowerDefenseSimulator.Size = UDim2.new(0, 123, 0, 88)
+TowerDefenseSimulator.Font = Enum.Font.SourceSansBold
+TowerDefenseSimulator.Text = "Tower Defense Simulator"
+TowerDefenseSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+TowerDefenseSimulator.TextScaled = true
+TowerDefenseSimulator.TextSize = 14.000
+TowerDefenseSimulator.TextWrapped = true
+TowerDefenseSimulator.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(3260590327, player)
+end)
+UICorner_33.Parent = TowerDefenseSimulator
+
+BIGPaintball.Name = "BIGPaintball"
+BIGPaintball.Parent = main
+BIGPaintball.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+BIGPaintball.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BIGPaintball.BorderSizePixel = 0
+BIGPaintball.Position = UDim2.new(0.109713487, 0, 0.690540552, 0)
+BIGPaintball.Size = UDim2.new(0, 123, 0, 88)
+BIGPaintball.Font = Enum.Font.SourceSansBold
+BIGPaintball.Text = "BIG Paintball! 🔫"
+BIGPaintball.TextColor3 = Color3.fromRGB(0, 0, 0)
+BIGPaintball.TextScaled = true
+BIGPaintball.TextSize = 14.000
+BIGPaintball.TextWrapped = true
+BIGPaintball.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(3527629287, player)
+end)
+UICorner_34.Parent = BIGPaintball
+
+MMtwo.Name = "MMtwo"
+MMtwo.Parent = main
+MMtwo.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+MMtwo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MMtwo.BorderSizePixel = 0
+MMtwo.Position = UDim2.new(0.00698812027, 0, 0.840540528, 0)
+MMtwo.Size = UDim2.new(0, 123, 0, 88)
+MMtwo.Font = Enum.Font.SourceSansBold
+MMtwo.Text = "Murder Mystery 2"
+MMtwo.TextColor3 = Color3.fromRGB(0, 0, 0)
+MMtwo.TextScaled = true
+MMtwo.TextSize = 14.000
+MMtwo.TextWrapped = true
+MMtwo.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(142823291, player)
+end)
+UICorner_35.Parent = MMtwo
+
+SharkBiteone.Name = "SharkBiteone"
+SharkBiteone.Parent = main
+SharkBiteone.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+SharkBiteone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SharkBiteone.BorderSizePixel = 0
+SharkBiteone.Position = UDim2.new(0.109713487, 0, 0.840540528, 0)
+SharkBiteone.Size = UDim2.new(0, 123, 0, 88)
+SharkBiteone.Font = Enum.Font.SourceSansBold
+SharkBiteone.Text = "SharkBite 1 🦈"
+SharkBiteone.TextColor3 = Color3.fromRGB(0, 0, 0)
+SharkBiteone.TextScaled = true
+SharkBiteone.TextSize = 14.000
+SharkBiteone.TextWrapped = true
+SharkBiteone.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(734159876, player)
+end)
+UICorner_36.Parent = SharkBiteone
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = main
+Arsenal.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+Arsenal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0.204751924, 0, 0.690540552, 0)
+Arsenal.Size = UDim2.new(0, 123, 0, 88)
+Arsenal.Font = Enum.Font.SourceSansBold
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(286090429, player)
+end)
+UICorner_37.Parent = Arsenal
+
+MyRestaurant.Name = "MyRestaurant"
+MyRestaurant.Parent = main
+MyRestaurant.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+MyRestaurant.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MyRestaurant.BorderSizePixel = 0
+MyRestaurant.Position = UDim2.new(0.307477295, 0, 0.690540552, 0)
+MyRestaurant.Size = UDim2.new(0, 123, 0, 88)
+MyRestaurant.Font = Enum.Font.SourceSansBold
+MyRestaurant.Text = "⚡ My Restaurant!"
+MyRestaurant.TextColor3 = Color3.fromRGB(0, 0, 0)
+MyRestaurant.TextScaled = true
+MyRestaurant.TextSize = 14.000
+MyRestaurant.TextWrapped = true
+MyRestaurant.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4490140733, player)
+end)
+UICorner_38.Parent = MyRestaurant
+
+TheChosenOne.Name = "TheChosenOne"
+TheChosenOne.Parent = main
+TheChosenOne.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
+TheChosenOne.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TheChosenOne.BorderSizePixel = 0
+TheChosenOne.Position = UDim2.new(0.204751924, 0, 0.840540528, 0)
+TheChosenOne.Size = UDim2.new(0, 123, 0, 88)
+TheChosenOne.Font = Enum.Font.SourceSansBold
+TheChosenOne.Text = "The Chosen One"
+TheChosenOne.TextColor3 = Color3.fromRGB(0, 0, 0)
+TheChosenOne.TextScaled = true
+TheChosenOne.TextSize = 14.000
+TheChosenOne.TextWrapped = true
+TheChosenOne.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(11137575513, player)
+end)
+UICorner_39.Parent = TheChosenOne
+
+ToySoldierZ.Name = "ToySoldierZ"
+ToySoldierZ.Parent = main
+ToySoldierZ.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+ToySoldierZ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ToySoldierZ.BorderSizePixel = 0
+ToySoldierZ.Position = UDim2.new(0.307477295, 0, 0.840540528, 0)
+ToySoldierZ.Size = UDim2.new(0, 123, 0, 88)
+ToySoldierZ.Font = Enum.Font.SourceSansBold
+ToySoldierZ.Text = "Toy SoldierZ"
+ToySoldierZ.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToySoldierZ.TextScaled = true
+ToySoldierZ.TextSize = 14.000
+ToySoldierZ.TextWrapped = true
+ToySoldierZ.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(12215278065, player)
+end)
+UICorner_40.Parent = ToySoldierZ
+
+MilitaryWarfareTycoon.Name = "MilitaryWarfareTycoon"
+MilitaryWarfareTycoon.Parent = main
+MilitaryWarfareTycoon.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+MilitaryWarfareTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MilitaryWarfareTycoon.BorderSizePixel = 0
+MilitaryWarfareTycoon.Position = UDim2.new(0.505241096, 0, 0.690540552, 0)
+MilitaryWarfareTycoon.Size = UDim2.new(0, 123, 0, 88)
+MilitaryWarfareTycoon.Font = Enum.Font.SourceSansBold
+MilitaryWarfareTycoon.Text = "Military Warfare Tycoon"
+MilitaryWarfareTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+MilitaryWarfareTycoon.TextScaled = true
+MilitaryWarfareTycoon.TextSize = 14.000
+MilitaryWarfareTycoon.TextWrapped = true
+MilitaryWarfareTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(62124643, player)
+end)
+UICorner_41.Parent = MilitaryWarfareTycoon
+
+TUNNELER.Name = "TUNNELER"
+TUNNELER.Parent = main
+TUNNELER.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+TUNNELER.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TUNNELER.BorderSizePixel = 0
+TUNNELER.Position = UDim2.new(0.402515709, 0, 0.840540528, 0)
+TUNNELER.Size = UDim2.new(0, 123, 0, 88)
+TUNNELER.Font = Enum.Font.SourceSansBold
+TUNNELER.Text = "TUNNELER"
+TUNNELER.TextColor3 = Color3.fromRGB(0, 0, 0)
+TUNNELER.TextScaled = true
+TUNNELER.TextSize = 14.000
+TUNNELER.TextWrapped = true
+TUNNELER.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4635669637, player)
+end)
+UICorner_42.Parent = TUNNELER
+
+ApocalypseRising.Name = "ApocalypseRising"
+ApocalypseRising.Parent = main
+ApocalypseRising.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ApocalypseRising.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ApocalypseRising.BorderSizePixel = 0
+ApocalypseRising.Position = UDim2.new(0.505241096, 0, 0.840540528, 0)
+ApocalypseRising.Size = UDim2.new(0, 123, 0, 88)
+ApocalypseRising.Font = Enum.Font.SourceSansBold
+ApocalypseRising.Text = "Apocalypse Rising"
+ApocalypseRising.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApocalypseRising.TextScaled = true
+ApocalypseRising.TextSize = 14.000
+ApocalypseRising.TextWrapped = true
+ApocalypseRising.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(1600503, player)
+end)
+UICorner_43.Parent = ApocalypseRising
+
+ApocalypseRisingtwo.Name = "ApocalypseRisingtwo"
+ApocalypseRisingtwo.Parent = main
+ApocalypseRisingtwo.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ApocalypseRisingtwo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ApocalypseRisingtwo.BorderSizePixel = 0
+ApocalypseRisingtwo.Position = UDim2.new(0.60167712, 0, 0.694594622, 0)
+ApocalypseRisingtwo.Size = UDim2.new(0, 123, 0, 88)
+ApocalypseRisingtwo.Font = Enum.Font.SourceSansBold
+ApocalypseRisingtwo.Text = "Apocalypse Rising 2"
+ApocalypseRisingtwo.TextColor3 = Color3.fromRGB(0, 0, 0)
+ApocalypseRisingtwo.TextScaled = true
+ApocalypseRisingtwo.TextSize = 14.000
+ApocalypseRisingtwo.TextWrapped = true
+ApocalypseRisingtwo.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(863266079, player)
+end)
+UICorner_44.Parent = ApocalypseRisingtwo
+
+PLSDONATE.Name = "PLSDONATE"
+PLSDONATE.Parent = main
+PLSDONATE.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+PLSDONATE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PLSDONATE.BorderSizePixel = 0
+PLSDONATE.Position = UDim2.new(0.704402506, 0, 0.694594622, 0)
+PLSDONATE.Size = UDim2.new(0, 123, 0, 88)
+PLSDONATE.Font = Enum.Font.SourceSansBold
+PLSDONATE.Text = "PLS DONATE 💀"
+PLSDONATE.TextColor3 = Color3.fromRGB(0, 0, 0)
+PLSDONATE.TextScaled = true
+PLSDONATE.TextSize = 14.000
+PLSDONATE.TextWrapped = true
+PLSDONATE.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(8737602449, player)
+end)
+UICorner_45.Parent = PLSDONATE
+
+CombatWarriors.Name = "CombatWarriors"
+CombatWarriors.Parent = main
+CombatWarriors.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+CombatWarriors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CombatWarriors.BorderSizePixel = 0
+CombatWarriors.Position = UDim2.new(0.704402506, 0, 0.844594598, 0)
+CombatWarriors.Size = UDim2.new(0, 123, 0, 88)
+CombatWarriors.Font = Enum.Font.SourceSansBold
+CombatWarriors.Text = "Combat Warriors"
+CombatWarriors.TextColor3 = Color3.fromRGB(0, 0, 0)
+CombatWarriors.TextScaled = true
+CombatWarriors.TextSize = 14.000
+CombatWarriors.TextWrapped = true
+CombatWarriors.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4282985734, player)
+end)
+UICorner_46.Parent = CombatWarriors
+
+FreeHatchers.Name = "FreeHatchers"
+FreeHatchers.Parent = main
+FreeHatchers.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+FreeHatchers.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FreeHatchers.BorderSizePixel = 0
+FreeHatchers.Position = UDim2.new(0.60167712, 0, 0.844594598, 0)
+FreeHatchers.Size = UDim2.new(0, 123, 0, 88)
+FreeHatchers.Font = Enum.Font.SourceSansBold
+FreeHatchers.Text = "Free Hatchers"
+FreeHatchers.TextColor3 = Color3.fromRGB(0, 0, 0)
+FreeHatchers.TextScaled = true
+FreeHatchers.TextSize = 14.000
+FreeHatchers.TextWrapped = true
+FreeHatchers.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(11162791099, player)
+end)
+UICorner_47.Parent = FreeHatchers
+
+TheTeapots.Name = "TheTeapots"
+TheTeapots.Parent = main
+TheTeapots.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+TheTeapots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TheTeapots.BorderSizePixel = 0
+TheTeapots.Position = UDim2.new(0.402515709, 0, 0.690540552, 0)
+TheTeapots.Size = UDim2.new(0, 123, 0, 88)
+TheTeapots.Font = Enum.Font.SourceSansBold
+TheTeapots.Text = "The Teapots"
+TheTeapots.TextColor3 = Color3.fromRGB(0, 0, 0)
+TheTeapots.TextScaled = true
+TheTeapots.TextSize = 14.000
+TheTeapots.TextWrapped = true
+TheTeapots.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(44814, player)
+end)
+UICorner_48.Parent = TheTeapots
+
+CandyTycoon.Name = "CandyTycoon"
+CandyTycoon.Parent = main
+CandyTycoon.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+CandyTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CandyTycoon.BorderSizePixel = 0
+CandyTycoon.Position = UDim2.new(0.902166307, 0, 0.120270275, 0)
+CandyTycoon.Size = UDim2.new(0, 123, 0, 88)
+CandyTycoon.Font = Enum.Font.SourceSansBold
+CandyTycoon.Text = "Candy Tycoon!"
+CandyTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+CandyTycoon.TextScaled = true
+CandyTycoon.TextSize = 14.000
+CandyTycoon.TextWrapped = true
+CandyTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(396101737, player)
+end)
+UICorner_49.Parent = CandyTycoon
+
+BlocknProps.Name = "BlocknProps"
+BlocknProps.Parent = main
+BlocknProps.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+BlocknProps.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BlocknProps.BorderSizePixel = 0
+BlocknProps.Position = UDim2.new(0.79944092, 0, 0.120270275, 0)
+BlocknProps.Size = UDim2.new(0, 123, 0, 88)
+BlocknProps.Font = Enum.Font.SourceSansBold
+BlocknProps.Text = "Blocks n' Props"
+BlocknProps.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlocknProps.TextScaled = true
+BlocknProps.TextSize = 14.000
+BlocknProps.TextWrapped = true
+BlocknProps.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(2537430692, player)
+end)
+UICorner_50.Parent = BlocknProps
+
+RainbowFriends.Name = "RainbowFriends"
+RainbowFriends.Parent = main
+RainbowFriends.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+RainbowFriends.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RainbowFriends.BorderSizePixel = 0
+RainbowFriends.Position = UDim2.new(0.79944092, 0, 0.270270258, 0)
+RainbowFriends.Size = UDim2.new(0, 123, 0, 88)
+RainbowFriends.Font = Enum.Font.SourceSansBold
+RainbowFriends.Text = "Rainbow Friends"
+RainbowFriends.TextColor3 = Color3.fromRGB(0, 0, 0)
+RainbowFriends.TextScaled = true
+RainbowFriends.TextSize = 14.000
+RainbowFriends.TextWrapped = true
+RainbowFriends.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(7991339063, player)
+end)
+UICorner_51.Parent = RainbowFriends
+
+BedWars.Name = "BedWars"
+BedWars.Parent = main
+BedWars.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+BedWars.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BedWars.BorderSizePixel = 0
+BedWars.Position = UDim2.new(0.79944092, 0, 0.410810798, 0)
+BedWars.Size = UDim2.new(0, 123, 0, 88)
+BedWars.Font = Enum.Font.SourceSansBold
+BedWars.Text = "BedWars"
+BedWars.TextColor3 = Color3.fromRGB(0, 0, 0)
+BedWars.TextScaled = true
+BedWars.TextSize = 14.000
+BedWars.TextWrapped = true
+BedWars.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(6872265039, player)
+end)
+UICorner_52.Parent = BedWars
+
+BuildABoat.Name = "BuildABoat"
+BuildABoat.Parent = main
+BuildABoat.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+BuildABoat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BuildABoat.BorderSizePixel = 0
+BuildABoat.Position = UDim2.new(0.79944092, 0, 0.560810804, 0)
+BuildABoat.Size = UDim2.new(0, 123, 0, 88)
+BuildABoat.Font = Enum.Font.SourceSansBold
+BuildABoat.Text = "Build A Boat For Treasure"
+BuildABoat.TextColor3 = Color3.fromRGB(0, 0, 0)
+BuildABoat.TextScaled = true
+BuildABoat.TextSize = 14.000
+BuildABoat.TextWrapped = true
+BuildABoat.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(537413528, player)
+end)
+UICorner_53.Parent = BuildABoat
+
+Evade.Name = "Evade"
+Evade.Parent = main
+Evade.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Evade.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Evade.BorderSizePixel = 0
+Evade.Position = UDim2.new(0.902166307, 0, 0.410810798, 0)
+Evade.Size = UDim2.new(0, 123, 0, 88)
+Evade.Font = Enum.Font.SourceSansBold
+Evade.Text = "Evade"
+Evade.TextColor3 = Color3.fromRGB(0, 0, 0)
+Evade.TextScaled = true
+Evade.TextSize = 14.000
+Evade.TextWrapped = true
+Evade.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(9872472334, player)
+end)
+UICorner_54.Parent = Evade
+
+TixFactoryTycoon.Name = "TixFactoryTycoon"
+TixFactoryTycoon.Parent = main
+TixFactoryTycoon.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TixFactoryTycoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TixFactoryTycoon.BorderSizePixel = 0
+TixFactoryTycoon.Position = UDim2.new(0.902166307, 0, 0.270270258, 0)
+TixFactoryTycoon.Size = UDim2.new(0, 123, 0, 88)
+TixFactoryTycoon.Font = Enum.Font.SourceSansBold
+TixFactoryTycoon.Text = "Tix Factory Tycoon"
+TixFactoryTycoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+TixFactoryTycoon.TextScaled = true
+TixFactoryTycoon.TextSize = 14.000
+TixFactoryTycoon.TextWrapped = true
+TixFactoryTycoon.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(395515963, player)
+end)
+UICorner_55.Parent = TixFactoryTycoon
+
+Piggy.Name = "Piggy"
+Piggy.Parent = main
+Piggy.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Piggy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Piggy.BorderSizePixel = 0
+Piggy.Position = UDim2.new(0.902166307, 0, 0.560810804, 0)
+Piggy.Size = UDim2.new(0, 123, 0, 88)
+Piggy.Font = Enum.Font.SourceSansBold
+Piggy.Text = "Piggy"
+Piggy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Piggy.TextScaled = true
+Piggy.TextSize = 14.000
+Piggy.TextWrapped = true
+Piggy.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(4623386862, player)
+end)
+UICorner_56.Parent = Piggy
+
+WorkataPizzaPlace.Name = "WorkataPizzaPlace"
+WorkataPizzaPlace.Parent = main
+WorkataPizzaPlace.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+WorkataPizzaPlace.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WorkataPizzaPlace.BorderSizePixel = 0
+WorkataPizzaPlace.Position = UDim2.new(0.902166307, 0, 0.694594622, 0)
+WorkataPizzaPlace.Size = UDim2.new(0, 123, 0, 88)
+WorkataPizzaPlace.Font = Enum.Font.SourceSansBold
+WorkataPizzaPlace.Text = "Work at a Pizza Place🍕"
+WorkataPizzaPlace.TextColor3 = Color3.fromRGB(0, 0, 0)
+WorkataPizzaPlace.TextScaled = true
+WorkataPizzaPlace.TextSize = 14.000
+WorkataPizzaPlace.TextWrapped = true
+WorkataPizzaPlace.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(192800, player)
+end)
+UICorner_57.Parent = WorkataPizzaPlace
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = main
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Jailbreak.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.BorderSizePixel = 0
+Jailbreak.Position = UDim2.new(0.79944092, 0, 0.694594622, 0)
+Jailbreak.Size = UDim2.new(0, 123, 0, 88)
+Jailbreak.Font = Enum.Font.SourceSansBold
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.TextScaled = true
+Jailbreak.TextSize = 14.000
+Jailbreak.TextWrapped = true
+Jailbreak.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(606849621, player)
+end)
+UICorner_58.Parent = Jailbreak
+
+HideandSeekExtreme.Name = "HideandSeekExtreme"
+HideandSeekExtreme.Parent = main
+HideandSeekExtreme.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+HideandSeekExtreme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HideandSeekExtreme.BorderSizePixel = 0
+HideandSeekExtreme.Position = UDim2.new(0.79944092, 0, 0.844594598, 0)
+HideandSeekExtreme.Size = UDim2.new(0, 123, 0, 88)
+HideandSeekExtreme.Font = Enum.Font.SourceSansBold
+HideandSeekExtreme.Text = "Hide and Seek Extreme"
+HideandSeekExtreme.TextColor3 = Color3.fromRGB(0, 0, 0)
+HideandSeekExtreme.TextScaled = true
+HideandSeekExtreme.TextSize = 14.000
+HideandSeekExtreme.TextWrapped = true
+HideandSeekExtreme.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(205224386, player)
+end)
+UICorner_59.Parent = HideandSeekExtreme
+
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = main
+PrisonLife.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+PrisonLife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(0.902166307, 0, 0.844594598, 0)
+PrisonLife.Size = UDim2.new(0, 123, 0, 88)
+PrisonLife.Font = Enum.Font.SourceSansBold
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.TextScaled = true
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+PrisonLife.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(155615604, player)
+end)
+UICorner_60.Parent = PrisonLife
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new(0.279524803, 0, -0.0162162166, 0)
+TextLabel.Size = UDim2.new(0, 553, 0, 86)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Join Games!"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
