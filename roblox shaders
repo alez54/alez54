@@ -65,7 +65,7 @@ Lighting = game:GetService("Lighting")
 
 wait(0.1)
 
-Lighting.Brightness = 2
+Lighting.Brightness = 0.05
 Lighting.ExposureCompensation = 1.5
 
 Lighting.ShadowSoftness = 0.2
@@ -150,6 +150,7 @@ wait(0.05)
 Blur.Size = 1
 wait(0.05)
 Blur.Size = 0
+
 
 
 
