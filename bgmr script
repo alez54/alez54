@@ -1,1 +1,332 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/5UamxedH"))()
+--candy = nN5NFfAA
+--cave = XB1msDzH
+--mystic forest = DgP34BBr
+--overworld = Gi2ek3jD
+
+--⏹️⏹️⏹️ = overworld
+--🟫🟫🟫 = event
+--🟥🟥🟥 = cave
+--🟩🟩🟩 = candy
+--🔝🔝🔝 = mystic forest
+
+--⏹️⏹️⏹️
+function common()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Common Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function Spotted()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Spotted Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function iceshard()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Ice Shard Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function spikey()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Spikey Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function magma()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Magma Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function crystal()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Crystal Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function lunar()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Lunar Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function voidshard()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Void Shard Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function hell()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Hell Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function nightmare()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Nightmare Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function rainbow()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Rainbow Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+--⏹️⏹️⏹️
+--🟫🟫🟫
+function throwback()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Throwback Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function release2()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Release Egg 2.0",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function lucky()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Lucky Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function vacation()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Vacation Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+--🟫🟫🟫
+--🟥🟥🟥
+function groovy()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Groovy Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function sandcastle()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Sandcastle Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function cyborg()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Cyborg Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function shadow()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Shadow Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function soulfly()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Soulfly Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+--🟥🟥🟥
+--🟩🟩🟩
+function icecream()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Ice Cream Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function gummy()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Gummy Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function slushy()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Slushy Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function jelly()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Jelly Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function dominus()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Dominus Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+--🟩🟩🟩
+--🔝🔝🔝
+function spirit()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Spirit Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function mossy()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Mossy Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function mythical()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Mythical Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function mushroom()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Mushroom Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function pastal()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Pastal Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+--🔝🔝🔝
+function blowbubble()
+local args = {
+    [1] = "BlowBubble"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
+wait(0.1)
+end
+loadstring(game:HttpGet("https://pastebin.com/raw/uCjcYD4f"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/5kqWQiA2"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/NYY48nyG"))()
