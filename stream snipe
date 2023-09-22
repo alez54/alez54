@@ -1,0 +1,432 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UserIdBox = Instance.new("TextLabel")
+local UsernameBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local PlaceIdBox = Instance.new("TextLabel")
+local PlaceIdBox_2 = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local StartButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UsernameLabel = Instance.new("TextLabel")
+local UsernameLabel_2 = Instance.new("TextLabel")
+local UserIdLabel = Instance.new("TextLabel")
+local UserIdLabel_2 = Instance.new("TextLabel")
+local GamerPicture = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke")
+
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+local Player = game:GetService("Players").LocalPlayer
+
+ScreenGui.Name = HttpService:GenerateGUID(false)
+ScreenGui.Parent = game:GetService("CoreGui")
+
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
+Frame.Draggable = true
+Frame.Position = UDim2.new(0, 587, 0, 221)
+Frame.Size = UDim2.new(0, 400, 0, 260)
+
+UIStroke.Parent = Frame
+UIStroke.Thickness = 2
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.Active = true
+Title.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Title.BorderColor3 = Color3.fromRGB(31, 31, 40)
+Title.Size = UDim2.new(0, 400, 0, 40)
+Title.Font = Enum.Font.SourceSansSemibold
+Title.Text = "Stream Sniper"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+
+UICorner.CornerRadius = UDim.new(0, 16)
+UICorner.Parent = Title
+
+UserIdBox.Name = "UserIdBox"
+UserIdBox.Parent = Frame
+UserIdBox.Active = true
+UserIdBox.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+UserIdBox.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UserIdBox.Position = UDim2.new(0, 10, 0, 49)
+UserIdBox.Size = UDim2.new(0, 150, 0, 20)
+UserIdBox.Font = Enum.Font.SourceSansLight
+UserIdBox.Text = "Username/UserId:"
+UserIdBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserIdBox.TextSize = 16.000
+
+UsernameBox.Name = "UsernameBox"
+UsernameBox.Parent = Frame
+UsernameBox.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+UsernameBox.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UsernameBox.Position = UDim2.new(0, 10, 0, 80)
+UsernameBox.Size = UDim2.new(0, 150, 0, 35)
+UsernameBox.ClearTextOnFocus = false
+UsernameBox.Font = Enum.Font.SourceSansLight
+UsernameBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox.PlaceholderText = "Enter Username Here"
+UsernameBox.Text = ""
+UsernameBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox.TextScaled = true
+UsernameBox.TextSize = 18.000
+UsernameBox.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 16)
+UICorner_2.Parent = UsernameBox
+
+PlaceIdBox.Name = "PlaceIdBox"
+PlaceIdBox.Parent = Frame
+PlaceIdBox.Active = true
+PlaceIdBox.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+PlaceIdBox.BorderColor3 = Color3.fromRGB(31, 31, 31)
+PlaceIdBox.Position = UDim2.new(0, 10, 0, 130)
+PlaceIdBox.Size = UDim2.new(0, 150, 0, 20)
+PlaceIdBox.Font = Enum.Font.SourceSansLight
+PlaceIdBox.Text = "Place Id:"
+PlaceIdBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlaceIdBox.TextSize = 16.000
+
+PlaceIdBox_2.Name = "PlaceIdBox"
+PlaceIdBox_2.Parent = Frame
+PlaceIdBox_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+PlaceIdBox_2.BorderColor3 = Color3.fromRGB(31, 31, 31)
+PlaceIdBox_2.Position = UDim2.new(0, 10, 0, 157)
+PlaceIdBox_2.Size = UDim2.new(0, 150, 0, 35)
+PlaceIdBox_2.ClearTextOnFocus = false
+PlaceIdBox_2.Font = Enum.Font.SourceSansLight
+PlaceIdBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+PlaceIdBox_2.PlaceholderText = "Enter PlaceId Here"
+PlaceIdBox_2.Text = ""
+PlaceIdBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlaceIdBox_2.TextScaled = true
+PlaceIdBox_2.TextSize = 18.000
+PlaceIdBox_2.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 16)
+UICorner_3.Parent = PlaceIdBox_2
+
+StartButton.Name = "StartButton"
+StartButton.Parent = Frame
+StartButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+StartButton.BorderColor3 = Color3.fromRGB(31, 31, 31)
+StartButton.Position = UDim2.new(0, 8, 0, 210)
+StartButton.Size = UDim2.new(0, 384, 0, 40)
+StartButton.Font = Enum.Font.SourceSansSemibold
+StartButton.Text = "Start"
+StartButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+StartButton.TextSize = 24.000
+StartButton.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 16)
+UICorner_4.Parent = StartButton
+
+UsernameLabel.Name = "UsernameLabel"
+UsernameLabel.Parent = Frame
+UsernameLabel.Active = true
+UsernameLabel.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+UsernameLabel.BackgroundTransparency = 1.000
+UsernameLabel.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UsernameLabel.Position = UDim2.new(0, 200, 0, 49)
+UsernameLabel.Size = UDim2.new(0, 0, 0, 20)
+UsernameLabel.Font = Enum.Font.SourceSansBold
+UsernameLabel.Text = "Username:"
+UsernameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameLabel.TextSize = 16.000
+UsernameLabel.TextWrapped = true
+UsernameLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UsernameLabel_2.Name = "UsernameLabel"
+UsernameLabel_2.Parent = UsernameLabel
+UsernameLabel_2.Active = true
+UsernameLabel_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+UsernameLabel_2.BackgroundTransparency = 1.000
+UsernameLabel_2.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UsernameLabel_2.Position = UDim2.new(0.5, 0, 0, 0)
+UsernameLabel_2.Size = UDim2.new(0, 150, 0, 20)
+UsernameLabel_2.Font = Enum.Font.SourceSansLight
+UsernameLabel_2.Text = "Username: "
+UsernameLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameLabel_2.TextSize = 16.000
+UsernameLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UserIdLabel.Name = "UserIdLabel"
+UserIdLabel.Parent = Frame
+UserIdLabel.Active = true
+UserIdLabel.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+UserIdLabel.BackgroundTransparency = 1.000
+UserIdLabel.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UserIdLabel.Position = UDim2.new(0, 200, 0, 69)
+UserIdLabel.Size = UDim2.new(0, 0, 0, 20)
+UserIdLabel.Font = Enum.Font.SourceSansBold
+UserIdLabel.Text = "UserId:"
+UserIdLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserIdLabel.TextSize = 16.000
+UserIdLabel.TextWrapped = true
+UserIdLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UserIdLabel_2.Name = "UserIdLabel"
+UserIdLabel_2.Parent = UserIdLabel
+UserIdLabel_2.Active = true
+UserIdLabel_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+UserIdLabel_2.BackgroundTransparency = 1.000
+UserIdLabel_2.BorderColor3 = Color3.fromRGB(31, 31, 31)
+UserIdLabel_2.Position = UDim2.new(0.5, 0, 0, 0)
+UserIdLabel_2.Size = UDim2.new(0, 150, 0, 20)
+UserIdLabel_2.Font = Enum.Font.SourceSansLight
+UserIdLabel_2.Text = "User ID: "
+UserIdLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserIdLabel_2.TextSize = 16.000
+UserIdLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+GamerPicture.Name = "GamerPicture"
+GamerPicture.Parent = Frame
+GamerPicture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GamerPicture.BackgroundTransparency = 1.000
+GamerPicture.Position = UDim2.new(0, 200, 0, 95)
+GamerPicture.Size = UDim2.new(0, 97, 0, 97)
+
+UICorner_5.CornerRadius = UDim.new(0, 16)
+UICorner_5.Parent = Frame
+
+if shared.STREAM_SNIPER then
+	shared.STREAM_SNIPER:Destroy()
+end
+shared.STREAM_SNIPER = ScreenGui
+local searching = false
+local confirm = false
+
+local function HttpGet(url)
+	return pcall(HttpService.JSONDecode, HttpService, game:HttpGet(url))
+end
+
+local function Status(text, tout)
+	StartButton.Text = text
+
+	if tout then
+		task.delay(tout, function()
+			if StartButton.Text == text then
+				searching = false
+				StartButton.Text = "Start"    
+			end
+		end)
+	end
+end
+
+local function getServers(id, cursor)
+	local fullurl = "https://games.roblox.com/v1/games/".. id .."/servers/Public?limit=100"
+	if cursor then
+		fullurl = "&cursor=".. cursor
+	end
+
+	return HttpGet(fullurl)
+end
+
+local function fetchThumbs(tokens)
+	local payload = {
+		Url = "https://thumbnails.roblox.com/v1/batch",
+		Headers = {
+			["Content-Type"] = "application/json"
+		},
+		Method = "POST",
+
+		Body = {}
+	}
+
+	for _, token in ipairs(tokens) do
+		table.insert(payload.Body, {
+			requestId = "0:".. token ..":AvatarHeadshot:150x150:png:regular",
+			type = "AvatarHeadShot",
+			targetId = 0,
+			token = token,
+			format = "png",
+			size = "150x150"
+		})
+	end
+
+	payload.Body = HttpService:JSONEncode(payload.Body)
+	local result = syn.request(payload)
+	local s, data = pcall(HttpService.JSONDecode, HttpService, result.Body)
+	return s, data and data.data or data
+end
+
+local function teleport(placeId, guid)
+	TeleportService:TeleportToPlaceInstance(placeId, guid)
+end
+
+
+local threads = 30
+
+StartButton.MouseButton1Click:Connect(function()
+	if confirm then
+		confirm = false
+		searching = false
+		Status("Cancelled")
+		return
+	end
+
+	if searching then
+		confirm = true
+		local old = StartButton.Text
+		Status("Click again to confirm.")
+		task.delay(5, function()
+			if "Click again to confirm." == StartButton.Text then
+				confirm = false
+				StartButton.Text = old
+			end
+		end)
+		return
+	end
+
+	searching = true
+
+	-- User ID
+	Status("Getting user id...")
+
+	local s, Username, UserId = pcall(function() -- TODO FIX: fix for only numbers players
+		local userId = tonumber(UsernameBox.Text) or Players:GetUserIdFromNameAsync(UsernameBox.Text)
+		local username = Players:GetNameFromUserIdAsync(userId)
+
+		return username, userId
+	end)
+
+	if not s then
+		return Status("Username or UserId does not exist!", 3)
+	end
+
+	local s, thumbUrl = pcall(Players.GetUserThumbnailAsync, Players, UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size150x150)
+
+	UsernameLabel_2.Text = "Username: " .. Username
+	UserIdLabel_2.Text = "User ID: " .. UserId
+	GamerPicture.Image = s and thumbUrl or ""
+
+	Status("Getting user's thumbnail...")
+	local s, response = HttpGet("https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=" .. UserId .. "&format=Png&size=150x150&isCircular=false")
+	--local s, response = HttpGet("https://www.roblox.com/headshot-thumbnail/json?userId=" .. UserId .. "&width=150&height=150")
+	local thumbnail = s and response['data'][1].imageUrl
+
+	Status("Searching for (".. UserId ..")")
+
+	-- Place ID
+	Status("Getting place id...")
+
+	local placeId = tonumber(PlaceIdBox_2.Text)
+
+	if PlaceIdBox_2.Text:gsub("%s", "") == "" then
+		placeId = game.PlaceId
+
+	elseif not placeId then
+		Status("Invalid place id", 3)
+		return
+	end
+
+	Status("Searching...")
+	local cursor = nil
+	local searched = 0
+	local maxSearchs = 0
+	local players = 0
+	-- Server search
+	while searching do
+		if not ScreenGui or not ScreenGui.Parent then
+			break
+		end
+		local s, result = getServers(placeId, cursor)
+
+		if s then
+			local servers = result.data
+			cursor = result.nextPageCursor
+
+			if StartButton.Text:match("Searching") then
+				maxSearchs = maxSearchs + #servers
+				Status(searched .."/".. maxSearchs .." servers scanned | Players found: " .. players)
+			end
+
+			-- Search all servers
+			for index, server in ipairs(servers) do
+				local function fetchServer()
+					local s, thumbs = fetchThumbs(server.playerTokens)
+					if s then
+						players = players + #thumbs
+						for _, playerThumb in ipairs(thumbs) do
+							if playerThumb.imageUrl then
+								if playerThumb.imageUrl == thumbnail then
+									searching = false
+									Status("Found player | teleporting...")
+
+									teleport(placeId, server.id)
+									local try = 0
+									Player.OnTeleport:Connect(function(teleportState)
+										if teleportState == Enum.TeleportState.Failed then
+											try = try + 1
+											Status("Teleport failed | Try #".. try)
+											teleport(placeId, server.id)
+										end
+									end)
+								end
+							else
+								Status("Token failed | Id:", playerThumb.requestId, playerThumb.state, playerThumb.errorMessage)
+								--print("token failed, id:", playerThumb.requestId, playerThumb.state, playerThumb.errorMessage)
+							end
+						end
+					else
+						Status("Token failed", s, thumbs)
+						--print("token failed", s, thumbs)
+					end
+				end
+				searched = searched + 1
+				if index % threads ~= 0 then
+					task.spawn(fetchServer)
+					task.wait()
+
+				else
+					fetchServer()
+				end
+
+				if searching then
+					Status(searched .."/".. maxSearchs .." servers scanned | Players found: " .. players)
+				end
+			end
+
+			-- Player not found
+			if not cursor then
+				break
+			end
+		else
+			return Status("Failed to find servers", 3)
+		end
+
+		task.wait()
+	end
+
+	if searching then
+		Status("Failed to find ".. Username .." | Possibly in a VIP server", 3)
+	end
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "UI",
+	Text = "Stream Sniper loaded.",
+	Duration = 5
+})
+
+local counter = 0
+
+local function zigzag(x)
+	return math.acos(math.cos(x * math.pi)) / math.pi
+end
+
+while wait(0.05) do
+	Title.TextColor3 = Color3.fromHSV(zigzag(counter), 1, 1)
+	StartButton.TextColor3 = Color3.fromHSV(zigzag(counter), 1, 1)
+	UIStroke.Color = Color3.fromHSV(zigzag(counter), 1, 1)
+
+	counter += 0.01
+end
