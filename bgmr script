@@ -162,6 +162,26 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
 wait(0.1)
 end
+function 10k()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "10k Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4994235930Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function astral()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Astral Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("4994235930Event"):FireServer(unpack(args))
+wait(0.1)
+end
 --🟫🟫🟫
 --🟥🟥🟥
 function groovy()
