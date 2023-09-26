@@ -162,7 +162,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("4661893933Event"):FireServer(unpack(args))
 wait(0.1)
 end
-function 10k()
+function tenk()
 local args = {
     [1] = "PurchaseEgg",
     [2] = "10k Egg",
