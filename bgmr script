@@ -182,6 +182,16 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("5067030470Event"):FireServer(unpack(args))
 wait(0.1)
 end
+function starry()
+local args = {
+    [1] = "PurchaseEgg",
+    [2] = "Starry Egg",
+    [3] = "Multi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("5067030470Event"):FireServer(unpack(args))
+wait(0.1)
+end
 --🟫🟫🟫
 --🟥🟥🟥
 function groovy()
