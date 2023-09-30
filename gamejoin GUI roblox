@@ -58,7 +58,7 @@ local RExReborn = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local KilltheKillersinArea = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
-local WelcometoBloxburg = Instance.new("TextButton")
+local Spectertwo = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local DOORS = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
@@ -626,23 +626,23 @@ KilltheKillersinArea.MouseButton1Down:connect(function()
 end)
 UICorner_28.Parent = KilltheKillersinArea
 
-WelcometoBloxburg.Name = "WelcometoBloxburg"
-WelcometoBloxburg.Parent = main
-WelcometoBloxburg.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-WelcometoBloxburg.BorderColor3 = Color3.fromRGB(0, 0, 0)
-WelcometoBloxburg.BorderSizePixel = 0
-WelcometoBloxburg.Position = UDim2.new(0.704402506, 0, 0.410810798, 0)
-WelcometoBloxburg.Size = UDim2.new(0, 123, 0, 88)
-WelcometoBloxburg.Font = Enum.Font.SourceSansBold
-WelcometoBloxburg.Text = "Welcome to Bloxburg"
-WelcometoBloxburg.TextColor3 = Color3.fromRGB(0, 0, 0)
-WelcometoBloxburg.TextScaled = true
-WelcometoBloxburg.TextSize = 14.000
-WelcometoBloxburg.TextWrapped = true
-WelcometoBloxburg.MouseButton1Down:connect(function()
-	game:GetService("TeleportService"):Teleport(185655149, player)
+Spectertwo.Name = "Spectertwo"
+Spectertwo.Parent = main
+Spectertwo.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Spectertwo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spectertwo.BorderSizePixel = 0
+Spectertwo.Position = UDim2.new(0.704402506, 0, 0.410810798, 0)
+Spectertwo.Size = UDim2.new(0, 123, 0, 88)
+Spectertwo.Font = Enum.Font.SourceSansBold
+Spectertwo.Text = "Welcome to Bloxburg"
+Spectertwo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectertwo.TextScaled = true
+Spectertwo.TextSize = 14.000
+Spectertwo.TextWrapped = true
+Spectertwo.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(8267733039, player)
 end)
-UICorner_29.Parent = WelcometoBloxburg
+UICorner_29.Parent = Spectertwo
 
 DOORS.Name = "DOORS"
 DOORS.Parent = main
