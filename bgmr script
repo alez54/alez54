@@ -357,6 +357,23 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("5007201635Event"):FireServer(unpack(args))
 wait(0.1)
 end
+function sell4coins()
+local args = {
+    [1] = "SellBubble",
+    [2] = "Sell"
+}
 
+game:GetService("ReplicatedStorage"):WaitForChild("5007201635Event"):FireServer(unpack(args))
+wait(0.1)
+end
+function sell4gems()
+local args = {
+    [1] = "SellBubble",
+    [2] = "Sell2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("5007201635Event"):FireServer(unpack(args))
+wait(0.1)
+end
 loadstring(game:HttpGet("https://pastebin.com/raw/5kqWQiA2"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/NYY48nyG"))()
