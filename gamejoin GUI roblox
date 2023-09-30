@@ -464,7 +464,7 @@ CarCrushers.MouseButton1Down:connect(function()
 end)
 UICorner_18.Parent = CarCrushers
 
-TridentSurvival.Name = "BubblGumSimulatorReborn"
+TridentSurvival.Name = "TridentSurvival"
 TridentSurvival.Parent = main
 TridentSurvival.BackgroundColor3 = Color3.fromRGB(170, 255, 0)
 TridentSurvival.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -480,7 +480,7 @@ TridentSurvival.TextWrapped = true
 TridentSurvival.MouseButton1Down:connect(function()
 	game:GetService("TeleportService"):Teleport(13253735473, player)
 end)
-UICorner_19.Parent = BubblGumSimulatorReborn
+UICorner_19.Parent = TridentSurvival
 
 BoogaBoogaREBOR.Name = "BoogaBoogaREBOR\\n"
 BoogaBoogaREBOR.Parent = main
