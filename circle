@@ -1,0 +1,129 @@
+--[
+  yes ik this looks very useless but for me its very helpfull
+  because when i make some script it crashes my roblox game and 
+  when teh circle stops spinning ik that my roblox or my pc crashed
+]
+
+local screenguiw = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local spin = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local othersbg = Instance.new("Folder")
+local backbbg = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local backwg = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local others = Instance.new("Folder")
+local closne = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local X = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+
+--Properties:
+
+screenguiw.Name = "screenguiw"
+screenguiw.Parent = game.CoreGui
+screenguiw.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = screenguiw
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.LayoutOrder = 1
+main.Position = UDim2.new(0.850146174, 0, 0.721945167, 0)
+main.Size = UDim2.new(0, 100, 0, 100)
+main.ZIndex = 5
+main.Active = true
+main.Draggable = true
+
+spin.Name = "spin"
+spin.Parent = main
+spin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spin.BorderSizePixel = 0
+spin.Position = UDim2.new(0.0799999982, 0, 0.0799999982, 0)
+spin.Size = UDim2.new(0, 84, 0, 84)
+spin.ZIndex = 4
+spin.Image = "http://www.roblox.com/asset/?id=8932511161"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = spin
+
+othersbg.Name = "othersbg"
+othersbg.Parent = main
+
+backbbg.Name = "backbbg"
+backbbg.Parent = othersbg
+backbbg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+backbbg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backbbg.BorderSizePixel = 0
+backbbg.Position = UDim2.new(0.469999999, 0, -0.0199999996, 0)
+backbbg.Size = UDim2.new(0, 55, 0, 53)
+
+UICorner_2.Parent = backbbg
+
+backwg.Name = "backwg"
+backwg.Parent = backbbg
+backwg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+backwg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+backwg.BorderSizePixel = 0
+backwg.Position = UDim2.new(-0.109090909, 0, 0.0377358496, 0)
+backwg.Size = UDim2.new(0, 59, 0, 57)
+
+UICorner_3.Parent = backwg
+
+others.Name = "others"
+others.Parent = backwg
+
+closne.Name = "closne"
+closne.Parent = others
+closne.BackgroundColor3 = Color3.fromRGB(161, 0, 0)
+closne.BorderColor3 = Color3.fromRGB(0, 0, 0)
+closne.BorderSizePixel = 0
+closne.Position = UDim2.new(0.63499999, 0, 0.0270000007, 0)
+closne.Size = UDim2.new(0, 20, 0, 20)
+closne.Font = Enum.Font.SourceSans
+closne.Text = ""
+closne.TextColor3 = Color3.fromRGB(0, 0, 0)
+closne.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = closne
+
+X.Name = "X"
+X.Parent = closne
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.BorderColor3 = Color3.fromRGB(0, 0, 0)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(-1.83105476e-05, 0, 0, 0)
+X.Size = UDim2.new(0, 20, 0, 20)
+X.Font = Enum.Font.SourceSansBold
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = main
+
+-- Scripts:
+
+local function TAKJ_fake_script() -- spin.LocalScript 
+	local script = Instance.new('LocalScript', spin)
+
+	while wait() do
+		script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 2
+	end
+end
+coroutine.wrap(TAKJ_fake_script)()
+local function URSQCAS_fake_script() -- closne.LocalScript 
+	local script = Instance.new('LocalScript', closne)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.main.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(URSQCAS_fake_script)()
