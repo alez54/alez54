@@ -4,7 +4,7 @@
 	when the circle stops spinning that means my roblox or my pc crashed
 
 	you can use this as a infinite yield pulgin heres the loadstring for it:
-	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/alez54/alez54/main/circle"))()
 --]]
 
 local screenguiw = Instance.new("ScreenGui")
