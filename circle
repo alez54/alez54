@@ -1,8 +1,8 @@
---[
-  yes ik this looks very useless but for me its very helpfull
-  because when i make some script it crashes my roblox game and 
-  when the circle stops spinning that means my roblox or my pc crashed
---]
+--[[
+	yes ik this looks very useless but for me its very helpfull
+	because when i make some script it crashes my roblox game and 
+	when the circle stops spinning that means my roblox or my pc crashed
+--]]
 
 local screenguiw = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
