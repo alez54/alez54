@@ -2,6 +2,9 @@
 	yes ik this looks very useless but for me its very helpfull
 	because when i make some scripts it crashes my roblox game and 
 	when the circle stops spinning that means my roblox or my pc crashed
+
+	you can use this as a infinite yield pulgin heres the loadstring for it:
+	
 --]]
 
 local screenguiw = Instance.new("ScreenGui")
