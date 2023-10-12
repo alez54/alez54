@@ -7,11 +7,6 @@
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/alez54/alez54/main/circle"))()
 --]]
 
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local screenguiw = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local spin = Instance.new("ImageLabel")
@@ -27,7 +22,6 @@ local UICorner_4 = Instance.new("UICorner")
 local X = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local pk = Instance.new("UIStroke")
-
 --Properties:
 
 screenguiw.Name = "screenguiw"
@@ -49,6 +43,7 @@ main.Draggable = true
 spin.Name = "spin"
 spin.Parent = main
 spin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spin.BackgroundTransparency = 1.000
 spin.BorderColor3 = Color3.fromRGB(0, 0, 0)
 spin.BorderSizePixel = 0
 spin.Position = UDim2.new(0.0799999982, 0, 0.0799999982, 0)
@@ -121,15 +116,127 @@ pk.Parent = main
 pk.Thickness = 2
 -- Scripts:
 
-local function QJXEI_fake_script() -- spin.LocalScript 
+local function EWMYMJ_fake_script() -- spin.rotate 
 	local script = Instance.new('LocalScript', spin)
 
 	while wait() do
 		script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 2
 	end
 end
-coroutine.wrap(QJXEI_fake_script)()
-local function PFZVSJD_fake_script() -- closne.LocalScript 
+coroutine.wrap(EWMYMJ_fake_script)()
+local function AINDXIO_fake_script() -- spin.chances 
+	local script = Instance.new('LocalScript', spin)
+
+	function rainbow(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	
+	local destroy = math.random(0, 500000)
+	local f3d = math.random(0, 250000)
+	local f2d = math.random(0, 125000)
+	local f1d = math.random(0, 100000)
+	local d4f = math.random(0, 75000)
+	local d3f = math.random(0, 50000)
+	local d2f = math.random(0, 2500)
+	local d1f = math.random(0, 1000)
+	local v1m = math.random(0, 255)
+	local v2m = math.random(0, 255)
+	local v3m = math.random(0, 255)
+	counter = 0
+	
+	if d1f == 0 then
+		warn("lol different colour!!!  (1 in 1000)")
+		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(8, 255, 111)
+		while wait() do
+			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 0.5
+		end
+	elseif d2f == 0 then
+		warn("random colour?!?!? (1 in 2500)")
+		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(v1m, v2m, v3m)
+		while wait() do
+			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 1
+		end
+	end
+	 
+	if d3f == 0 then
+		warn("Rainbowww!!!!!! (1 in 50,000)")
+		while wait() do
+			script.Parent.ImageColor3 = Color3.fromHSV(rainbow(counter),1,1)
+	
+			counter = counter + 0.01
+		
+			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 1
+		end
+	elseif d4f == 0 then
+		warn("Rainbowww!!!! wait why is it spinning backwards?!?! (1 in 75,000)")
+		script.Parent.rotate.Enabled = false
+		while wait() do
+			script.Parent.ImageColor3 = Color3.fromHSV(rainbow(counter),1,1)
+	
+			counter = counter + 0.01
+	
+			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation - 3.5
+			
+		end
+	end
+	
+	if f1d == 0 then
+		warn("The darkness overcomes your spinner (1 in 100,000)")
+		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	elseif f2d == 0 then
+		warn("why's it going invisible?? (1 in 125,000)")
+		
+		while wait() do
+			script.Parent.Parent.spin.ImageTransparency = script.Parent.Parent.spin.ImageTransparency + 0.001
+			script.Parent.Parent.UIStroke.Thickness = script.Parent.Parent.UIStroke.Thickness - 0.00208
+			script.Parent.Parent.othersbg.backbbg.backwg.others.closne.X.TextTransparency = script.Parent.Parent.othersbg.backbbg.backwg.others.closne.X.TextTransparency + 0.001
+			script.Parent.Parent.othersbg.backbbg.backwg.others.closne.Transparency = script.Parent.Parent.othersbg.backbbg.backwg.others.closne.Transparency + 0.001
+			script.Parent.Parent.othersbg.backbbg.backwg.Transparency = script.Parent.Parent.othersbg.backbbg.backwg.Transparency + 0.001
+			script.Parent.Parent.othersbg.backbbg.Transparency = script.Parent.Parent.othersbg.backbbg.Transparency + 0.001
+			script.Parent.Parent.Parent.main.Transparency = script.Parent.Parent.Parent.main.Transparency + 0.001
+		end
+	end
+	
+	if f3d == 0 then
+		warn("(000,052 ni 1) !?!?SDRAWKCAB TXET YM SI YHW ???SDRAWKCAB GNINNIPS TI SWOH")
+		while wait() do
+			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation - 4
+		end
+	end
+	
+	
+	wait(d4f)
+	print("hey")
+	wait(v3m)
+	print("hey user")
+	wait(v2m)
+	print("do you wanna know all of the chances for the spinner to be a different colour?")
+	wait(v1m)
+	print("okay dont tell anyone but the chances are")
+	wait(10)
+	print("1 in 1,000 for the spinner to be a different colour")
+	wait(10)
+	print("1 in 2,500 for the spinner to be a random colour")
+	wait(10)
+	print("1 in 50,000 for the spinner to be rainbow!")
+	wait(15)
+	print("and the last is 1 in 75000 for the spinner to be rainbow and spin backwards!!!")
+	wait(10)
+	print("maybe later i'll tell you more...")
+	wait(f2d)
+	print("sooo i've decided to tell you what the rest are")
+	wait(5)
+	print("so the first one is... 1 in 100,000 for the darkness to overcome your spinner.")
+	wait(10)
+	print("1 in 125,000 for the spinner to simulate my dad..")
+	wait(5)
+	print()
+	print("and the last one is... well you'll never get it. lol")
+	wait(destroy)
+	warn("how are you still here... ")
+	
+end
+coroutine.wrap(AINDXIO_fake_script)()
+local function ZYNAKZA_fake_script() -- closne.LocalScript 
 	local script = Instance.new('LocalScript', closne)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -138,4 +245,4 @@ local function PFZVSJD_fake_script() -- closne.LocalScript
 	
 	
 end
-coroutine.wrap(PFZVSJD_fake_script)()
+coroutine.wrap(ZYNAKZA_fake_script)()
