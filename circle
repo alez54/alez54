@@ -7,6 +7,8 @@
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/alez54/alez54/main/circle"))()
 --]]
 
+
+
 local screenguiw = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local spin = Instance.new("ImageLabel")
@@ -22,6 +24,7 @@ local UICorner_4 = Instance.new("UICorner")
 local X = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local pk = Instance.new("UIStroke")
+
 --Properties:
 
 screenguiw.Name = "screenguiw"
@@ -130,27 +133,27 @@ local function AINDXIO_fake_script() -- spin.chances
 	function rainbow(X) return math.acos(math.cos(X*math.pi))/math.pi end
 	
 	
-	local destroy = math.random(0, 500000)
-	local f3d = math.random(0, 250000)
-	local f2d = math.random(0, 125000)
-	local f1d = math.random(0, 100000)
-	local d4f = math.random(0, 75000)
-	local d3f = math.random(0, 50000)
-	local d2f = math.random(0, 2500)
-	local d1f = math.random(0, 1000)
+	local destroy = math.random(0, 50000)
+	local f3d = math.random(0, 25000)
+	local f2d = math.random(0, 12500)
+	local f1d = math.random(0, 10000)
+	local d4f = math.random(0, 7500)
+	local d3f = math.random(0, 5000)
+	local d2f = math.random(0, 250)
+	local d1f = math.random(0, 100)
 	local v1m = math.random(0, 255)
 	local v2m = math.random(0, 255)
 	local v3m = math.random(0, 255)
 	counter = 0
 	
 	if d1f == 0 then
-		warn("lol different colour!!!  (1 in 1000)")
+		warn("lol different colour!!!  (1 in 100)")
 		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(8, 255, 111)
 		while wait() do
 			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 0.5
 		end
 	elseif d2f == 0 then
-		warn("random colour?!?!? (1 in 2500)")
+		warn("random colour?!?!? (1 in 250)")
 		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(v1m, v2m, v3m)
 		while wait() do
 			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 1
@@ -158,7 +161,7 @@ local function AINDXIO_fake_script() -- spin.chances
 	end
 	 
 	if d3f == 0 then
-		warn("Rainbowww!!!!!! (1 in 50,000)")
+		warn("Rainbowww!!!!!! (1 in 5,000)")
 		while wait() do
 			script.Parent.ImageColor3 = Color3.fromHSV(rainbow(counter),1,1)
 	
@@ -167,7 +170,7 @@ local function AINDXIO_fake_script() -- spin.chances
 			script.Parent.Parent.spin.Rotation = script.Parent.Parent.spin.Rotation + 1
 		end
 	elseif d4f == 0 then
-		warn("Rainbowww!!!! wait why is it spinning backwards?!?! (1 in 75,000)")
+		warn("Rainbowww!!!! wait why is it spinning backwards?!?! (1 in 7,500)")
 		script.Parent.rotate.Enabled = false
 		while wait() do
 			script.Parent.ImageColor3 = Color3.fromHSV(rainbow(counter),1,1)
@@ -180,10 +183,10 @@ local function AINDXIO_fake_script() -- spin.chances
 	end
 	
 	if f1d == 0 then
-		warn("The darkness overcomes your spinner (1 in 100,000)")
+		warn("The darkness overcomes your spinner (1 in 10,000)")
 		script.Parent.Parent.spin.ImageColor3 = Color3.fromRGB(0, 0, 0)
 	elseif f2d == 0 then
-		warn("why's it going invisible?? (1 in 125,000)")
+		warn("why's it going invisible?? (1 in 12,500)")
 		
 		while wait() do
 			script.Parent.Parent.spin.ImageTransparency = script.Parent.Parent.spin.ImageTransparency + 0.001
@@ -213,26 +216,26 @@ local function AINDXIO_fake_script() -- spin.chances
 	wait(v1m)
 	print("okay dont tell anyone but the chances are")
 	wait(10)
-	print("1 in 1,000 for the spinner to be a different colour")
+	print("1 in 100 for the spinner to be a different colour")
 	wait(10)
-	print("1 in 2,500 for the spinner to be a random colour")
+	print("1 in 250 for the spinner to be a random colour")
 	wait(10)
-	print("1 in 50,000 for the spinner to be rainbow!")
+	print("1 in 5,000 for the spinner to be rainbow!")
 	wait(15)
-	print("and the last is 1 in 75000 for the spinner to be rainbow and spin backwards!!!")
+	print("and the last is 1 in 7,500 for the spinner to be rainbow and spin backwards!!!")
 	wait(10)
 	print("maybe later i'll tell you more...")
 	wait(f2d)
 	print("sooo i've decided to tell you what the rest are")
 	wait(5)
-	print("so the first one is... 1 in 100,000 for the darkness to overcome your spinner.")
+	print("so the first one is... 1 in 10,000 for the darkness to overcome your spinner.")
 	wait(10)
-	print("1 in 125,000 for the spinner to simulate my dad..")
+	print("1 in 12,500 for the spinner to simulate my dad..")
 	wait(5)
 	print()
 	print("and the last one is... well you'll never get it. lol")
 	wait(destroy)
-	warn("how are you still here... ")
+	warn("how are you still in this game?... ")
 	
 end
 coroutine.wrap(AINDXIO_fake_script)()
