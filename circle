@@ -133,14 +133,14 @@ local function AINDXIO_fake_script() -- spin.chances
 	function rainbow(X) return math.acos(math.cos(X*math.pi))/math.pi end
 	
 	
-	local destroy = math.random(0, 50000)
-	local f3d = math.random(0, 25000)
-	local f2d = math.random(0, 12500)
-	local f1d = math.random(0, 10000)
-	local d4f = math.random(0, 7500)
-	local d3f = math.random(0, 5000)
-	local d2f = math.random(0, 250)
-	local d1f = math.random(0, 100)
+	local destroy = math.random(0, 25000)
+	local f3d = math.random(0, 12500)
+	local f2d = math.random(0, 6125)
+	local f1d = math.random(0, 5000)
+	local d4f = math.random(0, 3250)
+	local d3f = math.random(0, 2500)
+	local d2f = math.random(0, 125)
+	local d1f = math.random(0, 50)
 	local v1m = math.random(0, 255)
 	local v2m = math.random(0, 255)
 	local v3m = math.random(0, 255)
