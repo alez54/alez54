@@ -243,9 +243,9 @@ local function ZYNAKZA_fake_script() -- closne.LocalScript
 	local script = Instance.new('LocalScript', closne)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.main.Visible = false
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.screenguiw:Destroy()
 	end)
-	
+
 	
 end
 coroutine.wrap(ZYNAKZA_fake_script)()
