@@ -16,7 +16,7 @@ local sun = game.Lighting.SunRays
 
 if _G.night == true then
 	main.Density = 1
-	main.Offset = 0
+	main.Offset = 0.1
 	main.Color = Color3.fromRGB(0, 0, 0)
 	main.Decay = Color3.fromRGB(106, 112, 125)
 	main.Glare = 0
@@ -25,9 +25,9 @@ if _G.night == true then
 	sky.StarCount = rdon
 
 	DOF.Enabled = true
-	DOF.FarIntensity = 0.25
-	DOF.FocusRadius = 100
-	DOF.NearIntensity = 0.1
+	DOF.FarIntensity = 0.1
+	DOF.InFocusRadius = 100
+	DOF.NearIntensity = 0
 
 elseif _G.rain == true then
 	main.Density = 0.7
