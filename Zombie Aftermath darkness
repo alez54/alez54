@@ -1,0 +1,92 @@
+-- this script makes the night more scarier and makes the game look a litte better
+-------------------------------------
+-- only choose 1 of these at a time V
+_G.night = false
+_G.rain = false
+_G.day = false
+_G.reset2normal = false
+-------------------------------------
+local Rdom = math.random(0, 5000)
+local rdon = math.random(3500, 5000)
+-------------------------------------
+local main = game.Lighting.Atmosphere
+local sky = game.Lighting.Sky
+local DOF = game.Lighting.DepthOfField
+local sun = game.Lighting.SunRays
+
+if _G.night == true then
+	main.Density = 1
+	main.Offset = 0
+	main.Color = Color3.fromRGB(0, 0, 0)
+	main.Decay = Color3.fromRGB(106, 112, 125)
+	main.Glare = 0
+	main.Haze = 0
+	
+	sky.StarCount = rdon
+
+	DOF.Enabled = true
+	DOF.FarIntensity = 0.25
+	DOF.FocusRadius = 100
+	DOF.NearIntensity = 0.1
+
+elseif _G.rain == true then
+	main.Density = 0.7
+	main.Offset = 0.1
+	main.Color = Color3.fromRGB(0, 0, 0)
+	main.Decay = Color3.fromRGB(106, 112, 125)
+	main.Glare = 0
+	main.Haze = 0
+	
+	sky.StarCount = Rdom
+
+	DOF.Enabled = true
+	DOF.FarIntensity = 0.25
+	DOF.FocusRadius = 100
+	DOF.NearIntensity = 0.1
+
+	sun.Enabled = true
+	sun.Intensity = 0.01
+	sun.Spread = 0.05
+end
+
+if _G.reset2normal == true then
+	main.Density = 0.354
+	main.Offset = 0.25
+	main.Color = Color3.fromRGB(199, 199, 199)
+	main.Decay = Color3.fromRGB(106, 112, 125)
+	main.Glare = 0
+	main.Haze = 0
+
+	sky.StarCount = 2500
+
+	DOF.Enabled = false
+	DOF.FarIntensity = 0.1
+	DOF.FocusDistance = 0.05
+	DOF.InFocusRadius = 30
+	DOF.NearIntensity = 0.75
+
+	sun.Enabled = true
+	sun.Intensity = 0.01
+	sun.Spread = 0.1
+
+elseif _G.day == true then
+	main.Density = 0.454
+	main.Offset = 0
+	main.Color = Color3.fromRGB(199, 199, 199)
+	main.Decay = Color3.fromRGB(106, 112, 125)
+	main.Glare = 0
+	main.Haze = 0
+
+	sky.StarCount = 3500
+
+	DOF.Enabled = true
+	DOF.FarIntensity = 0.25
+	DOF.FocusDistance = 0.05
+	DOF.InFocusRadius = 225
+	DOF.NearIntensity = 0.25
+
+	sun.Enabled = true
+	sun.Intensity = 0.01
+	sun.Spread = 0.1
+
+end
