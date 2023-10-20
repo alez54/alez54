@@ -9,10 +9,11 @@ _G.reset2normal = false
 local Rdom = math.random(0, 5000)
 local rdon = math.random(3500, 5000)
 -------------------------------------
-local main = game.Lighting.Atmosphere
-local sky = game.Lighting.Sky
-local DOF = game.Lighting.DepthOfField
-local sun = game.Lighting.SunRays
+local light = game.Lighting
+local main = light.Atmosphere
+local sky = light.Sky
+local DOF = light.DepthOfField
+local sun = light.SunRays
 
 if _G.night == true then
 	main.Density = 1
