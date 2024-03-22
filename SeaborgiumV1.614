@@ -1,7 +1,7 @@
 local Ruiversion = game.CoreGui.TopBarApp:FindFirstChild("MenuIconHolder")
 
 if Ruiversion then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/highskyY8K/roblox-scripts/main/seaborgium_ro2018"))()
-else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/highskyY8K/roblox-scripts/main/seaborgium_ro2024"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/highskyY8K/roblox-scripts/main/seaborgium_ro2018"))()
 end
