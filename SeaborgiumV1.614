@@ -1,3 +1,4 @@
+wait(1)
 local Ruiversion = game.CoreGui.TopBarApp:FindFirstChild("MenuIconHolder")
 
 if Ruiversion then
