@@ -1,0 +1,36 @@
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Barrier" 
+Part.Rotation = Vector3.new(0, -90, 0) 
+Part.Transparency = 1
+Part.Color = Color3.new(0.156863, 0.498039, 0.278431) 
+Part.Size = Vector3.new(9.016849517822266, 88.19893646240234, 12.37296199798584) 
+Part.Position = Vector3.new(96.52561950683594, 82.50655364990234, -20.31256103515625) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
+ 
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Part" 
+Part.Rotation = Vector3.new(0, 14, 0) 
+Part.Transparency = 1 
+Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+Part.Size = Vector3.new(274, 13, 0.10000002384185791) 
+Part.Position = Vector3.new(244.0848388671875, 23.839570999145508, -166.29478454589844) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
+ 
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Part" 
+Part.Rotation = Vector3.new(0, 14, 0) 
+Part.Transparency = 1 
+Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+Part.Size = Vector3.new(244.40000915527344, 13, 0.10000002384185791) 
+Part.Position = Vector3.new(261.4452209472656, 23.839570999145508, -159.87522888183594) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
+ 
