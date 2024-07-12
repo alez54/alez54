@@ -2,97 +2,97 @@ local Part = Instance.new('Part', game.Workspace.HelpPlayer)
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, -15, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.411765, 0.803922, 0.803922) 
 Part.Size = Vector3.new(39.83000183105469, 62, 0.09999997913837433) 
 Part.Position = Vector3.new(-362.9341735839844, 68.96546936035156, -258.8714904785156) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, -10, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(67.30000305175781, 17.799999237060547, 0.030000045895576477) 
 Part.Position = Vector3.new(-345.66351318359375, 62.48902893066406, -233.78343200683594) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, -57, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(13.399999618530273, 17.700000762939453, 0.06000002473592758) 
 Part.Position = Vector3.new(-308.80853271484375, 62.439002990722656, -222.42803955078125) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 0, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(0.05000007152557373, 16.600000381469727, 18) 
 Part.Position = Vector3.new(-305.7915954589844, 61.99652099609375, -209.42320251464844) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 0, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(22, 16.399999618530273, 0.9900000095367432) 
 Part.Position = Vector3.new(-295.3755798339844, 61.896522521972656, -200.2891387939453) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(89.99700164794922, 45.00400161743164, 0.0010000000474974513) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.352941, 0.298039, 0.258824) 
 Part.Size = Vector3.new(9.300000190734863, 0.7999999523162842, 0.5999999642372131) 
 Part.Position = Vector3.new(-285.74420166015625, 59.84792709350586, -206.0613250732422) 
 Part.Anchored = true 
 Part.CanCollide = false 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 90, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.352941, 0.298039, 0.258824) 
 Part.Size = Vector3.new(11.800000190734863, 2, 0.3999999165534973) 
 Part.Position = Vector3.new(-281.32012939453125, 62.589027404785156, -211.66136169433594) 
 Part.Anchored = true 
 Part.CanCollide = false 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 52, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(19.600000381469727, 13.399999618530273, 0.5) 
 Part.Position = Vector3.new(-278.2178039550781, 60.28898239135742, -226.14712524414062) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
@@ -110,202 +110,130 @@ local Part = Instance.new('Part', game.Workspace.HelpPlayer)
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(-6.951000213623047, 9.805999755859375, 35.59700012207031) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(8.300000190734863, 0.23999997973442078, 26.229999542236328) 
 Part.Position = Vector3.new(-148.48133850097656, 73.14564514160156, -118.56083679199219) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 9, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(0.18999987840652466, 5.400000095367432, 21.05000114440918) 
 Part.Position = Vector3.new(-152.32492065429688, 68.53946685791016, -118.52737426757812) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 11, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
 Part.Size = Vector3.new(29.35999870300293, 15.229999542236328, 0.5300000905990601) 
 Part.Position = Vector3.new(-165.71263122558594, 73.18440246582031, -125.23360443115234) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 11, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(0.4599999189376831, 13.90999984741211, 29.610000610351562) 
-Part.Position = Vector3.new(-177.30101013183594, 73.5924301147461, -107.80886840820312) 
+Part.Size = Vector3.new(0.4599999189376831, 13.130000114440918, 27.889999389648438) 
+Part.Position = Vector3.new(-170.48211669921875, 71.24967193603516, -129.15280151367188) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
+ 
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Part" 
+Part.Rotation = Vector3.new(0, 11, 0) 
+Part.Transparency = 1 
+Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+Part.Size = Vector3.new(30.479999542236328, 12.609999656677246, 0.18999987840652466) 
+Part.Position = Vector3.new(-169.46807861328125, 68.74967193603516, -127.98693084716797) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
+ 
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Part" 
+Part.Rotation = Vector3.new(0, 90, 0) 
+Part.Transparency = 1 
+Part.Color = Color3.new(0.352941, 0.298039, 0.258824) 
+Part.Size = Vector3.new(14.25, 65.13880920410156, 24.48855209350586) 
+Part.Position = Vector3.new(-258.4937744140625, 58.709434509277344, -227.2627410888672) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
+  
+local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
+ 
+Part.Name = "Part" 
+Part.Rotation = Vector3.new(-6.951000213623047, 9.805999755859375, 35.59700012207031) 
+Part.Transparency = 1 
+Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+Part.Size = Vector3.new(8.300000190734863, 0.23999997973442078, 26.229999542236328) 
+Part.Position = Vector3.new(-148.48133850097656, 73.14564514160156, -118.56083679199219) 
+Part.Anchored = true 
+Part.CanCollide = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
 Part.Rotation = Vector3.new(0, 9, 0) 
-Part.Transparency = 0 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(16.149999618530273, 14.940000534057617, 10.550000190734863) 
-Part.Position = Vector3.new(-170.1986541748047, 71.6001968383789, -75.63056182861328) 
+Part.Size = Vector3.new(0.18999987840652466, 5.400000095367432, 21.05000114440918) 
+Part.Position = Vector3.new(-152.32492065429688, 68.53946685791016, -118.52737426757812) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 10, 0) 
-Part.Transparency = 0 
+Part.Rotation = Vector3.new(0, 11, 0) 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(0.5500000715255737, 11.010000228881836, 57.089996337890625) 
-Part.Position = Vector3.new(-145.78817749023438, 69.13140869140625, -79.93112182617188) 
+Part.Size = Vector3.new(29.35999870300293, 15.229999542236328, 0.5300000905990601) 
+Part.Position = Vector3.new(-165.71263122558594, 73.18440246582031, -125.23360443115234) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, -5, 0) 
-Part.Transparency = 0 
+Part.Rotation = Vector3.new(0, 11, 0) 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(28.89000129699707, 12.069999694824219, 0.940000057220459) 
-Part.Position = Vector3.new(-252.43190002441406, 47.53239059448242, 51.47602844238281) 
+Part.Size = Vector3.new(0.4599999189376831, 13.130000114440918, 27.889999389648438) 
+Part.Position = Vector3.new(-170.48211669921875, 71.24967193603516, -129.15280151367188) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
+Part.CastShadow = false 
  
 local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
  
 Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, -5, 0) 
-Part.Transparency = 0 
+Part.Rotation = Vector3.new(0, 11, 0) 
+Part.Transparency = 1 
 Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(28.89000129699707, 12.069999694824219, 0.940000057220459) 
-Part.Position = Vector3.new(-209.43190002441406, 47.53239059448242, 54.47602844238281) 
+Part.Size = Vector3.new(30.479999542236328, 12.609999656677246, 0.18999987840652466) 
+Part.Position = Vector3.new(-169.46807861328125, 68.74967193603516, -127.98693084716797) 
 Part.Anchored = true 
 Part.CanCollide = true 
-Part.CastShadow = true 
- 
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 7, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(19.65999984741211, 12.890000343322754, 0.059999942779541016) 
-Part.Position = Vector3.new(-161.89385986328125, 49.54500198364258, 111.72769165039062) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
- 
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 7, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(0.18000006675720215, 12.619999885559082, 30.420000076293945) 
-Part.Position = Vector3.new(-153.3297882080078, 49.410003662109375, 95.31033325195312) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
- 
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 0, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(19.65999984741211, 12.890000343322754, 0.059999942779541016) 
-Part.Position = Vector3.new(-162.89385986328125, 49.54500198364258, 80.72769165039062) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
- 
-local UnionOperation = Instance.new('Part', game.Workspace.HelpPlayer) 
-
-UnionOperation.Name = "Barrier" 
-UnionOperation.Rotation = Vector3.new(-179.4029998779297, -11.13599967956543, 176.38499450683594) 
-UnionOperation.Transparency = 0 
-UnionOperation.Color = Color3.new(1, 0, 0) 
-UnionOperation.Size = Vector3.new(6.699999809265137, 0.09000000357627869, 1.100000023841858) 
-UnionOperation.Position = Vector3.new(-452.7630310058594, 155.73883056640625, -370.4518127441406) 
-UnionOperation.Anchored = true 
-UnionOperation.CanCollide = false 
-UnionOperation.CastShadow = true 
-
-local UnionOperationw = Instance.new('Part', game.Workspace.HelpPlayer) 
-
-UnionOperationw.Name = "Barrier" 
-UnionOperationw.Rotation = Vector3.new(-176.91900634765625, -25.426000595092773, -179.60400390625) 
-UnionOperationw.Transparency = 0 
-UnionOperationw.Color = Color3.new(1, 0, 0) 
-UnionOperationw.Size = Vector3.new(5.599999904632568, 0.09000000357627869, 1.100000023841858) 
-UnionOperationw.Position = Vector3.new(-458.4051208496094, 156.4495849609375, -368.54345703125) 
-UnionOperationw.Anchored = true 
-UnionOperationw.CanCollide = false 
-UnionOperationw.CastShadow = true 
-
-local UnionOperatio = Instance.new('Part', game.Workspace.HelpPlayer) 
-
-UnionOperatio.Name = "Barrier" 
-UnionOperatio.Rotation = Vector3.new(-175.5989990234375, -25.7450008392334, 179.25) 
-UnionOperatio.Transparency = 0 
-UnionOperatio.Color = Color3.new(1, 0, 0) 
-UnionOperatio.Size = Vector3.new(6.699999809265137, 0.3799999952316284, 1.100000023841858) 
-UnionOperatio.Position = Vector3.new(-462.84344482421875, 156.02685546875, -366.29046630859375) 
-UnionOperatio.Anchored = true 
-UnionOperatio.CanCollide = false 
-UnionOperatio.CastShadow = true 
-
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 0, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(0.14000004529953003, 16.389999389648438, 4.260000228881836) 
-Part.Position = Vector3.new(-284.3267517089844, 61.783973693847656, -202.9334259033203) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
- 
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, 0, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.639216, 0.635294, 0.647059) 
-Part.Size = Vector3.new(0.24000000953674316, 15.140000343322754, 1.630000114440918) 
-Part.Position = Vector3.new(-284.2567443847656, 61.158973693847656, -217.61842346191406) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
-local Part = Instance.new('Part', game.Workspace.HelpPlayer) 
- 
-Part.Name = "Part" 
-Part.Rotation = Vector3.new(0, -3, 0) 
-Part.Transparency = 0 
-Part.Color = Color3.new(0.909804, 0.729412, 0.784314) 
-Part.Size = Vector3.new(27.489999771118164, 11.65999984741211, 0.059999942779541016) 
-Part.Position = Vector3.new(-257.594482421875, 59.863800048828125, -233.41773986816406) 
-Part.Anchored = true 
-Part.CanCollide = true 
-Part.CastShadow = true 
- 
+Part.CastShadow = false 
