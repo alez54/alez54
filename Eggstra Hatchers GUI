@@ -1,1 +1,2807 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/gTeuzcJ8", true))()
+--loadstring(game:HttpGet("https://pastebin.com/raw/gTeuzcJ8", true))()
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local screenpopups = Instance.new("Folder")
+local forththofjuly = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local yaycode = Instance.new("TextButton")
+local lame = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local labelsfortoppart = Instance.new("Folder")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local lastupdated = Instance.new("TextLabel")
+local mainframes = Instance.new("Folder")
+local middle = Instance.new("Frame")
+local mainlabels = Instance.new("Folder")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local buttons = Instance.new("Folder")
+local ahm = Instance.new("TextButton")
+local arm = Instance.new("TextButton")
+local ahmstop = Instance.new("TextButton")
+local armstop = Instance.new("TextButton")
+local ah = Instance.new("TextButton")
+local ar = Instance.new("TextButton")
+local ahmiddle = Instance.new("Frame")
+local _2ah = Instance.new("TextButton")
+local stopah = Instance.new("TextButton")
+local _3ah = Instance.new("TextButton")
+local _4ah = Instance.new("TextButton")
+local _8ah = Instance.new("TextButton")
+local _7ah = Instance.new("TextButton")
+local _9ah = Instance.new("TextButton")
+local _6ah = Instance.new("TextButton")
+local _5ah = Instance.new("TextButton")
+local _10ah = Instance.new("TextButton")
+local moreah = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local eventmore = Instance.new("TextButton")
+local ahevents = Instance.new("Frame")
+local _1event = Instance.new("TextButton")
+local _2event = Instance.new("TextButton")
+local aheventstop = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local closeahevent = Instance.new("TextButton")
+local fireggs = Instance.new("TextButton")
+local EVENTtp = Instance.new("TextButton")
+local _3event = Instance.new("TextButton")
+local _4event = Instance.new("TextButton")
+local ahmore1 = Instance.new("Frame")
+local moreah_2 = Instance.new("TextButton")
+local closeahm1 = Instance.new("TextButton")
+local _12ah = Instance.new("TextButton")
+local _13ah = Instance.new("TextButton")
+local _14ah = Instance.new("TextButton")
+local _15ah = Instance.new("TextButton")
+local _16ah = Instance.new("TextButton")
+local _17ah = Instance.new("TextButton")
+local _18ah = Instance.new("TextButton")
+local _19ah = Instance.new("TextButton")
+local armiddle = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
+local _5ar = Instance.new("TextButton")
+local _4ar = Instance.new("TextButton")
+local _3ar = Instance.new("TextButton")
+local _1ar = Instance.new("TextButton")
+local _6ar = Instance.new("TextButton")
+local _10ar = Instance.new("TextButton")
+local _7ar = Instance.new("TextButton")
+local _8ar = Instance.new("TextButton")
+local _11ar = Instance.new("TextButton")
+local _9ar = Instance.new("TextButton")
+local stopar = Instance.new("TextButton")
+local _12ar = Instance.new("TextButton")
+local _15ar = Instance.new("TextButton")
+local _14ar = Instance.new("TextButton")
+local _13ar = Instance.new("TextButton")
+local _16ar = Instance.new("TextButton")
+local closeall = Instance.new("TextButton")
+local settings = Instance.new("ImageButton")
+local settingframe = Instance.new("Frame")
+local myfav = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local line = Instance.new("Frame")
+local hideuser = Instance.new("TextButton")
+local more = Instance.new("TextButton")
+local teleportframe = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local Spawntp = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Wintertp = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local foresttp = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Beachtp = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Fantasytp = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local citytp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local buyareaframe = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local Spawnbuy = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Winterbuy = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local forestbuy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Beachbuy = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Fantasybuy = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Templebuy = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local minebuy = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Samuraibuy = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local closearea = Instance.new("TextButton")
+local citybuy = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local teleportframemore = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local Templetp = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local minetp = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Samuraitp = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local closetpmore = Instance.new("TextButton")
+local more_2 = Instance.new("TextButton")
+local buyarea = Instance.new("TextButton")
+local speed45on = Instance.new("TextButton")
+local speed45off = Instance.new("TextButton")
+local jp75off = Instance.new("TextButton")
+local jp75on = Instance.new("TextButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local killgui = Instance.new("TextButton")
+local showuser = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local hidepetlabel = Instance.new("TextLabel")
+local myfavon = Instance.new("TextButton")
+local myfavoff = Instance.new("TextButton")
+local hpi = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local closehpi = Instance.new("TextButton")
+local hpinfo = Instance.new("TextButton")
+local hidepets = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BackgroundTransparency = 0.050
+main.BorderSizePixel = 3
+main.Position = UDim2.new(0.82408762, 0, 0.669576108, 0)
+main.Size = UDim2.new(0, 193, 0, 46)
+main.Active = true
+main.Draggable = true
+
+screenpopups.Name = "screenpopups"
+screenpopups.Parent = main
+
+forththofjuly.Name = "forththofjuly"
+forththofjuly.Parent = screenpopups
+forththofjuly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+forththofjuly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+forththofjuly.BorderSizePixel = 0
+forththofjuly.Position = UDim2.new(-0.155080587, 0, 1.04347432, 0)
+forththofjuly.Size = UDim2.new(0, 252, 0, 205)
+forththofjuly.ZIndex = 2
+
+TextLabel.Parent = forththofjuly
+TextLabel.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new(0, 0, 0.00487804879, 0)
+TextLabel.Size = UDim2.new(0, 253, 0, 46)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "happy 4th of july🥳🥳"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+TextLabel.TextWrapped = true
+
+yaycode.Name = "yaycode"
+yaycode.Parent = forththofjuly
+yaycode.BackgroundColor3 = Color3.fromRGB(228, 240, 225)
+yaycode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+yaycode.BorderSizePixel = 2
+yaycode.Position = UDim2.new(0.0674603134, 0, 0.541463375, 0)
+yaycode.Size = UDim2.new(0, 95, 0, 48)
+yaycode.ZIndex = 2
+yaycode.Font = Enum.Font.SourceSansBold
+yaycode.Text = "gimme🥳"
+yaycode.TextColor3 = Color3.fromRGB(0, 0, 0)
+yaycode.TextScaled = true
+yaycode.TextSize = 14.000
+yaycode.TextWrapped = true
+yaycode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/w8hMqLWz", true))()
+end)
+
+lame.Name = "lame"
+lame.Parent = forththofjuly
+lame.BackgroundColor3 = Color3.fromRGB(242, 213, 213)
+lame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lame.BorderSizePixel = 2
+lame.Position = UDim2.new(0.559523821, 0, 0.541463375, 0)
+lame.Size = UDim2.new(0, 95, 0, 48)
+lame.ZIndex = 2
+lame.Font = Enum.Font.SourceSansBold
+lame.Text = "Lame😤"
+lame.TextColor3 = Color3.fromRGB(0, 0, 0)
+lame.TextScaled = true
+lame.TextSize = 14.000
+lame.TextWrapped = true
+
+TextLabel_2.Parent = forththofjuly
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 2
+TextLabel_2.Position = UDim2.new(0.273809522, 0, 0.273170739, 0)
+TextLabel_2.Size = UDim2.new(0, 110, 0, 46)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "heres a gift from me :)"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 30.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = forththofjuly
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 3
+TextLabel_3.Position = UDim2.new(0, 0, 0.848780513, 0)
+TextLabel_3.Size = UDim2.new(0, 253, 0, 31)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "it only works once ingame 😔"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 30.000
+TextLabel_3.TextWrapped = true
+
+labelsfortoppart.Name = "labelsfortoppart"
+labelsfortoppart.Parent = main
+
+TextLabel_4.Parent = labelsfortoppart
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0.000535181956, 0, 0.512078345, 0)
+TextLabel_4.Size = UDim2.new(0, 194, 0, 0)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = labelsfortoppart
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 10.000
+TextLabel_5.BorderSizePixel = 2
+TextLabel_5.Position = UDim2.new(0.0057984395, 0, -0.00966146681, 0)
+TextLabel_5.Size = UDim2.new(0, 187, 0, 23)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Eggstra Hatchers GUI V3.33"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = labelsfortoppart
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 100.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.521739125, 0)
+TextLabel_6.Size = UDim2.new(0, 186, 0, 21)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "made by alex54."
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 17.000
+
+lastupdated.Name = "lastupdated"
+lastupdated.Parent = labelsfortoppart
+lastupdated.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
+lastupdated.BorderSizePixel = 0
+lastupdated.Position = UDim2.new(0.0207253881, 0, 0.565217376, 0)
+lastupdated.Size = UDim2.new(0, 186, 0, 17)
+lastupdated.Visible = false
+lastupdated.Font = Enum.Font.SourceSans
+lastupdated.Text = "last updated 7/7/2023"
+lastupdated.TextColor3 = Color3.fromRGB(0, 0, 0)
+lastupdated.TextScaled = true
+lastupdated.TextSize = 14.000
+lastupdated.TextWrapped = true
+
+mainframes.Name = "mainframes"
+mainframes.Parent = main
+
+middle.Name = "middle"
+middle.Parent = mainframes
+middle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+middle.BackgroundTransparency = 0.030
+middle.BorderSizePixel = 3
+middle.Position = UDim2.new(-0.155080214, 0, 1.02173841, 0)
+middle.Size = UDim2.new(0, 253, 0, 205)
+
+mainlabels.Name = "mainlabels"
+mainlabels.Parent = middle
+
+TextLabel_7.Parent = mainlabels
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_7.BackgroundTransparency = 0.100
+TextLabel_7.BorderSizePixel = 3
+TextLabel_7.Position = UDim2.new(0, 0, 0.00487804879, 0)
+TextLabel_7.Size = UDim2.new(0, 253, 0, 29)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "auto hatch [City]"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = mainlabels
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_8.BackgroundTransparency = 0.100
+TextLabel_8.BorderSizePixel = 3
+TextLabel_8.Position = UDim2.new(0, 0, 0.468292683, 0)
+TextLabel_8.Size = UDim2.new(0, 253, 0, 31)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "auto rebirth [max]"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+buttons.Name = "buttons"
+buttons.Parent = middle
+
+ahm.Name = "ahm"
+ahm.Parent = buttons
+ahm.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+ahm.BackgroundTransparency = 0.150
+ahm.BorderSizePixel = 2
+ahm.Position = UDim2.new(0.0316205546, 0, 0.185365856, 0)
+ahm.Size = UDim2.new(0, 113, 0, 50)
+ahm.Font = Enum.Font.SourceSans
+ahm.Text = "auto hatch"
+ahm.TextColor3 = Color3.fromRGB(0, 0, 0)
+ahm.TextSize = 30.000
+ahm.TextWrapped = true
+ahm.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "6",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+arm.Name = "arm"
+arm.Parent = buttons
+arm.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+arm.BackgroundTransparency = 0.150
+arm.BorderSizePixel = 2
+arm.Position = UDim2.new(0.0316205546, 0, 0.682926834, 0)
+arm.Size = UDim2.new(0, 113, 0, 50)
+arm.Font = Enum.Font.SourceSans
+arm.Text = "auto rebirth [37.96m]"
+arm.TextColor3 = Color3.fromRGB(0, 0, 0)
+arm.TextScaled = true
+arm.TextSize = 22.000
+arm.TextWrapped = true
+arm.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "26"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+ahmstop.Name = "ahmstop"
+ahmstop.Parent = buttons
+ahmstop.BackgroundColor3 = Color3.fromRGB(240, 206, 206)
+ahmstop.BackgroundTransparency = 0.150
+ahmstop.BorderSizePixel = 2
+ahmstop.Position = UDim2.new(0.521739125, 0, 0.185365856, 0)
+ahmstop.Size = UDim2.new(0, 113, 0, 50)
+ahmstop.Font = Enum.Font.SourceSans
+ahmstop.Text = "auto hatch stop"
+ahmstop.TextColor3 = Color3.fromRGB(0, 0, 0)
+ahmstop.TextScaled = true
+ahmstop.TextSize = 30.000
+ahmstop.TextWrapped = true
+ahmstop.MouseButton1Down:connect(function()
+	_G.def = false
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "6",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+armstop.Name = "armstop"
+armstop.Parent = buttons
+armstop.BackgroundColor3 = Color3.fromRGB(240, 206, 206)
+armstop.BackgroundTransparency = 0.150
+armstop.BorderSizePixel = 2
+armstop.Position = UDim2.new(0.521739125, 0, 0.682926834, 0)
+armstop.Size = UDim2.new(0, 113, 0, 50)
+armstop.Font = Enum.Font.SourceSans
+armstop.Text = "auto rebirth stop"
+armstop.TextColor3 = Color3.fromRGB(0, 0, 0)
+armstop.TextScaled = true
+armstop.TextSize = 30.000
+armstop.TextWrapped = true
+armstop.MouseButton1Down:connect(function()
+	_G.dxf = false
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "19"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+ah.Name = ">ah"
+ah.Parent = mainframes
+ah.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+ah.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ah.Position = UDim2.new(-0.141002595, 0, 1.18229079, 0)
+ah.Size = UDim2.new(0, 18, 0, 18)
+ah.Font = Enum.Font.SourceSans
+ah.Text = ">"
+ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+ah.TextScaled = true
+ah.TextSize = 14.000
+ah.TextWrapped = true
+
+ar.Name = ">ar"
+ar.Parent = mainframes
+ar.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+ar.BorderColor3 = Color3.fromRGB(179, 179, 179)
+ar.Position = UDim2.new(-0.141002595, 0, 3.24750829, 0)
+ar.Size = UDim2.new(0, 18, 0, 18)
+ar.Font = Enum.Font.SourceSans
+ar.Text = ">"
+ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+ar.TextScaled = true
+ar.TextSize = 14.000
+ar.TextWrapped = true
+
+ahmiddle.Name = "ahmiddle"
+ahmiddle.Parent = mainframes
+ahmiddle.BackgroundColor3 = Color3.fromRGB(251, 253, 254)
+ahmiddle.BorderSizePixel = 2
+ahmiddle.Position = UDim2.new(-0.160621762, 0, 1.0869565, 0)
+ahmiddle.Size = UDim2.new(0, 256, 0, 90)
+ahmiddle.Visible = false
+
+_2ah.Name = "2ah"
+_2ah.Parent = ahmiddle
+_2ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_2ah.BorderSizePixel = 2
+_2ah.Position = UDim2.new(0.0316205025, 0, 0.446235299, 0)
+_2ah.Size = UDim2.new(0, 24, 0, 15)
+_2ah.Font = Enum.Font.SourceSans
+_2ah.Text = "1"
+_2ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2ah.TextSize = 30.000
+_2ah.TextWrapped = true
+_2ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "2",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+stopah.Name = "stopah"
+stopah.Parent = ahmiddle
+stopah.BackgroundColor3 = Color3.fromRGB(240, 206, 206)
+stopah.BorderSizePixel = 2
+stopah.Position = UDim2.new(0.717051506, 0, 0.391887486, 0)
+stopah.Size = UDim2.new(0, 63, 0, 50)
+stopah.Font = Enum.Font.SourceSansBold
+stopah.Text = "auto hatch stop"
+stopah.TextColor3 = Color3.fromRGB(0, 0, 0)
+stopah.TextScaled = true
+stopah.TextSize = 30.000
+stopah.TextWrapped = true
+stopah.MouseButton1Down:connect(function()
+	_G.def = false
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "11",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_3ah.Name = "3ah"
+_3ah.Parent = ahmiddle
+_3ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_3ah.BorderSizePixel = 2
+_3ah.Position = UDim2.new(0.156620502, 0, 0.446235299, 0)
+_3ah.Size = UDim2.new(0, 24, 0, 15)
+_3ah.Font = Enum.Font.SourceSans
+_3ah.Text = "2"
+_3ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3ah.TextSize = 30.000
+_3ah.TextWrapped = true
+_3ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "3",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_4ah.Name = "4ah"
+_4ah.Parent = ahmiddle
+_4ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_4ah.BorderSizePixel = 2
+_4ah.Position = UDim2.new(0.285526752, 0, 0.446235299, 0)
+_4ah.Size = UDim2.new(0, 24, 0, 15)
+_4ah.Font = Enum.Font.SourceSans
+_4ah.Text = "3"
+_4ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4ah.TextSize = 30.000
+_4ah.TextWrapped = true
+_4ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "4",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_8ah.Name = "8ah"
+_8ah.Parent = ahmiddle
+_8ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_8ah.BorderSizePixel = 2
+_8ah.Position = UDim2.new(0.156620502, 0, 0.717974424, 0)
+_8ah.Size = UDim2.new(0, 24, 0, 15)
+_8ah.Font = Enum.Font.SourceSans
+_8ah.Text = "7"
+_8ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_8ah.TextSize = 30.000
+_8ah.TextWrapped = true
+_8ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "8",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_7ah.Name = "7ah"
+_7ah.Parent = ahmiddle
+_7ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_7ah.BorderSizePixel = 2
+_7ah.Position = UDim2.new(0.0316205025, 0, 0.717974424, 0)
+_7ah.Size = UDim2.new(0, 24, 0, 15)
+_7ah.Font = Enum.Font.SourceSans
+_7ah.Text = "6"
+_7ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_7ah.TextSize = 30.000
+_7ah.TextWrapped = true
+_7ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "7",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_9ah.Name = "9ah"
+_9ah.Parent = ahmiddle
+_9ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_9ah.BorderSizePixel = 2
+_9ah.Position = UDim2.new(0.285526752, 0, 0.717974424, 0)
+_9ah.Size = UDim2.new(0, 24, 0, 15)
+_9ah.Font = Enum.Font.SourceSans
+_9ah.Text = "8"
+_9ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_9ah.TextSize = 30.000
+_9ah.TextWrapped = true
+_9ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "9",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_6ah.Name = "6ah"
+_6ah.Parent = ahmiddle
+_6ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_6ah.BorderSizePixel = 2
+_6ah.Position = UDim2.new(0.539433002, 0, 0.446235299, 0)
+_6ah.Size = UDim2.new(0, 24, 0, 15)
+_6ah.Font = Enum.Font.SourceSans
+_6ah.Text = "5"
+_6ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_6ah.TextSize = 30.000
+_6ah.TextWrapped = true
+_6ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "6",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_5ah.Name = "5ah"
+_5ah.Parent = ahmiddle
+_5ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_5ah.BorderSizePixel = 2
+_5ah.Position = UDim2.new(0.414433002, 0, 0.446235299, 0)
+_5ah.Size = UDim2.new(0, 24, 0, 15)
+_5ah.Font = Enum.Font.SourceSans
+_5ah.Text = "4"
+_5ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_5ah.TextSize = 30.000
+_5ah.TextWrapped = true
+_5ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "5",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+_10ah.Name = "10ah"
+_10ah.Parent = ahmiddle
+_10ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_10ah.BorderSizePixel = 2
+_10ah.Position = UDim2.new(0.414433002, 0, 0.717974424, 0)
+_10ah.Size = UDim2.new(0, 24, 0, 15)
+_10ah.Font = Enum.Font.SourceSans
+_10ah.Text = "9"
+_10ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10ah.TextSize = 30.000
+_10ah.TextWrapped = true
+_10ah.MouseButton1Down:connect(function()
+	_G.def = true
+	function df()
+		while _G.def == true do
+			local args = {
+				[1] = "10",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	df()
+
+end)
+
+moreah.Name = "moreah"
+moreah.Parent = ahmiddle
+moreah.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+moreah.BorderSizePixel = 2
+moreah.Position = UDim2.new(0.539433002, 0, 0.706863761, 0)
+moreah.Size = UDim2.new(0, 24, 0, 16)
+moreah.Font = Enum.Font.SourceSans
+moreah.Text = ">"
+moreah.TextColor3 = Color3.fromRGB(0, 0, 0)
+moreah.TextSize = 25.000
+moreah.TextWrapped = true
+
+TextLabel_9.Parent = ahmiddle
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_9.BackgroundTransparency = 0.100
+TextLabel_9.BorderSizePixel = 3
+TextLabel_9.Position = UDim2.new(0, 0, -0.0284552686, 0)
+TextLabel_9.Size = UDim2.new(0, 254, 0, 32)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "auto hatchs"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+eventmore.Name = "eventmore"
+eventmore.Parent = ahmiddle
+eventmore.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+eventmore.BorderColor3 = Color3.fromRGB(179, 179, 179)
+eventmore.Position = UDim2.new(0.0276679844, 0, 0.0197044332, 0)
+eventmore.Size = UDim2.new(0, 20, 0, 20)
+eventmore.Font = Enum.Font.SourceSans
+eventmore.Text = ">"
+eventmore.TextColor3 = Color3.fromRGB(0, 0, 0)
+eventmore.TextScaled = true
+eventmore.TextSize = 14.000
+eventmore.TextWrapped = true
+
+ahevents.Name = "ahevents"
+ahevents.Parent = ahmiddle
+ahevents.BackgroundColor3 = Color3.fromRGB(251, 253, 254)
+ahevents.BorderSizePixel = 3
+ahevents.Position = UDim2.new(-1.07620478, 0, -0.365027606, 0)
+ahevents.Size = UDim2.new(0, 251, 0, 234)
+ahevents.Visible = false
+
+_1event.Name = "1event"
+_1event.Parent = ahevents
+_1event.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+_1event.BorderSizePixel = 2
+_1event.Position = UDim2.new(0.027888447, 0, 0.17521368, 0)
+_1event.Size = UDim2.new(0, 66, 0, 33)
+_1event.Font = Enum.Font.SourceSans
+_1event.Text = "beachball egg"
+_1event.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1event.TextScaled = true
+_1event.TextSize = 14.000
+_1event.TextWrapped = true
+_1event.MouseButton1Down:connect(function()
+	_G.xes = true
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "15",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+_2event.Name = "2event"
+_2event.Parent = ahevents
+_2event.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+_2event.BorderSizePixel = 2
+_2event.Position = UDim2.new(0.0318725109, 0, 0.350427359, 0)
+_2event.Size = UDim2.new(0, 66, 0, 33)
+_2event.Font = Enum.Font.SourceSans
+_2event.Text = "gold beachball egg"
+_2event.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2event.TextScaled = true
+_2event.TextSize = 14.000
+_2event.TextWrapped = true
+_2event.MouseButton1Down:connect(function()
+	_G.xes = true
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "16",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+aheventstop.Name = "aheventstop"
+aheventstop.Parent = ahevents
+aheventstop.BackgroundColor3 = Color3.fromRGB(240, 169, 169)
+aheventstop.BorderSizePixel = 2
+aheventstop.Position = UDim2.new(0.673306823, 0, 0.17521368, 0)
+aheventstop.Size = UDim2.new(0, 72, 0, 72)
+aheventstop.Font = Enum.Font.SourceSans
+aheventstop.Text = "stop auto event hatch"
+aheventstop.TextColor3 = Color3.fromRGB(0, 0, 0)
+aheventstop.TextScaled = true
+aheventstop.TextSize = 14.000
+aheventstop.TextWrapped = true
+aheventstop.MouseButton1Down:connect(function()
+	_G.xes = false
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "13",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+TextLabel_10.Parent = ahevents
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_10.BackgroundTransparency = 0.100
+TextLabel_10.BorderSizePixel = 3
+TextLabel_10.Position = UDim2.new(0, 0, 0.0100063747, 0)
+TextLabel_10.Size = UDim2.new(0, 249, 0, 31)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Event eggs"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = ahevents
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(218, 218, 218)
+TextLabel_11.BackgroundTransparency = 0.100
+TextLabel_11.BorderSizePixel = 3
+TextLabel_11.Position = UDim2.new(0, 0, 0.834792674, 0)
+TextLabel_11.Size = UDim2.new(0, 249, 0, 37)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "if its purple it dont work"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+closeahevent.Name = "closeahevent"
+closeahevent.Parent = ahevents
+closeahevent.BackgroundColor3 = Color3.fromRGB(242, 182, 182)
+closeahevent.Position = UDim2.new(0.0318725109, 0, 0.0256410278, 0)
+closeahevent.Size = UDim2.new(0, 23, 0, 23)
+closeahevent.Font = Enum.Font.Cartoon
+closeahevent.Text = "X"
+closeahevent.TextColor3 = Color3.fromRGB(0, 0, 0)
+closeahevent.TextScaled = true
+closeahevent.TextSize = 14.000
+closeahevent.TextWrapped = true
+
+fireggs.Name = "fireggs"
+fireggs.Parent = ahevents
+fireggs.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+fireggs.BorderSizePixel = 2
+fireggs.Position = UDim2.new(0.326693237, 0, 0.17521368, 0)
+fireggs.Size = UDim2.new(0, 66, 0, 33)
+fireggs.Font = Enum.Font.SourceSans
+fireggs.Text = "4th of july eggs"
+fireggs.TextColor3 = Color3.fromRGB(0, 0, 0)
+fireggs.TextScaled = true
+fireggs.TextSize = 14.000
+fireggs.TextWrapped = true
+fireggs.MouseButton1Down:connect(function()
+	_G.xes = true
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "20",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			local args = {
+				[1] = "21",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+EVENTtp.Name = "EVENTtp"
+EVENTtp.Parent = ahevents
+EVENTtp.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+EVENTtp.BorderSizePixel = 2
+EVENTtp.Position = UDim2.new(0.326693237, 0, 0.350427359, 0)
+EVENTtp.Size = UDim2.new(0, 66, 0, 33)
+EVENTtp.Font = Enum.Font.SourceSans
+EVENTtp.Text = "Event  teleport"
+EVENTtp.TextColor3 = Color3.fromRGB(0, 0, 0)
+EVENTtp.TextScaled = true
+EVENTtp.TextSize = 14.000
+EVENTtp.TextWrapped = true
+EVENTtp.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TpToEvent"):FireServer()
+end)
+
+_3event.Name = "3event"
+_3event.Parent = ahevents
+_3event.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+_3event.BorderSizePixel = 2
+_3event.Position = UDim2.new(0.0318725109, 0, 0.512820542, 0)
+_3event.Size = UDim2.new(0, 66, 0, 33)
+_3event.Font = Enum.Font.SourceSans
+_3event.Text = "coconut egg"
+_3event.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3event.TextScaled = true
+_3event.TextSize = 14.000
+_3event.TextWrapped = true
+_3event.MouseButton1Down:connect(function()
+	_G.xes = true
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "17",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+_4event.Name = "4event"
+_4event.Parent = ahevents
+_4event.BackgroundColor3 = Color3.fromRGB(200, 238, 191)
+_4event.BorderSizePixel = 2
+_4event.Position = UDim2.new(0.326693237, 0, 0.517094076, 0)
+_4event.Size = UDim2.new(0, 66, 0, 33)
+_4event.Font = Enum.Font.SourceSans
+_4event.Text = "gold coconut egg"
+_4event.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4event.TextScaled = true
+_4event.TextSize = 14.000
+_4event.TextWrapped = true
+_4event.MouseButton1Down:connect(function()
+	_G.xes = true
+	function dpf()
+		while _G.xes == true do
+			local args = {
+				[1] = "18",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+ahmore1.Name = "ahmore1"
+ahmore1.Parent = ahmiddle
+ahmore1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ahmore1.BackgroundTransparency = 1.000
+ahmore1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ahmore1.BorderSizePixel = 0
+ahmore1.Position = UDim2.new(0.0147910118, 0, 0.38888821, 0)
+ahmore1.Size = UDim2.new(0, 167, 0, 50)
+ahmore1.Visible = false
+
+moreah_2.Name = "moreah"
+moreah_2.Parent = ahmore1
+moreah_2.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+moreah_2.BorderSizePixel = 2
+moreah_2.Position = UDim2.new(0.802906036, 0, 0.59797442, 0)
+moreah_2.Size = UDim2.new(0, 24, 0, 15)
+moreah_2.Font = Enum.Font.SourceSans
+moreah_2.Text = "??"
+moreah_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+moreah_2.TextSize = 30.000
+moreah_2.TextWrapped = true
+
+closeahm1.Name = "closeahm1"
+closeahm1.Parent = ahmore1
+closeahm1.BackgroundColor3 = Color3.fromRGB(242, 193, 193)
+closeahm1.BorderSizePixel = 2
+closeahm1.Position = UDim2.new(0.019644551, 0, 0.103225097, 0)
+closeahm1.Size = UDim2.new(0, 25, 0, 17)
+closeahm1.Font = Enum.Font.SourceSansBold
+closeahm1.Text = "X"
+closeahm1.TextColor3 = Color3.fromRGB(0, 0, 0)
+closeahm1.TextSize = 20.000
+closeahm1.TextWrapped = true
+
+_12ah.Name = "12ah"
+_12ah.Parent = ahmore1
+_12ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_12ah.BorderSizePixel = 2
+_12ah.Position = UDim2.new(0.216500759, 0, 0.106235042, 0)
+_12ah.Size = UDim2.new(0, 24, 0, 15)
+_12ah.Font = Enum.Font.SourceSans
+_12ah.Text = "??"
+_12ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_12ah.TextSize = 30.000
+_12ah.TextWrapped = true
+
+_13ah.Name = "13ah"
+_13ah.Parent = ahmore1
+_13ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_13ah.BorderSizePixel = 2
+_13ah.Position = UDim2.new(0.411275268, 0, 0.106235504, 0)
+_13ah.Size = UDim2.new(0, 24, 0, 15)
+_13ah.Font = Enum.Font.SourceSans
+_13ah.Text = "??"
+_13ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_13ah.TextSize = 30.000
+_13ah.TextWrapped = true
+
+_14ah.Name = "14ah"
+_14ah.Parent = ahmore1
+_14ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_14ah.BorderSizePixel = 2
+_14ah.Position = UDim2.new(0.612037778, 0, 0.106235266, 0)
+_14ah.Size = UDim2.new(0, 24, 0, 15)
+_14ah.Font = Enum.Font.SourceSans
+_14ah.Text = "??"
+_14ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_14ah.TextSize = 30.000
+_14ah.TextWrapped = true
+
+_15ah.Name = "15ah"
+_15ah.Parent = ahmore1
+_15ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_15ah.BorderSizePixel = 2
+_15ah.Position = UDim2.new(0.802906096, 0, 0.106235266, 0)
+_15ah.Size = UDim2.new(0, 24, 0, 15)
+_15ah.Font = Enum.Font.SourceSans
+_15ah.Text = "??"
+_15ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_15ah.TextSize = 30.000
+_15ah.TextWrapped = true
+
+_16ah.Name = "16ah"
+_16ah.Parent = ahmore1
+_16ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_16ah.BorderSizePixel = 2
+_16ah.Position = UDim2.new(0.0256324038, 0, 0.5979743, 0)
+_16ah.Size = UDim2.new(0, 24, 0, 15)
+_16ah.Font = Enum.Font.SourceSans
+_16ah.Text = "??"
+_16ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_16ah.TextSize = 30.000
+_16ah.TextWrapped = true
+
+_17ah.Name = "17ah"
+_17ah.Parent = ahmore1
+_17ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_17ah.BorderSizePixel = 2
+_17ah.Position = UDim2.new(0.216500759, 0, 0.597974539, 0)
+_17ah.Size = UDim2.new(0, 24, 0, 15)
+_17ah.Font = Enum.Font.SourceSans
+_17ah.Text = "??"
+_17ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_17ah.TextSize = 30.000
+_17ah.TextWrapped = true
+
+_18ah.Name = "18ah"
+_18ah.Parent = ahmore1
+_18ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_18ah.BorderSizePixel = 2
+_18ah.Position = UDim2.new(0.411275357, 0, 0.597973645, 0)
+_18ah.Size = UDim2.new(0, 24, 0, 15)
+_18ah.Font = Enum.Font.SourceSans
+_18ah.Text = "??"
+_18ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_18ah.TextSize = 30.000
+_18ah.TextWrapped = true
+
+_19ah.Name = "19ah"
+_19ah.Parent = ahmore1
+_19ah.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_19ah.BorderSizePixel = 2
+_19ah.Position = UDim2.new(0.612037897, 0, 0.597973645, 0)
+_19ah.Size = UDim2.new(0, 24, 0, 15)
+_19ah.Font = Enum.Font.SourceSans
+_19ah.Text = "??"
+_19ah.TextColor3 = Color3.fromRGB(0, 0, 0)
+_19ah.TextSize = 30.000
+_19ah.TextWrapped = true
+
+armiddle.Name = "armiddle"
+armiddle.Parent = mainframes
+armiddle.BackgroundColor3 = Color3.fromRGB(251, 253, 254)
+armiddle.Position = UDim2.new(-0.15544042, 0, 3.826087, 0)
+armiddle.Size = UDim2.new(0, 256, 0, 75)
+armiddle.Visible = false
+
+TextLabel_12.Parent = armiddle
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_12.BorderSizePixel = 3
+TextLabel_12.Position = UDim2.new(0, 0, -0.425040632, 0)
+TextLabel_12.Size = UDim2.new(0, 253, 0, 31)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "auto rebirths (not a code xd)"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+_5ar.Name = "5ar"
+_5ar.Parent = armiddle
+_5ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_5ar.BorderSizePixel = 2
+_5ar.Position = UDim2.new(0.410526752, 0, 0.139568627, 0)
+_5ar.Size = UDim2.new(0, 24, 0, 15)
+_5ar.Font = Enum.Font.SourceSans
+_5ar.Text = "125"
+_5ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_5ar.TextSize = 20.000
+_5ar.TextWrapped = true
+_5ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "7"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_4ar.Name = "4ar"
+_4ar.Parent = armiddle
+_4ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_4ar.BorderSizePixel = 2
+_4ar.Position = UDim2.new(0.281620502, 0, 0.139568627, 0)
+_4ar.Size = UDim2.new(0, 24, 0, 15)
+_4ar.Font = Enum.Font.SourceSans
+_4ar.Text = "25"
+_4ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4ar.TextSize = 25.000
+_4ar.TextWrapped = true
+_4ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "5"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_3ar.Name = "3ar"
+_3ar.Parent = armiddle
+_3ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_3ar.BorderSizePixel = 2
+_3ar.Position = UDim2.new(0.152714252, 0, 0.139568627, 0)
+_3ar.Size = UDim2.new(0, 24, 0, 15)
+_3ar.Font = Enum.Font.SourceSans
+_3ar.Text = "5"
+_3ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_3ar.TextSize = 25.000
+_3ar.TextWrapped = true
+_3ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "3"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_1ar.Name = "1ar"
+_1ar.Parent = armiddle
+_1ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_1ar.BorderSizePixel = 2
+_1ar.Position = UDim2.new(0.0277142525, 0, 0.139568627, 0)
+_1ar.Size = UDim2.new(0, 24, 0, 15)
+_1ar.Font = Enum.Font.SourceSans
+_1ar.Text = "1"
+_1ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1ar.TextSize = 25.000
+_1ar.TextWrapped = true
+_1ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "1"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_6ar.Name = "6ar"
+_6ar.Parent = armiddle
+_6ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_6ar.BorderSizePixel = 2
+_6ar.Position = UDim2.new(0.535526752, 0, 0.139568627, 0)
+_6ar.Size = UDim2.new(0, 24, 0, 15)
+_6ar.Font = Enum.Font.SourceSans
+_6ar.Text = "1.2k"
+_6ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_6ar.TextSize = 15.000
+_6ar.TextWrapped = true
+_6ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "10"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_10ar.Name = "10ar"
+_10ar.Parent = armiddle
+_10ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_10ar.BorderSizePixel = 2
+_10ar.Position = UDim2.new(0.410526752, 0, 0.411307722, 0)
+_10ar.Size = UDim2.new(0, 24, 0, 15)
+_10ar.Font = Enum.Font.SourceSans
+_10ar.Text = "156k"
+_10ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10ar.TextSize = 15.000
+_10ar.TextWrapped = true
+_10ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "16"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_7ar.Name = "7ar"
+_7ar.Parent = armiddle
+_7ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_7ar.BorderSizePixel = 2
+_7ar.Position = UDim2.new(0.0277142525, 0, 0.411307722, 0)
+_7ar.Size = UDim2.new(0, 24, 0, 15)
+_7ar.Font = Enum.Font.SourceSans
+_7ar.Text = "15k"
+_7ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_7ar.TextSize = 15.000
+_7ar.TextWrapped = true
+_7ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "13"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_8ar.Name = "8ar"
+_8ar.Parent = armiddle
+_8ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_8ar.BorderSizePixel = 2
+_8ar.Position = UDim2.new(0.152714252, 0, 0.411307722, 0)
+_8ar.Size = UDim2.new(0, 24, 0, 15)
+_8ar.Font = Enum.Font.SourceSans
+_8ar.Text = "31k"
+_8ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_8ar.TextSize = 15.000
+_8ar.TextWrapped = true
+_8ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "14"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_11ar.Name = "11ar"
+_11ar.Parent = armiddle
+_11ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_11ar.BorderSizePixel = 2
+_11ar.Position = UDim2.new(0.535526752, 0, 0.411307722, 0)
+_11ar.Size = UDim2.new(0, 24, 0, 15)
+_11ar.Font = Enum.Font.SourceSans
+_11ar.Text = "234k"
+_11ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_11ar.TextSize = 15.000
+_11ar.TextWrapped = true
+_11ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "17"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_9ar.Name = "9ar"
+_9ar.Parent = armiddle
+_9ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_9ar.BorderSizePixel = 2
+_9ar.Position = UDim2.new(0.281620502, 0, 0.411307722, 0)
+_9ar.Size = UDim2.new(0, 24, 0, 15)
+_9ar.Font = Enum.Font.SourceSans
+_9ar.Text = "78k"
+_9ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_9ar.TextSize = 15.000
+_9ar.TextWrapped = true
+_9ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "15"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+stopar.Name = "stopar"
+stopar.Parent = armiddle
+stopar.BackgroundColor3 = Color3.fromRGB(240, 206, 206)
+stopar.BorderSizePixel = 2
+stopar.Position = UDim2.new(0.713145256, 0, 0.165220812, 0)
+stopar.Size = UDim2.new(0, 63, 0, 50)
+stopar.Font = Enum.Font.SourceSansBold
+stopar.Text = "auto rebirth stop"
+stopar.TextColor3 = Color3.fromRGB(0, 0, 0)
+stopar.TextScaled = true
+stopar.TextSize = 30.000
+stopar.TextWrapped = true
+stopar.MouseButton1Down:connect(function()
+	_G.dxf = false
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "15"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_12ar.Name = "12ar"
+_12ar.Parent = armiddle
+_12ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_12ar.BorderSizePixel = 2
+_12ar.Position = UDim2.new(0.0277142525, 0, 0.704641044, 0)
+_12ar.Size = UDim2.new(0, 24, 0, 15)
+_12ar.Font = Enum.Font.SourceSans
+_12ar.Text = "468k"
+_12ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_12ar.TextSize = 15.000
+_12ar.TextWrapped = true
+_12ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "18"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_15ar.Name = "15ar"
+_15ar.Parent = armiddle
+_15ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_15ar.BorderSizePixel = 2
+_15ar.Position = UDim2.new(0.410526752, 0, 0.704641104, 0)
+_15ar.Size = UDim2.new(0, 24, 0, 15)
+_15ar.Font = Enum.Font.SourceSans
+_15ar.Text = "2.1m"
+_15ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_15ar.TextScaled = true
+_15ar.TextSize = 26.000
+_15ar.TextWrapped = true
+_15ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "21"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_14ar.Name = "14ar"
+_14ar.Parent = armiddle
+_14ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_14ar.BorderSizePixel = 2
+_14ar.Position = UDim2.new(0.281620502, 0, 0.704641104, 0)
+_14ar.Size = UDim2.new(0, 24, 0, 15)
+_14ar.Font = Enum.Font.SourceSans
+_14ar.Text = "1.4m"
+_14ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_14ar.TextScaled = true
+_14ar.TextSize = 26.000
+_14ar.TextWrapped = true
+_14ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "20"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_13ar.Name = "13ar"
+_13ar.Parent = armiddle
+_13ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_13ar.BorderSizePixel = 2
+_13ar.Position = UDim2.new(0.152714252, 0, 0.704641104, 0)
+_13ar.Size = UDim2.new(0, 24, 0, 16)
+_13ar.Font = Enum.Font.SourceSans
+_13ar.Text = "703k"
+_13ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_13ar.TextSize = 15.000
+_13ar.TextWrapped = true
+_13ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "19"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+_16ar.Name = "16ar"
+_16ar.Parent = armiddle
+_16ar.BackgroundColor3 = Color3.fromRGB(224, 238, 221)
+_16ar.BorderSizePixel = 2
+_16ar.Position = UDim2.new(0.535526752, 0, 0.704641104, 0)
+_16ar.Size = UDim2.new(0, 24, 0, 15)
+_16ar.Font = Enum.Font.SourceSans
+_16ar.Text = "6.3m"
+_16ar.TextColor3 = Color3.fromRGB(0, 0, 0)
+_16ar.TextScaled = true
+_16ar.TextSize = 26.000
+_16ar.TextWrapped = true
+_16ar.MouseButton1Down:connect(function()
+	_G.dxf = true
+	function def()
+		while _G.dxf == true do
+			local args = {
+				[1] = "23"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			wait()
+		end
+	end
+	def()
+
+end)
+
+closeall.Name = "closeall"
+closeall.Parent = mainframes
+closeall.BackgroundColor3 = Color3.fromRGB(242, 193, 193)
+closeall.BorderColor3 = Color3.fromRGB(79, 79, 79)
+closeall.BorderSizePixel = 2
+closeall.Position = UDim2.new(-0.141002595, 0, 0.486638606, 0)
+closeall.Size = UDim2.new(0, 18, 0, 18)
+closeall.Font = Enum.Font.Unknown
+closeall.Text = "X"
+closeall.TextColor3 = Color3.fromRGB(0, 0, 0)
+closeall.TextScaled = true
+closeall.TextSize = 14.000
+closeall.TextWrapped = true
+
+settings.Name = "settings"
+settings.Parent = mainframes
+settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settings.BorderColor3 = Color3.fromRGB(79, 79, 79)
+settings.BorderSizePixel = 2
+settings.Position = UDim2.new(1.04145074, 0, 0.434782594, 0)
+settings.Size = UDim2.new(0, 20, 0, 20)
+settings.Image = "http://www.roblox.com/asset/?id=8092240650"
+settings.ScaleType = Enum.ScaleType.Fit
+
+settingframe.Name = "settingframe"
+settingframe.Parent = mainframes
+settingframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+settingframe.Position = UDim2.new(-0.15544042, 0, 1.04347825, 0)
+settingframe.Size = UDim2.new(0, 253, 0, 203)
+settingframe.Visible = false
+
+myfav.Name = "myfav"
+myfav.Parent = settingframe
+myfav.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+myfav.BackgroundTransparency = 0.100
+myfav.BorderSizePixel = 3
+myfav.Position = UDim2.new(0.000275502563, 0, -3.00665789e-07, 0)
+myfav.Size = UDim2.new(0, 127, 0, 27)
+myfav.Font = Enum.Font.SourceSans
+myfav.Text = "my fav"
+myfav.TextColor3 = Color3.fromRGB(0, 0, 0)
+myfav.TextScaled = true
+myfav.TextSize = 14.000
+myfav.TextWrapped = true
+
+TextLabel_13.Parent = settingframe
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_13.BackgroundTransparency = 0.100
+TextLabel_13.BorderSizePixel = 3
+TextLabel_13.Position = UDim2.new(0.513834, 0, 0.434598863, 0)
+TextLabel_13.Size = UDim2.new(0, 123, 0, 25)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "speed"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+line.Name = "line"
+line.Parent = settingframe
+line.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+line.BorderColor3 = Color3.fromRGB(29, 46, 57)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0.501976311, 0, -0.00985221658, 0)
+line.Size = UDim2.new(0, 3, 0, 206)
+
+hideuser.Name = "hideuser"
+hideuser.Parent = settingframe
+hideuser.BackgroundColor3 = Color3.fromRGB(255, 145, 145)
+hideuser.BorderSizePixel = 2
+hideuser.Position = UDim2.new(0.276679814, 0, 0.857142866, 0)
+hideuser.Size = UDim2.new(0, 43, 0, 24)
+hideuser.Font = Enum.Font.SourceSans
+hideuser.Text = "off"
+hideuser.TextColor3 = Color3.fromRGB(0, 0, 0)
+hideuser.TextScaled = true
+hideuser.TextSize = 14.000
+hideuser.TextWrapped = true
+
+more.Name = "more"
+more.Parent = settingframe
+more.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+more.BorderColor3 = Color3.fromRGB(179, 179, 179)
+more.Position = UDim2.new(0.0276679844, 0, 0.0197044332, 0)
+more.Size = UDim2.new(0, 20, 0, 20)
+more.Font = Enum.Font.SourceSans
+more.Text = ">"
+more.TextColor3 = Color3.fromRGB(0, 0, 0)
+more.TextScaled = true
+more.TextSize = 14.000
+more.TextWrapped = true
+
+teleportframe.Name = "teleportframe"
+teleportframe.Parent = settingframe
+teleportframe.BackgroundColor3 = Color3.fromRGB(204, 207, 208)
+teleportframe.BorderSizePixel = 3
+teleportframe.Position = UDim2.new(-0.652173936, 0, -0.00985221658, 0)
+teleportframe.Size = UDim2.new(0, 149, 0, 205)
+teleportframe.Visible = false
+
+TextLabel_14.Parent = teleportframe
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_14.BorderSizePixel = 2
+TextLabel_14.Size = UDim2.new(0, 149, 0, 28)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Teleport"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+Spawntp.Name = "Spawntp"
+Spawntp.Parent = teleportframe
+Spawntp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Spawntp.Position = UDim2.new(0.120805368, 0, 0.239024416, 0)
+Spawntp.Size = UDim2.new(0, 50, 0, 33)
+Spawntp.Font = Enum.Font.SourceSans
+Spawntp.Text = "Spawn"
+Spawntp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spawntp.TextScaled = true
+Spawntp.TextSize = 14.000
+Spawntp.TextWrapped = true
+Spawntp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Spawn"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Spawntp
+
+Wintertp.Name = "Wintertp"
+Wintertp.Parent = teleportframe
+Wintertp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Wintertp.Position = UDim2.new(0.516778529, 0, 0.239024416, 0)
+Wintertp.Size = UDim2.new(0, 50, 0, 33)
+Wintertp.Font = Enum.Font.SourceSans
+Wintertp.Text = "Winter"
+Wintertp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Wintertp.TextScaled = true
+Wintertp.TextSize = 14.000
+Wintertp.TextWrapped = true
+Wintertp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Winter"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_2.CornerRadius = UDim.new(0, 9)
+UICorner_2.Parent = Wintertp
+
+foresttp.Name = "foresttp"
+foresttp.Parent = teleportframe
+foresttp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+foresttp.Position = UDim2.new(0.120805368, 0, 0.419512212, 0)
+foresttp.Size = UDim2.new(0, 50, 0, 33)
+foresttp.Font = Enum.Font.SourceSans
+foresttp.Text = "Forest"
+foresttp.TextColor3 = Color3.fromRGB(0, 0, 0)
+foresttp.TextScaled = true
+foresttp.TextSize = 14.000
+foresttp.TextWrapped = true
+foresttp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Forest"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_3.CornerRadius = UDim.new(0, 9)
+UICorner_3.Parent = foresttp
+
+Beachtp.Name = "Beachtp"
+Beachtp.Parent = teleportframe
+Beachtp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Beachtp.Position = UDim2.new(0.516778529, 0, 0.419512212, 0)
+Beachtp.Size = UDim2.new(0, 50, 0, 33)
+Beachtp.Font = Enum.Font.SourceSans
+Beachtp.Text = "Beach"
+Beachtp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Beachtp.TextScaled = true
+Beachtp.TextSize = 14.000
+Beachtp.TextWrapped = true
+Beachtp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Beach"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 9)
+UICorner_4.Parent = Beachtp
+
+Fantasytp.Name = "Fantasytp"
+Fantasytp.Parent = teleportframe
+Fantasytp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Fantasytp.Position = UDim2.new(0.120805368, 0, 0.600000024, 0)
+Fantasytp.Size = UDim2.new(0, 50, 0, 33)
+Fantasytp.Font = Enum.Font.SourceSans
+Fantasytp.Text = "fantasy"
+Fantasytp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fantasytp.TextScaled = true
+Fantasytp.TextSize = 14.000
+Fantasytp.TextWrapped = true
+Fantasytp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Fantasy"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = Fantasytp
+
+citytp.Name = "citytp"
+citytp.Parent = teleportframe
+citytp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+citytp.Position = UDim2.new(0.516778529, 0, 0.600000024, 0)
+citytp.Size = UDim2.new(0, 50, 0, 33)
+citytp.Font = Enum.Font.SourceSans
+citytp.Text = "city"
+citytp.TextColor3 = Color3.fromRGB(0, 0, 0)
+citytp.TextSize = 25.000
+citytp.TextWrapped = true
+citytp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "City"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_6.CornerRadius = UDim.new(0, 9)
+UICorner_6.Parent = citytp
+
+close.Name = "close"
+close.Parent = teleportframe
+close.BackgroundColor3 = Color3.fromRGB(242, 185, 185)
+close.BorderColor3 = Color3.fromRGB(79, 79, 79)
+close.Position = UDim2.new(0.0268456377, 0, 0.0195121951, 0)
+close.Size = UDim2.new(0, 20, 0, 20)
+close.Font = Enum.Font.Unknown
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+buyareaframe.Name = "buyareaframe"
+buyareaframe.Parent = teleportframe
+buyareaframe.BackgroundColor3 = Color3.fromRGB(204, 207, 208)
+buyareaframe.BorderSizePixel = 3
+buyareaframe.Position = UDim2.new(-1.15552974, 0, 0.00478192978, 0)
+buyareaframe.Size = UDim2.new(0, 149, 0, 205)
+buyareaframe.Visible = false
+
+TextLabel_15.Parent = buyareaframe
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_15.BorderSizePixel = 2
+TextLabel_15.Size = UDim2.new(0, 149, 0, 28)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "area buy"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+Spawnbuy.Name = "Spawnbuy"
+Spawnbuy.Parent = buyareaframe
+Spawnbuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Spawnbuy.Position = UDim2.new(0.0402684547, 0, 0.185365856, 0)
+Spawnbuy.Size = UDim2.new(0, 40, 0, 26)
+Spawnbuy.Font = Enum.Font.SourceSans
+Spawnbuy.Text = "Spawn"
+Spawnbuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spawnbuy.TextScaled = true
+Spawnbuy.TextSize = 14.000
+Spawnbuy.TextWrapped = true
+Spawnbuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Spawn"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 9)
+UICorner_7.Parent = Spawnbuy
+
+Winterbuy.Name = "Winterbuy"
+Winterbuy.Parent = buyareaframe
+Winterbuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Winterbuy.Position = UDim2.new(0.369127512, 0, 0.185365856, 0)
+Winterbuy.Size = UDim2.new(0, 40, 0, 26)
+Winterbuy.Font = Enum.Font.SourceSans
+Winterbuy.Text = "Winter"
+Winterbuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Winterbuy.TextScaled = true
+Winterbuy.TextSize = 14.000
+Winterbuy.TextWrapped = true
+Winterbuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Winter"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 9)
+UICorner_8.Parent = Winterbuy
+
+forestbuy.Name = "forestbuy"
+forestbuy.Parent = buyareaframe
+forestbuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+forestbuy.Position = UDim2.new(0.691275179, 0, 0.185365856, 0)
+forestbuy.Size = UDim2.new(0, 40, 0, 26)
+forestbuy.Font = Enum.Font.SourceSans
+forestbuy.Text = "Forest"
+forestbuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+forestbuy.TextScaled = true
+forestbuy.TextSize = 14.000
+forestbuy.TextWrapped = true
+forestbuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Forest"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 9)
+UICorner_9.Parent = forestbuy
+
+Beachbuy.Name = "Beachbuy"
+Beachbuy.Parent = buyareaframe
+Beachbuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Beachbuy.Position = UDim2.new(0.0402684547, 0, 0.326829255, 0)
+Beachbuy.Size = UDim2.new(0, 40, 0, 26)
+Beachbuy.Font = Enum.Font.SourceSans
+Beachbuy.Text = "Beach"
+Beachbuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Beachbuy.TextScaled = true
+Beachbuy.TextSize = 14.000
+Beachbuy.TextWrapped = true
+Beachbuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Beach"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 9)
+UICorner_10.Parent = Beachbuy
+
+Fantasybuy.Name = "Fantasybuy"
+Fantasybuy.Parent = buyareaframe
+Fantasybuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Fantasybuy.Position = UDim2.new(0.369127512, 0, 0.326829284, 0)
+Fantasybuy.Size = UDim2.new(0, 40, 0, 26)
+Fantasybuy.Font = Enum.Font.SourceSans
+Fantasybuy.Text = "fantasy"
+Fantasybuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fantasybuy.TextScaled = true
+Fantasybuy.TextSize = 14.000
+Fantasybuy.TextWrapped = true
+Fantasybuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Fantasy"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 9)
+UICorner_11.Parent = Fantasybuy
+
+Templebuy.Name = "Templebuy"
+Templebuy.Parent = buyareaframe
+Templebuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Templebuy.Position = UDim2.new(0.0402684771, 0, 0.478048801, 0)
+Templebuy.Size = UDim2.new(0, 40, 0, 26)
+Templebuy.Font = Enum.Font.SourceSans
+Templebuy.Text = "Temple"
+Templebuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Templebuy.TextScaled = true
+Templebuy.TextSize = 14.000
+Templebuy.TextWrapped = true
+Templebuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Temple"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 9)
+UICorner_12.Parent = Templebuy
+
+minebuy.Name = "minebuy"
+minebuy.Parent = buyareaframe
+minebuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+minebuy.Position = UDim2.new(0.691275179, 0, 0.478048801, 0)
+minebuy.Size = UDim2.new(0, 40, 0, 26)
+minebuy.Font = Enum.Font.SourceSans
+minebuy.Text = "Mine"
+minebuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+minebuy.TextSize = 20.000
+minebuy.TextWrapped = true
+minebuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Mine"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_13.CornerRadius = UDim.new(0, 9)
+UICorner_13.Parent = minebuy
+
+Samuraibuy.Name = "Samuraibuy"
+Samuraibuy.Parent = buyareaframe
+Samuraibuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Samuraibuy.Position = UDim2.new(0.369127512, 0, 0.478048801, 0)
+Samuraibuy.Size = UDim2.new(0, 40, 0, 26)
+Samuraibuy.Font = Enum.Font.SourceSans
+Samuraibuy.Text = "Samurai"
+Samuraibuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Samuraibuy.TextScaled = true
+Samuraibuy.TextSize = 14.000
+Samuraibuy.TextWrapped = true
+Samuraibuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Samurai"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 9)
+UICorner_14.Parent = Samuraibuy
+
+closearea.Name = "closearea"
+closearea.Parent = buyareaframe
+closearea.BackgroundColor3 = Color3.fromRGB(242, 185, 185)
+closearea.BorderColor3 = Color3.fromRGB(79, 79, 79)
+closearea.Position = UDim2.new(0.0268456377, 0, 0.0195121951, 0)
+closearea.Size = UDim2.new(0, 20, 0, 20)
+closearea.Font = Enum.Font.Unknown
+closearea.Text = "X"
+closearea.TextColor3 = Color3.fromRGB(0, 0, 0)
+closearea.TextScaled = true
+closearea.TextSize = 14.000
+closearea.TextWrapped = true
+
+citybuy.Name = "citybuy"
+citybuy.Parent = buyareaframe
+citybuy.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+citybuy.Position = UDim2.new(0.691275179, 0, 0.326829255, 0)
+citybuy.Size = UDim2.new(0, 40, 0, 26)
+citybuy.Font = Enum.Font.SourceSans
+citybuy.Text = "city"
+citybuy.TextColor3 = Color3.fromRGB(0, 0, 0)
+citybuy.TextSize = 20.000
+citybuy.TextWrapped = true
+citybuy.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "City"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("BuyTeleport"):InvokeServer(unpack(args))
+
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 9)
+UICorner_15.Parent = citybuy
+
+teleportframemore.Name = "teleportframemore"
+teleportframemore.Parent = teleportframe
+teleportframemore.BackgroundColor3 = Color3.fromRGB(204, 207, 208)
+teleportframemore.BorderSizePixel = 3
+teleportframemore.Position = UDim2.new(-1.15552962, 0, 0.00478192978, 0)
+teleportframemore.Size = UDim2.new(0, 149, 0, 205)
+teleportframemore.Visible = false
+
+TextLabel_16.Parent = teleportframemore
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_16.BorderSizePixel = 2
+TextLabel_16.Size = UDim2.new(0, 149, 0, 28)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Tp more"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+Templetp.Name = "Templetp"
+Templetp.Parent = teleportframemore
+Templetp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Templetp.Position = UDim2.new(0.100671142, 0, 0.19024393, 0)
+Templetp.Size = UDim2.new(0, 50, 0, 33)
+Templetp.Font = Enum.Font.SourceSans
+Templetp.Text = "Temple"
+Templetp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Templetp.TextScaled = true
+Templetp.TextSize = 14.000
+Templetp.TextWrapped = true
+Templetp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Temple"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_16.CornerRadius = UDim.new(0, 9)
+UICorner_16.Parent = Templetp
+
+minetp.Name = "minetp"
+minetp.Parent = teleportframemore
+minetp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+minetp.Position = UDim2.new(0.100671142, 0, 0.390243918, 0)
+minetp.Size = UDim2.new(0, 50, 0, 33)
+minetp.Font = Enum.Font.SourceSans
+minetp.Text = "Mine"
+minetp.TextColor3 = Color3.fromRGB(0, 0, 0)
+minetp.TextSize = 20.000
+minetp.TextWrapped = true
+minetp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Mine"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 9)
+UICorner_17.Parent = minetp
+
+Samuraitp.Name = "Samuraitp"
+Samuraitp.Parent = teleportframemore
+Samuraitp.BackgroundColor3 = Color3.fromRGB(237, 255, 232)
+Samuraitp.Position = UDim2.new(0.483221471, 0, 0.1902439, 0)
+Samuraitp.Size = UDim2.new(0, 52, 0, 33)
+Samuraitp.Font = Enum.Font.SourceSans
+Samuraitp.Text = "Samurai"
+Samuraitp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Samuraitp.TextScaled = true
+Samuraitp.TextSize = 14.000
+Samuraitp.TextWrapped = true
+Samuraitp.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "Samurai"
+	}
+
+	game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TeleportPlayer"):FireServer(unpack(args))
+
+
+end)
+
+UICorner_18.CornerRadius = UDim.new(0, 9)
+UICorner_18.Parent = Samuraitp
+
+closetpmore.Name = "closetpmore"
+closetpmore.Parent = teleportframemore
+closetpmore.BackgroundColor3 = Color3.fromRGB(242, 185, 185)
+closetpmore.BorderColor3 = Color3.fromRGB(79, 79, 79)
+closetpmore.Position = UDim2.new(0.0268456377, 0, 0.0195121951, 0)
+closetpmore.Size = UDim2.new(0, 20, 0, 20)
+closetpmore.Font = Enum.Font.Unknown
+closetpmore.Text = "X"
+closetpmore.TextColor3 = Color3.fromRGB(0, 0, 0)
+closetpmore.TextScaled = true
+closetpmore.TextSize = 14.000
+closetpmore.TextWrapped = true
+
+more_2.Name = "more"
+more_2.Parent = teleportframe
+more_2.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+more_2.BorderColor3 = Color3.fromRGB(179, 179, 179)
+more_2.LayoutOrder = 1
+more_2.Position = UDim2.new(0.0209565759, 0, 0.161167845, 0)
+more_2.Size = UDim2.new(0, 20, 0, 20)
+more_2.Font = Enum.Font.SourceSans
+more_2.Text = ">"
+more_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+more_2.TextScaled = true
+more_2.TextSize = 14.000
+more_2.TextWrapped = true
+
+buyarea.Name = "buyarea"
+buyarea.Parent = teleportframe
+buyarea.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+buyarea.BorderColor3 = Color3.fromRGB(49, 63, 73)
+buyarea.BorderSizePixel = 2
+buyarea.Position = UDim2.new(0.235721871, 0, 0.848972797, 0)
+buyarea.Size = UDim2.new(0, 75, 0, 25)
+buyarea.Font = Enum.Font.SourceSans
+buyarea.Text = "buy areas"
+buyarea.TextColor3 = Color3.fromRGB(0, 0, 0)
+buyarea.TextScaled = true
+buyarea.TextSize = 14.000
+buyarea.TextWrapped = true
+
+speed45on.Name = "speed45on"
+speed45on.Parent = settingframe
+speed45on.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+speed45on.BorderSizePixel = 2
+speed45on.Position = UDim2.new(0.55731225, 0, 0.586206913, 0)
+speed45on.Size = UDim2.new(0, 45, 0, 24)
+speed45on.Font = Enum.Font.SourceSans
+speed45on.Text = "on"
+speed45on.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed45on.TextScaled = true
+speed45on.TextSize = 14.000
+speed45on.TextWrapped = true
+speed45on.MouseButton1Down:connect(function()
+	getgenv().WalkSpeedValue = 55;
+	local Player = game:service'Players'.LocalPlayer;
+	Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+		Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+	end)
+	Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+end)
+
+speed45off.Name = "speed45off"
+speed45off.Parent = settingframe
+speed45off.BackgroundColor3 = Color3.fromRGB(255, 145, 145)
+speed45off.BorderSizePixel = 2
+speed45off.Position = UDim2.new(0.786561251, 0, 0.586206913, 0)
+speed45off.Size = UDim2.new(0, 45, 0, 24)
+speed45off.Font = Enum.Font.SourceSans
+speed45off.Text = "off"
+speed45off.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed45off.TextScaled = true
+speed45off.TextSize = 14.000
+speed45off.TextWrapped = true
+speed45off.MouseButton1Down:connect(function()
+	getgenv().WalkSpeedValue = 31;
+	local Player = game:service'Players'.LocalPlayer;
+	Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+		Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+	end)
+	Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+end)
+
+jp75off.Name = "jp75off"
+jp75off.Parent = settingframe
+jp75off.BackgroundColor3 = Color3.fromRGB(255, 145, 145)
+jp75off.BorderSizePixel = 2
+jp75off.Position = UDim2.new(0.790513813, 0, 0.857142866, 0)
+jp75off.Size = UDim2.new(0, 43, 0, 24)
+jp75off.Font = Enum.Font.SourceSans
+jp75off.Text = "off"
+jp75off.TextColor3 = Color3.fromRGB(0, 0, 0)
+jp75off.TextScaled = true
+jp75off.TextSize = 14.000
+jp75off.TextWrapped = true
+jp75off.MouseButton1Down:connect(function()
+	getgenv().JumpPowerValue = 50; 
+	local Player = game:service'Players'.LocalPlayer;
+	Player.Character.Humanoid:GetPropertyChangedSignal'JumpPower':Connect(function()
+		Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+	end)
+	Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+
+end)
+
+jp75on.Name = "jp75on"
+jp75on.Parent = settingframe
+jp75on.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+jp75on.BorderSizePixel = 2
+jp75on.Position = UDim2.new(0.55731225, 0, 0.857142866, 0)
+jp75on.Size = UDim2.new(0, 40, 0, 24)
+jp75on.Font = Enum.Font.SourceSans
+jp75on.Text = "on"
+jp75on.TextColor3 = Color3.fromRGB(0, 0, 0)
+jp75on.TextScaled = true
+jp75on.TextSize = 14.000
+jp75on.TextWrapped = true
+jp75on.MouseButton1Down:connect(function()
+	getgenv().JumpPowerValue = 89; 
+	local Player = game:service'Players'.LocalPlayer;
+	Player.Character.Humanoid:GetPropertyChangedSignal'JumpPower':Connect(function()
+		Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+	end)
+	Player.Character.Humanoid.JumpPower = getgenv().JumpPowerValue;
+
+end)
+
+TextLabel_17.Parent = settingframe
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_17.BorderColor3 = Color3.fromRGB(49, 63, 73)
+TextLabel_17.BorderSizePixel = 2
+TextLabel_17.Position = UDim2.new(0.513834, 0, 0.733990133, 0)
+TextLabel_17.Size = UDim2.new(0, 123, 0, 18)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "jump power"
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 25.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = settingframe
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_18.BackgroundTransparency = 0.100
+TextLabel_18.BorderSizePixel = 3
+TextLabel_18.Position = UDim2.new(0, 0, 0.434598863, 0)
+TextLabel_18.Size = UDim2.new(0, 127, 0, 25)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = "Gui"
+TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+killgui.Name = "killgui"
+killgui.Parent = settingframe
+killgui.BackgroundColor3 = Color3.fromRGB(168, 0, 0)
+killgui.Position = UDim2.new(0.0711462423, 0, 0.586206913, 0)
+killgui.Size = UDim2.new(0, 91, 0, 25)
+killgui.Font = Enum.Font.SourceSans
+killgui.Text = "destroy"
+killgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+killgui.TextScaled = true
+killgui.TextSize = 14.000
+killgui.TextWrapped = true
+
+showuser.Name = "showuser"
+showuser.Parent = settingframe
+showuser.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+showuser.BorderSizePixel = 2
+showuser.Position = UDim2.new(0.0711462498, 0, 0.857142866, 0)
+showuser.Size = UDim2.new(0, 40, 0, 24)
+showuser.Font = Enum.Font.SourceSans
+showuser.Text = "on"
+showuser.TextColor3 = Color3.fromRGB(0, 0, 0)
+showuser.TextScaled = true
+showuser.TextSize = 14.000
+showuser.TextWrapped = true
+
+TextLabel_19.Parent = settingframe
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(205, 205, 205)
+TextLabel_19.BorderColor3 = Color3.fromRGB(49, 63, 73)
+TextLabel_19.BorderSizePixel = 2
+TextLabel_19.Position = UDim2.new(0, 0, 0.733990133, 0)
+TextLabel_19.Size = UDim2.new(0, 127, 0, 18)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "last updated"
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 25.000
+TextLabel_19.TextWrapped = true
+
+hidepetlabel.Name = "hidepetlabel"
+hidepetlabel.Parent = settingframe
+hidepetlabel.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+hidepetlabel.BackgroundTransparency = 0.100
+hidepetlabel.BorderSizePixel = 3
+hidepetlabel.Position = UDim2.new(0.513833523, 0, -3.00665789e-07, 0)
+hidepetlabel.Size = UDim2.new(0, 122, 0, 27)
+hidepetlabel.Font = Enum.Font.SourceSans
+hidepetlabel.Text = "hide pets     ."
+hidepetlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+hidepetlabel.TextScaled = true
+hidepetlabel.TextSize = 14.000
+hidepetlabel.TextWrapped = true
+
+myfavon.Name = "myfavon"
+myfavon.Parent = settingframe
+myfavon.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+myfavon.BorderSizePixel = 2
+myfavon.Position = UDim2.new(0.0556109883, 0, 0.201970145, 0)
+myfavon.Size = UDim2.new(0, 43, 0, 28)
+myfavon.Font = Enum.Font.SourceSans
+myfavon.Text = "on"
+myfavon.TextColor3 = Color3.fromRGB(0, 0, 0)
+myfavon.TextScaled = true
+myfavon.TextSize = 14.000
+myfavon.TextWrapped = true
+myfavon.MouseButton1Down:connect(function()
+	_G.mjl = true
+	function dpf()
+		while _G.mjl == true do
+			local args = {
+				[1] = 26
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			local args = {
+				[1] = "21",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+			
+			getgenv().WalkSpeedValue = 60;
+			local Player = game:service'Players'.LocalPlayer;
+			Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+				Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+			end)
+			Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+myfavoff.Name = "myfavoff"
+myfavoff.Parent = settingframe
+myfavoff.BackgroundColor3 = Color3.fromRGB(255, 145, 145)
+myfavoff.BorderSizePixel = 2
+myfavoff.Position = UDim2.new(0.268608242, 0, 0.201970145, 0)
+myfavoff.Size = UDim2.new(0, 47, 0, 28)
+myfavoff.Font = Enum.Font.SourceSans
+myfavoff.Text = "off"
+myfavoff.TextColor3 = Color3.fromRGB(0, 0, 0)
+myfavoff.TextScaled = true
+myfavoff.TextSize = 14.000
+myfavoff.TextWrapped = true
+myfavoff.MouseButton1Down:connect(function()
+	_G.mjl = false
+	function dpf()
+		while _G.mjl == true do
+			local args = {
+				[1] = 26
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Rebirth"):InvokeServer(unpack(args))
+			local args = {
+				[1] = "21",
+				[2] = "R"
+			}
+
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HatchEgg"):FireServer(unpack(args))
+
+			wait()
+		end
+	end
+	dpf()
+
+end)
+
+hpi.Name = "hpi"
+hpi.Parent = settingframe
+hpi.BackgroundColor3 = Color3.fromRGB(244, 244, 244)
+hpi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hpi.BorderSizePixel = 0
+hpi.Position = UDim2.new(0, 0, 0.182265714, 0)
+hpi.Size = UDim2.new(0, 253, 0, 166)
+hpi.Visible = false
+hpi.Font = Enum.Font.SourceSansBold
+hpi.Text = "what this does it basically makes your equiped pets hidden so NO ONE can see them and the best thing is you still get coins and to make them appear you have to requip them"
+hpi.TextColor3 = Color3.fromRGB(0, 0, 0)
+hpi.TextSize = 20.000
+hpi.TextWrapped = true
+
+TextLabel_20.Parent = hpi
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(209, 209, 209)
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 3
+TextLabel_20.Position = UDim2.new(1.44727528e-06, 0, -0.222891569, 0)
+TextLabel_20.Size = UDim2.new(0, 253, 0, 50)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = ".     hide pet info 🔎"
+TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.TextSize = 25.000
+TextLabel_20.TextWrapped = true
+
+closehpi.Name = "closehpi"
+closehpi.Parent = hpi
+closehpi.BackgroundColor3 = Color3.fromRGB(242, 193, 193)
+closehpi.BorderColor3 = Color3.fromRGB(79, 79, 79)
+closehpi.BorderSizePixel = 2
+closehpi.Position = UDim2.new(0.0276679844, 0, -0.198795184, 0)
+closehpi.Size = UDim2.new(0, 38, 0, 37)
+closehpi.Font = Enum.Font.SourceSansBold
+closehpi.Text = "X"
+closehpi.TextColor3 = Color3.fromRGB(0, 0, 0)
+closehpi.TextScaled = true
+closehpi.TextSize = 14.000
+closehpi.TextWrapped = true
+
+hpinfo.Name = "hpinfo"
+hpinfo.Parent = settingframe
+hpinfo.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+hpinfo.BorderColor3 = Color3.fromRGB(179, 179, 179)
+hpinfo.BorderSizePixel = 2
+hpinfo.Position = UDim2.new(0.8853755, 0, 0.0147774238, 0)
+hpinfo.Size = UDim2.new(0, 21, 0, 21)
+hpinfo.Font = Enum.Font.SourceSansBold
+hpinfo.Text = "?"
+hpinfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+hpinfo.TextScaled = true
+hpinfo.TextSize = 14.000
+hpinfo.TextWrapped = true
+
+hidepets.Name = "hidepets"
+hidepets.Parent = settingframe
+hidepets.BackgroundColor3 = Color3.fromRGB(210, 245, 202)
+hidepets.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hidepets.BorderSizePixel = 2
+hidepets.Position = UDim2.new(0.581027687, 0, 0.182265714, 0)
+hidepets.Size = UDim2.new(0, 88, 0, 42)
+hidepets.Font = Enum.Font.SourceSans
+hidepets.Text = "hide pets"
+hidepets.TextColor3 = Color3.fromRGB(0, 0, 0)
+hidepets.TextScaled = true
+hidepets.TextSize = 14.000
+hidepets.TextWrapped = true
+hidepets.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-134.76619, -495.740601, 73.6707611, -0.351022035, -2.55364119e-10, 0.936367214, -1.80437904e-11, 1, 2.65953731e-10, -0.936367214, 7.6460005e-11, -0.351022035)
+end)
+
+-- Scripts:
+
+local function HGTKXB_fake_script() -- yaycode.LocalScript 
+	local script = Instance.new('LocalScript', yaycode)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.forththofjuly.Visible = false
+	end)
+	
+end
+coroutine.wrap(HGTKXB_fake_script)()
+local function ZLBJ_fake_script() -- lame.LocalScript 
+	local script = Instance.new('LocalScript', lame)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.forththofjuly.Visible = false
+	end)
+	
+end
+coroutine.wrap(ZLBJ_fake_script)()
+local function TCDJY_fake_script() -- ah.LocalScript 
+	local script = Instance.new('LocalScript', ah)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.ahmiddle.Visible = true
+	end)
+	
+end
+coroutine.wrap(TCDJY_fake_script)()
+local function AOZQ_fake_script() -- ar.LocalScript 
+	local script = Instance.new('LocalScript', ar)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.armiddle.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(AOZQ_fake_script)()
+local function TBVX_fake_script() -- moreah.LocalScript 
+	local script = Instance.new('LocalScript', moreah)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.ahmore1.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(TBVX_fake_script)()
+local function IAYSJQ_fake_script() -- eventmore.LocalScript 
+	local script = Instance.new('LocalScript', eventmore)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.ahevents.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(IAYSJQ_fake_script)()
+local function UOQL_fake_script() -- closeahevent.LocalScript 
+	local script = Instance.new('LocalScript', closeahevent)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ahevents.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(UOQL_fake_script)()
+local function LWQQTRK_fake_script() -- moreah_2.LocalScript 
+	local script = Instance.new('LocalScript', moreah_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.ahmore1.visible = true
+	end)
+end
+coroutine.wrap(LWQQTRK_fake_script)()
+local function NTFPN_fake_script() -- closeahm1.LocalScript 
+	local script = Instance.new('LocalScript', closeahm1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(NTFPN_fake_script)()
+local function DBPM_fake_script() -- closeall.LocalScript 
+	local script = Instance.new('LocalScript', closeall)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.ahmiddle.Visible = false
+		script.Parent.Parent.armiddle.Visible = false
+		script.Parent.Parent.settingframe.Visible = false
+		script.Parent.Parent.teleportframe.Visible = false
+	end)
+	
+end
+coroutine.wrap(DBPM_fake_script)()
+local function RLSLR_fake_script() -- settings.LocalScript 
+	local script = Instance.new('LocalScript', settings)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.settingframe.Visible = true
+	end)
+	
+end
+coroutine.wrap(RLSLR_fake_script)()
+local function GNMTP_fake_script() -- hideuser.LocalScript 
+	local script = Instance.new('LocalScript', hideuser)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.labelsfortoppart.lastupdated.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(GNMTP_fake_script)()
+local function KKKXKJS_fake_script() -- more.LocalScript 
+	local script = Instance.new('LocalScript', more)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.teleportframe.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(KKKXKJS_fake_script)()
+local function TPWBY_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.teleportframe.Visible = false
+	end)
+end
+coroutine.wrap(TPWBY_fake_script)()
+local function PSPRUED_fake_script() -- closearea.LocalScript 
+	local script = Instance.new('LocalScript', closearea)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.buyareaframe.Visible = false
+	end)
+end
+coroutine.wrap(PSPRUED_fake_script)()
+local function EYWG_fake_script() -- closetpmore.LocalScript 
+	local script = Instance.new('LocalScript', closetpmore)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.teleportframemore.Visible = false
+	end)
+end
+coroutine.wrap(EYWG_fake_script)()
+local function QYXQIYW_fake_script() -- more_2.LocalScript 
+	local script = Instance.new('LocalScript', more_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.teleportframemore.Visible = true
+		script.Parent.Parent.buyareaframe.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(QYXQIYW_fake_script)()
+local function XKBDTQX_fake_script() -- buyarea.LocalScript 
+	local script = Instance.new('LocalScript', buyarea)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.buyareaframe.Visible = true
+		script.Parent.Parent.teleportframemore.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(XKBDTQX_fake_script)()
+local function SCIQRUK_fake_script() -- killgui.LocalScript 
+	local script = Instance.new('LocalScript', killgui)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.main.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(SCIQRUK_fake_script)()
+local function HZFUE_fake_script() -- showuser.LocalScript 
+	local script = Instance.new('LocalScript', showuser)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.labelsfortoppart.lastupdated.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(HZFUE_fake_script)()
+local function YBITOB_fake_script() -- closehpi.LocalScript 
+	local script = Instance.new('LocalScript', closehpi)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.hpi.Visible = false
+		script.Parent.Parent.Parent.hidepets.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(YBITOB_fake_script)()
+local function OLBVTC_fake_script() -- hpinfo.LocalScript 
+	local script = Instance.new('LocalScript', hpinfo)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.hidepets.Visible = false
+		script.Parent.Parent.hpi.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(OLBVTC_fake_script)()
